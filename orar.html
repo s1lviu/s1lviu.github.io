@@ -21,21 +21,24 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="img/favicon.png">
+    
     <style>
-        #currentimage {
-            -webkit-transition: all 1s ease; /* Safari and Chrome */
-            -moz-transition: all 1s ease; /* Firefox */
-            -ms-transition: all 1s ease; /* IE 9 */
-            -o-transition: all 1s ease; /* Opera */
-            transition: all 1s ease;
+        /* Shrink wrap strategy 1 */
+        .easyzoom {
+            float: left;
         }
 
-        #currentimage:hover {
-            -webkit-transform: scale(1.25); /* Safari and Chrome */
-            -moz-transform: scale(1.25); /* Firefox */
-            -ms-transform: scale(1.25); /* IE 9 */
-            -o-transform: scale(1.25); /* Opera */
-            transform: scale(1.25);
+        .easyzoom img {
+            display: block;
+        }
+
+        /* Shrink wrap strategy 2 */
+        .easyzoom {
+            display: inline-block;
+        }
+
+        .easyzoom img {
+            vertical-align: bottom;
         }
     </style>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -343,7 +346,12 @@
         <form/>
 </div>
 <div class="col-md-8 column">
-    <img id="currentimage" alt="orar" width="100%" src="about:blank">
+    <div class="easyzoom">
+        <a id="currentimage" href="#">
+            <img id="currentimage" alt="orar" width="100%" src="about:blank"/>
+        </a>
+    </div>
+
 </div>
 </body>
 </html>
