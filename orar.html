@@ -21,7 +21,23 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="img/favicon.png">
+    <style>
+        #currentimage img {
+            -webkit-transition: all 1s ease; /* Safari and Chrome */
+            -moz-transition: all 1s ease; /* Firefox */
+            -ms-transition: all 1s ease; /* IE 9 */
+            -o-transition: all 1s ease; /* Opera */
+            transition: all 1s ease;
+        }
 
+        #currentimage:hover img {
+            -webkit-transform: scale(1.25); /* Safari and Chrome */
+            -moz-transform: scale(1.25); /* Firefox */
+            -ms-transform: scale(1.25); /* IE 9 */
+            -o-transform: scale(1.25); /* Opera */
+            transform: scale(1.25);
+        }
+    </style>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script>
         var oldNames = {};
