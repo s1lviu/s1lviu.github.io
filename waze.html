@@ -104,6 +104,19 @@
                 new ol.geom.Point(coordinates) : null);
 
         view.setCenter(coordinates);
+
+        var iconFeature = new ol.Feature({
+            geometry: new ol.geom.Point(pos)
+        });
+        var vectorSource = new ol.source.Vector({
+            features: [iconFeature]
+        });
+        var vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+
+        map.addLayer(vectorLayer);
+
     });
 
     var featuresOverlay = new ol.FeatureOverlay({
