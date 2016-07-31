@@ -65,7 +65,7 @@
 
     // update the HTML page when the position changes.
     geolocation.on('change', function () {
-        var coordinates = geolocateme.getPosition();
+        var coordinates = geolocation.getPosition();
         positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
         view.setCenter(coordinates);
 
