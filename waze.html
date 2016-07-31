@@ -65,10 +65,6 @@
 
     // update the HTML page when the position changes.
     geolocation.on('change', function () {
-        var coordinates = geolocation.getPosition();
-        positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
-        view.setCenter(coordinates);
-
         el('accuracy').innerText = geolocation.getAccuracy() + ' [m]';
         el('altitude').innerText = geolocation.getAltitude() + ' [m]';
         el('altitudeAccuracy').innerText = geolocation.getAltitudeAccuracy() + ' [m]';
@@ -106,6 +102,8 @@
         var coordinates = geolocation.getPosition();
         positionFeature.setGeometry(coordinates ?
                 new ol.geom.Point(coordinates) : null);
+
+        view.setCenter(coordinates);
     });
 
     var featuresOverlay = new ol.FeatureOverlay({
