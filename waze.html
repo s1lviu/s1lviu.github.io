@@ -106,7 +106,7 @@
         view.setCenter(coordinates);
 
         var iconFeature = new ol.Feature({
-            geometry: new ol.geom.Point(pos)
+            geometry: new ol.geom.Point(coordinates)
         });
         var vectorSource = new ol.source.Vector({
             features: [iconFeature]
