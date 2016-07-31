@@ -65,6 +65,8 @@
 
     // update the HTML page when the position changes.
     geolocation.on('change', function () {
+        geolocation.getView().setCenter(geolocation.getPosition());
+
         el('accuracy').innerText = geolocation.getAccuracy() + ' [m]';
         el('altitude').innerText = geolocation.getAltitude() + ' [m]';
         el('altitudeAccuracy').innerText = geolocation.getAltitudeAccuracy() + ' [m]';
