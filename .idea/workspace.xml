@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e82d2e18-8380-4a21-a5f4-678373bbdf2d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waze.html" afterPath="$PROJECT_DIR$/waze.html" />
     </list>
     <ignored path="s1lviu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,7 +225,7 @@
       <workItem from="1458598635233" duration="995000" />
       <workItem from="1458650024662" duration="2522000" />
       <workItem from="1458746113721" duration="5000" />
-      <workItem from="1469978203977" duration="1275000" />
+      <workItem from="1469978203977" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1458393651068</created>
@@ -422,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469979574386</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Index">
+      <created>1469979602247</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1469979602247</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6387000" />
+    <option name="totallyTimeSpent" value="6423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="6" />
