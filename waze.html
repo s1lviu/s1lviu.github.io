@@ -33,7 +33,7 @@
 <script>
     var view = new ol.View({
         center: [0, 0],
-        zoom: 2
+        zoom: 10
     });
 
     var map = new ol.Map({
@@ -59,12 +59,12 @@
         return document.getElementById(id);
     }
 
-    el('track').addEventListener('change', function() {
+    el('track').addEventListener('change', function () {
         geolocation.setTracking(this.checked);
     });
 
     // update the HTML page when the position changes.
-    geolocation.on('change', function() {
+    geolocation.on('change', function () {
         el('accuracy').innerText = geolocation.getAccuracy() + ' [m]';
         el('altitude').innerText = geolocation.getAltitude() + ' [m]';
         el('altitudeAccuracy').innerText = geolocation.getAltitudeAccuracy() + ' [m]';
@@ -73,14 +73,14 @@
     });
 
     // handle geolocation error.
-    geolocation.on('error', function(error) {
+    geolocation.on('error', function (error) {
         var info = document.getElementById('info');
         info.innerHTML = error.message;
         info.style.display = '';
     });
 
     var accuracyFeature = new ol.Feature();
-    geolocation.on('change:accuracyGeometry', function() {
+    geolocation.on('change:accuracyGeometry', function () {
         accuracyFeature.setGeometry(geolocation.getAccuracyGeometry());
     });
 
@@ -98,7 +98,7 @@
         })
     }));
 
-    geolocation.on('change:position', function() {
+    geolocation.on('change:position', function () {
         var coordinates = geolocation.getPosition();
         positionFeature.setGeometry(coordinates ?
                 new ol.geom.Point(coordinates) : null);
