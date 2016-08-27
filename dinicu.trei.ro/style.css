@@ -16,6 +16,8 @@ body{
 	background: #cccccc url("images/layout/bg_grad.jpg") fixed;
 }
 
+body > div:nth-child(1) { display: none; } /* eliminare reclama  silviu-s.com */
+
 /******* hyperlink and anchor tag styles *******/
 
 a:link, a:visited{
