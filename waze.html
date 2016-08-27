@@ -105,23 +105,46 @@
 
         view.setCenter(coordinates);
 
+        //create Feature... with coordinates
         var iconFeature = new ol.Feature({
             geometry: new ol.geom.Point(coordinates)
         });
-        var vectorSource = new ol.source.Vector({
-            features: [iconFeature]
+
+        //create style for your feature...
+        var iconStyle = new ol.style.Style({
+            image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+                anchor: [0.5, 46],
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'pixels',
+                opacity: 0.75,
+                src: iconPath
+            }))
         });
+
+        iconFeature.setStyle(iconStyle);
+        features.push(iconFeature);
+        //next item...
+        /*
+         * create vector source
+         * you could set the style for all features in your vectoreSource as well
+         */
+
+        var vectorSource = new ol.source.Vector({
+            features: features      //add an array of features
+            //,style: iconStyle     //to set the style for all your features...
+        });
+
+
         var vectorLayer = new ol.layer.Vector({
             source: vectorSource
         });
-
         map.addLayer(vectorLayer);
 
-    });
+        var featuresOverlay = new ol.FeatureOverlay({
+            map: map,
+            features: [accuracyFeature, positionFeature]
+        });
 
-    var featuresOverlay = new ol.FeatureOverlay({
-        map: map,
-        features: [accuracyFeature, positionFeature]
     });
 
 </script>

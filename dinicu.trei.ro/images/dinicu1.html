@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>BLUEPINK - annoyingly right</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<style>
+			*{
+				border: 0 none;
+				margin: 0;
+				padding: 0;
+				outline: 0;
+			}
+			html{
+				height: 100%;
+				width: 100%;
+			}
+			body{
+				width: 100%;
+				height: auto;
+				min-width: 960px;
+				max-width: 2000px;
+				margin-left: auto;
+				margin-right: auto;
+				font-family: Arial;
+				position: relative;
+				background: #000000;
+			}
+			a{
+				color: #ffffff;
+				text-decoration: none;
+			}
+			.wrap{
+				width: 960px;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+			}
+			.clear{
+				clear: both;
+			}
+			#nav_menu{
+				top: 0;
+				left: 0;
+				height: 56px;
+				width: 100%;
+				position: fixed;
+				z-index: 100;
+				background: #000000;
+			}
+			#menu{
+				width: 960px;
+				margin: 0 auto;
+			}
+			#lang{
+				float: left;
+				color: #fcfcfc;
+				background: #dd1279 ;
+				font-size: 16px;
+				width: 367px;
+				height: 70px;
+				position: relative;
+				z-index: 99;
+				margin-left: 35px;
+				margin-right: 36px;
+			}
+			#contact_top, #select_lang{
+				margin-top: 20px;
+			}
+			#contact_top{
+				float: left;
+				margin-left: 12px;
+			}
+			#select_lang{
+				float: right;
+				margin-right: 20px;
+			}
+			#uk {
+				float: left;
+				text-align: center;
+			}
+			#ro {
+				float: left;
+				text-align: center;
+			}
+			#uk a, #ro a{
+				padding: 5px 6px 5px 6px;
+				color: #ffffff;
+				text-decoration: none;
+			}
+			#uk a:hover, #ro a:hover{
+				background: #7a0f45;
+			}
+			.l_nav_menu{
+				float: left;
+				margin-left: 6px;
+			}
+			.r_nav_menu{
+				float: left;
+			}
+			.menu{
+				color: #ffffff;
+				font-size: 12px;
+			}
+
+			.menu a{
+				text-decoration: none;
+				color: #ffffff;
+				line-height: 55px;
+				padding: 25px 12px 15px;
+			}
+			.menu a:hover{
+				text-decoration: none;
+				color: #000000;
+				background: #ffffff;
+			}
+			.menu  li{
+				display: inline;
+				list-style: none;
+			}
+			#contact-page{
+				text-align: left;
+				margin-top: 100px;
+			}
+			#contact-page h1{
+				color: #f5c11e;
+				font-size: 24px;
+				font-family: Arial;
+			}
+			#contact-page p{
+				font-size: 24px;
+				color: #ffffff;
+				margin-top: 40px;
+			}	
+		</style>
+	</head>
+	<body>
+		<div id="nav_menu">
+			<div class="wrap">
+				<div id="menu">
+					<div class="l_nav_menu menu">
+						<ul>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayIndex" {if $page eq "index"}class="menuselected"{/if}>HOME</a></li>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayAdvertising" {if $page eq "advertising"}class="menuselected"{/if}>PROMOVARE</a></li>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayHosting" {if $page eq "hosting"}class="menuselected"{/if}>GAZDUIRE</a></li>
+						</ul>
+					</div>
+					<div id="lang">
+						<div id="contact_top">
+							<p><a href="http://www.bluepink.ro/am.php?action=displayContact">office@bluepink.ro</a></p>
+						</div>
+						<div id="select_lang">							
+							<div id="uk">
+								<a {if $interfaceLanguage eq "en"}class="selected"{/if} href="http://www.bluepink.ro/am.php?action=changeLanguage&amp;languageCode=en">EN</a>
+							</div>
+							<div id="ro">
+								<a {if $interfaceLanguage eq "ro"}class="selected"{/if} href="http://www.bluepink.ro/am.php?action=changeLanguage&amp;languageCode=ro">RO</a>
+							</div>
+						</div>
+					</div>
+					<div class="r_nav_menu menu">
+						<ul>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayPortfolio" {if $page eq "portfolio"}class="menuselected"{/if}>PORTOFOLIU</a></li>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayBluePinkTeam" {if $page eq "bluepinkteam"}class="menuselected"{/if}>ECHIPA</a></li>
+							<li><a href="http://www.bluepink.ro/am.php?action=displayContact" {if $page eq "contact"}class="menuselected"{/if}>CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div id="contact-page">
+				<p>Error 404</p>
+				<h1>
+					The requested URL was not found on this server.<br/><br/>
+    				If you entered the URL manually please check your<br/>
+    				spelling and try again. If you followed a link from a foreign page please contact the authtor of the page.<br/><br/>
+					If you think this is a server error, please contact<br/>
+					the <a href="mailto:webmaster@bluepink.ro">webmaster</a>.
+				</h1>				
+			</div>
+		</div>
+	</body>
+</html>
