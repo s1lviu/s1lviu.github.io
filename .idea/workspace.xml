@@ -27,11 +27,9 @@
       <file leaf-file-name="indocta.user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/indocta.user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -333,7 +331,7 @@
       <workItem from="1471438003378" duration="3000" />
       <workItem from="1476808175412" duration="1156000" />
       <workItem from="1476903699687" duration="10000" />
-      <workItem from="1477320055660" duration="934000" />
+      <workItem from="1477320055660" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1458393651068</created>
@@ -615,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477320754434</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Index">
+      <created>1477321068161</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1477321068161</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24685000" />
+    <option name="totallyTimeSpent" value="24728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
@@ -820,11 +825,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/indocta.user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

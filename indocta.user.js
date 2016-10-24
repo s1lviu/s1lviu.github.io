@@ -14,7 +14,7 @@
 //
 // @require https://code.jquery.com/jquery-2.1.1.min.js
 //
-// @version         1.2
+// @version         1.3
 // @updateURL		https://s1lviu.github.io/indocta.user.js
 //
 // @run-at			document-start
