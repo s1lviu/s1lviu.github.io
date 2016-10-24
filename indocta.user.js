@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name          	Indocta Time Waster
 // @description     Pastreaza userul logat pentru a face minimul de 50 de ore
-// @icon            https://raw.github.com/sepehr/userscript-SCRIPT/master/SCRIPT.png
 //
 // @author			Silviu Stroe <silviu@silviu-s.com>
 // @namespace       https://s1lviu.github.io
