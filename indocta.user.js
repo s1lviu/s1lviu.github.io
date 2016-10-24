@@ -44,9 +44,19 @@
  */
 (function () {
     $(document).ready(function () {
-        console.log("Magic happens");
-        $("#login_box").val("silvius");
-        $("#login_form > div:nth-child(4) > div.formElement > div > input").val("parola1337");
-        $("#login_form > div:nth-child(5) > div.formElement > div.field > input").click();
+
+
+        if (window.location.search.substr(1).indexOf("message=Sesiunea+a+expirat") >= 0) {
+
+            console.log("Magic happens");
+            $("#login_box").val("silvius");
+            $("#login_form > div:nth-child(4) > div.formElement > div > input").val("parola1337");
+            $("#login_form > div:nth-child(5) > div.formElement > div.field > input").click();
+
+        } else {
+            console.log("You are already logged in :)");
+        }
+
+
     });
 })();
