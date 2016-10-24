@@ -15,11 +15,10 @@
 //
 // @require https://code.jquery.com/jquery-2.1.1.min.js
 //
-// @version         1.1
+// @version         1.0
 // @updateURL		https://s1lviu.github.io/indocta.user.js
 //
-// @run-at			document-start|document-end
-// @resource		resourceName	http://www.example.com/example.png
+// @run-at			document-start
 // @unwrap
 // ==/UserScript==
 
@@ -44,7 +43,8 @@
  * @see http://wiki.greasespot.net/API_reference
  * @see http://wiki.greasespot.net/Metadata_Block
  */
-(function() {	
-	console.log("merge");
-	var x = $("#login_box").val();
+(function () {
+    console.log("merge");
+    var x = $("#login_box").val();
+    console.log(x);
 })();
