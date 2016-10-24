@@ -10,11 +10,11 @@
 // @copyright       Copyright (C) 2016, by Silviu Stroe <silviu@silviu-s.com>
 //
 // @include         http://*.indocta2.softelio.ro/*
-// @match	    http://*.indocta2.softelio.ro/*
+// @match	        http://*.indocta2.softelio.ro/*
 //
 // @require https://code.jquery.com/jquery-2.1.1.min.js
 //
-// @version         1.0
+// @version         1.1
 // @updateURL		https://s1lviu.github.io/indocta.user.js
 //
 // @run-at			document-start
@@ -43,7 +43,9 @@
  * @see http://wiki.greasespot.net/Metadata_Block
  */
 (function () {
-    console.log("merge");
-    var x = $("#login_box").val();
-    console.log(x);
+    $(document).ready(function () {
+        console.log("merge");
+        var x = $("#login_box").val();
+        console.log(x);
+    });
 })();
