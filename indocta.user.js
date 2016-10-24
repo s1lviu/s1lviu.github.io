@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name          	SCRIPT
-// @description     SCRIPT DESCRIPTION
+// @name          	Indocta Time Waster
+// @description     Pastreaza userul logat pentru a face minimul de 50 de ore
 // @icon            https://raw.github.com/sepehr/userscript-SCRIPT/master/SCRIPT.png
 //
-// @author			Sepehr Lajevardi <me@sepehr.ws>
+// @author			Silviu Stroe <silviu@silviu-s.com>
 // @namespace       https://s1lviu.github.io
 // @downloadURL		https://s1lviu.github.io/indocta.user.js
 //
 // @license         GPLv3 - http://www.gnu.org/licenses/gpl-3.0.txt
-// @copyright       Copyright (C) 2012, by Sepehr Lajevardi <me@sepehr.ws>
+// @copyright       Copyright (C) 2016, by Silviu Stroe <silviu@silviu-s.com>
 //
 // @include         http://*.indocta2.softelio.ro/*
 // @match			http://*.indocta2.softelio.ro/*
@@ -45,5 +45,5 @@
  * @see http://wiki.greasespot.net/Metadata_Block
  */
 (function() {	
-	
+	console.log("merge");
 })();
