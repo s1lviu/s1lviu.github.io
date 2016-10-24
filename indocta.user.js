@@ -14,7 +14,7 @@
 //
 // @require https://code.jquery.com/jquery-2.1.1.min.js
 //
-// @version         1.1
+// @version         1.2
 // @updateURL		https://s1lviu.github.io/indocta.user.js
 //
 // @run-at			document-start
@@ -44,8 +44,9 @@
  */
 (function () {
     $(document).ready(function () {
-        console.log("merge");
-        var x = $("#login_box").val();
-        console.log(x);
+        console.log("Magic happens");
+        $("#login_box").val("silvius");
+        $("#login_form > div:nth-child(4) > div.formElement > div > input").val("parola1337");
+        $("#login_form > div:nth-child(5) > div.formElement > div.field > input").click();
     });
 })();
