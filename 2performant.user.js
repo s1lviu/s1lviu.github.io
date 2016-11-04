@@ -45,21 +45,20 @@
 (function () {
     $(document).ready(function () {
 
-        var nrp = window.location.href.split(":")[2]; 
-        
-        if (window.location.search.substr(1).indexOf("message=Sesiunea+a+expirat") >= 0) {
 
-           $('div.hidden-xs.hidden-sm > a').click()
-    setTimeout(function(){ 
-    $('div.btn.btn-default.ng-scope').click()
-    }, 2000);
-     setTimeout(function(){ 
-    $('div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click()
-    }, 4000);
-     setTimeout(function(){
-     nrp++;
-    window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:"+nrp
-}, 5500);
+        var nrp = window.location.href.split(":")[2];
+        $('div.hidden-xs.hidden-sm > a').click();
+        setTimeout(function () {
+            $('div.btn.btn-default.ng-scope').click()
+        }, 2000);
+        setTimeout(function () {
+            $('div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click()
+        }, 4000);
+        setTimeout(function () {
+            nrp++;
+            window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp
+        }, 5500);
+
 
     });
 })();
