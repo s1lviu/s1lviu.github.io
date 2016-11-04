@@ -12,12 +12,11 @@
 // @include         https://network.2performant.com/affiliate/tools/product-feeds/*
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds/*
 //
-// @require https://code.jquery.com/jquery-2.1.1.min.js
 //
-// @version         1.1
+// @version         1.2
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
-// @run-at			document-start
+// @run-at			document-end
 // @unwrap
 // ==/UserScript==
 
