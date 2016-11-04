@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds/*
 //
 //
-// @version         1.2
+// @version         1.3
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -42,22 +42,18 @@
  * @see http://wiki.greasespot.net/Metadata_Block
  */
 (function () {
-    $(document).ready(function () {
+    
+    var nrp = window.location.href.split(":")[2];
+    $('div.hidden-xs.hidden-sm > a').click();
+    setTimeout(function () {
+        $('div.btn.btn-default.ng-scope').click()
+    }, 2000);
+    setTimeout(function () {
+        $('div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click()
+    }, 4000);
+    setTimeout(function () {
+        nrp++;
+        window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp
+    }, 5500);
 
-
-        var nrp = window.location.href.split(":")[2];
-        $('div.hidden-xs.hidden-sm > a').click();
-        setTimeout(function () {
-            $('div.btn.btn-default.ng-scope').click()
-        }, 2000);
-        setTimeout(function () {
-            $('div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click()
-        }, 4000);
-        setTimeout(function () {
-            nrp++;
-            window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp
-        }, 5500);
-
-
-    });
 })();
