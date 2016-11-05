@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.9
+// @version         2.0
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -58,7 +58,7 @@
             setTimeout(function () {
                 console.log("Am adaugat produsul nr. " + (i - 3) + ", pagina " + nrp);
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
-                if (i <= 22) {
+                if (i < 22) {
                     myLoop();
                     doi();
                 } else {
