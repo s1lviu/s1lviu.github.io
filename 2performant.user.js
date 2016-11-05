@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.6
+// @version         1.7
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -59,6 +59,7 @@
             setTimeout(function () {
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
                 i++;
+                console.log(i);
                 if (i <= 22) {
                     myLoop();
                     doi();
