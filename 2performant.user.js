@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds/*
 //
 //
-// @version         1.3
+// @version         1.4
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -42,18 +42,37 @@
  * @see http://wiki.greasespot.net/Metadata_Block
  */
 (function () {
-    
-    var nrp = window.location.href.split(":")[2];
-    $('div.hidden-xs.hidden-sm > a').click();
-    setTimeout(function () {
-        $('div.btn.btn-default.ng-scope').click()
-    }, 2000);
-    setTimeout(function () {
-        $('div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click()
-    }, 4000);
-    setTimeout(function () {
-        nrp++;
-        window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp
-    }, 5500);
+    $(document).ready(function () {
+        var i = 3;
 
+        function myLoop() {
+            var nrp = window.location.href.split(":")[2];
+            setTimeout(function () {
+                $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
+                i++;
+                if (i <= 22) {
+                    myLoop();
+                    doi();
+                } else {
+                    doi();
+                    nrp++;
+                    window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp;
+                    i = 3;
+                    myLoop();
+                }
+
+            }, 3000);
+        }
+
+        function doi() {
+            setTimeout(function () {
+                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.btn-group-vertical.m-t.w-full > div.btn.btn-default.ng-scope').click()
+                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click();
+            }, 1500);
+        }
+
+        myLoop();
+
+
+    });
 })();
