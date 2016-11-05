@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds/*
 //
 //
-// @version         1.4
+// @version         1.5
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -41,12 +41,21 @@
  * @see http://wiki.greasespot.net/API_reference
  * @see http://wiki.greasespot.net/Metadata_Block
  */
+
+
+
+
 (function () {
     $(document).ready(function () {
         var i = 3;
 
         function myLoop() {
-            var nrp = window.location.href.split(":")[2];
+
+            if (typeof window.location.href.split(":")[2] !== 'undefined')
+                var nrp = window.location.href.split(":")[2];
+            else
+                nrp = 1;
+
             setTimeout(function () {
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
                 i++;
