@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         2.0
+// @version         1.0
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -42,23 +42,20 @@
  * @see http://wiki.greasespot.net/Metadata_Block
  */
 
-
-
-
 (function () {
     $(document).ready(function () {
-        var i = 3;
         if (typeof window.location.href.split(":")[2] !== 'undefined')
             var nrp = window.location.href.split(":")[2];
         else
             nrp = 1;
 
-        function myLoop() {
+        var i = 3;
 
+        function myLoop() {
             setTimeout(function () {
-                console.log("Am adaugat produsul nr. " + (i - 3) + ", pagina " + nrp);
+                console.log("Am adaugat feedul nr. " + (i - 2) + ", pagina " + nrp);
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
-                if (i < 22) {
+                if (i <= 22) {
                     myLoop();
                     doi();
                 } else {
@@ -75,13 +72,19 @@
 
         function doi() {
             setTimeout(function () {
-                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.btn-group-vertical.m-t.w-full > div.btn.btn-default.ng-scope').click()
-                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click();
+
+                var x = $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.btn-group-vertical.m-t.w-full > div.btn.btn-default.ng-scope > i')
+                if (x.length == 0) {
+                    $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.btn-group-vertical.m-t.w-full > div.btn.btn-default.ng-scope').click()
+                    $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click();
+                } else {
+                    $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click();
+                    console.log("Feed deja adaugat..")
+                }
             }, 1500);
         }
 
         myLoop();
-
 
     });
 })();
