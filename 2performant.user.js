@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.8
+// @version         1.9
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -48,18 +48,16 @@
 (function () {
     $(document).ready(function () {
         var i = 3;
-        var nrp;
+        if (typeof window.location.href.split(":")[2] !== 'undefined')
+            var nrp = window.location.href.split(":")[2];
+        else
+            nrp = 1;
 
         function myLoop() {
 
-            if (typeof window.location.href.split(":")[2] !== 'undefined')
-                var nrp = window.location.href.split(":")[2];
-            else
-                nrp = 1;
-
             setTimeout(function () {
+                console.log("Am adaugat produsul nr. " + (i - 3) + ", pagina " + nrp);
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
-                i++;
                 if (i <= 22) {
                     myLoop();
                     doi();
@@ -70,6 +68,7 @@
                     i = 3;
                     myLoop();
                 }
+                i++;
 
             }, 3000);
         }
@@ -78,7 +77,6 @@
             setTimeout(function () {
                 $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.btn-group-vertical.m-t.w-full > div.btn.btn-default.ng-scope').click()
                 $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.pull-right.p-t-sm.btn-group > button.btn.btn-primary.btn').click();
-                console.log("Am adaugat produsul nr. " + (i - 3) + ", pagina " + nrp);
             }, 1500);
         }
 
