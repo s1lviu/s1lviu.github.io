@@ -9,11 +9,11 @@
 // @license         GPLv3 - http://www.gnu.org/licenses/gpl-3.0.txt
 // @copyright       Copyright (C) 2016, by Silviu Stroe <silviu@silviu-s.com>
 //
-// @include         https://network.2performant.com/affiliate/tools/product-feeds/*
-// @match	        https://network.2performant.com/affiliate/tools/product-feeds/*
+// @include         https://network.2performant.com/affiliate/tools/product-feeds*
+// @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.5
+// @version         1.6
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
