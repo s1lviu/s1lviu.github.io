@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.2
+// @version         1.3
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
@@ -60,13 +60,13 @@
                     doi();
                 } else {
                     doi();
-                    if(nrp%5!=0)
-                    {
+                    //if(nrp%5!=0)
+                    //{
                     nrp++;
                     window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp;
                     i = 3;
                     myLoop();
-                    }
+                    //}
                 }
                 i++;
 
