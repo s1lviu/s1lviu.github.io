@@ -55,18 +55,21 @@
             setTimeout(function () {
                 console.log("Am adaugat feedul nr. " + (i - 2) + ", pagina " + nrp);
                 $('tbody > tr:nth-child(' + i + ') > td.text-right.text-left-xs.text-left-sm > div.hidden-xs.hidden-sm > a').click();
+
+                //feed cration
+                var nume = $('#app > div.app-content.ng-scope.h-full > div > div > div > div > div:nth-child(3) > div > div.table-responsive.table-stackable > table > tbody > tr:nth-child(' + i + ') > td.feed-title > p').text();
+                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.input-group > input').val(nume).click().trigger('input');
+                $('body > div.modal.fade.ng-isolate-scope.in > div > div > div > div > div.input-group > span > a').click();
+
                 if (i <= 22) {
                     myLoop();
                     doi();
                 } else {
                     doi();
-                    //if(nrp%5!=0)
-                    //{
                     nrp++;
                     window.location.href = "https://network.2performant.com/affiliate/tools/product-feeds/page:" + nrp;
                     i = 3;
                     myLoop();
-                    //}
                 }
                 i++;
 
