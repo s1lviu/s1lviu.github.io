@@ -13,7 +13,7 @@
 // @match	        https://network.2performant.com/affiliate/tools/product-feeds*
 //
 //
-// @version         1.3
+// @version         1.4
 // @updateURL		https://s1lviu.github.io/2performant.user.js
 //
 // @run-at			document-end
