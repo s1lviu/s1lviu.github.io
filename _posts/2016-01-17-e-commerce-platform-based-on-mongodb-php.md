@@ -1,6 +1,6 @@
 ---
 id: 396
-title: 'E-commerce platform based on scalability, mongoDb &#038; php'
+title: 'E-commerce platform based on scalability, mongoDb & php'
 date: 2016-01-17T20:19:51+00:00
 author: Silviu Stroe
 layout: post
@@ -9,6 +9,9 @@ permalink: /e-commerce-platform-based-on-mongodb-php/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2016/01/mongodb-gui-tools-200x100.png
+categories:
+  - Programming
+  - Projects
 tags:
   - fast e-commerce
   - fast php shop
@@ -37,7 +40,7 @@ Live demo: [S-Commerce Live Demo](http://silviu-s.com/proiecte/mongo)
   </p>
   
   <p>
-    The main site:<br /> <code>index.php</code> &#8211; The main site with product listing and search function (by title or description) .<br /> <code>account.php</code> &#8211; There is processed the information about account: register, login, address, orders and order details.<br /> <code>cart.php</code> &#8211; Contains the products added in shopping cart, with empty cart function, checkout functions and with informations about total cost of the products added .<br /> <code>db.php</code> &#8211; Here is the connection to the database server
+    The main site:<br /> <code>index.php</code> – The main site with product listing and search function (by title or description) .<br /> <code>account.php</code> – There is processed the information about account: register, login, address, orders and order details.<br /> <code>cart.php</code> – Contains the products added in shopping cart, with empty cart function, checkout functions and with informations about total cost of the products added .<br /> <code>db.php</code> – Here is the connection to the database server
   </p>
   
   <p>

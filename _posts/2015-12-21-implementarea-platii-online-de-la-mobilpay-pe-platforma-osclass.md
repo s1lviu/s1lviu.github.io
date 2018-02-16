@@ -8,6 +8,9 @@ guid: http://silviu-s.com/?p=379
 permalink: /implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
+  - Projects
 tags:
   - implementare plata
   - implementare plata online

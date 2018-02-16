@@ -9,6 +9,8 @@ permalink: /strawpoll-bot/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-200x100.png
+categories:
+  - Projects
 tags:
   - straw poll bot
   - straw poll bot 2013
@@ -31,7 +33,7 @@ Dependente de sistem: PHP 5.x si php_curl instalat pe server.
 
 PS: Recomand folosirea lui in CLI, unde se va executa comanda php bot.php, unde bot.php este numele fisierului care contine codul de mai jos.
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php
+<pre class="brush: php; title: ; notranslate" title=""><?php
 set_time_limit(0);
 $fisier='proxy.txt'; //numele fisierului cu proxy-uri ip:port, fiecare pe o linie
 function voteaza($proxy)
@@ -39,8 +41,8 @@ function voteaza($proxy)
 $id='seteaza_id'; //id-ul intrebarii
 $optiunea='0'; //optiunea 0 inseamna prima, 1 inseamna a doua, etc.
 $url = 'http://strawpoll.me/ajax/vote';
-$fields = array('votes%5B%5D' =&gt; $optiunea,'id' =&gt; $id);
-foreach($fields as $key=&gt;$value) { $fields_string .= $key.'='.$value.'&'; }
+$fields = array('votes%5B%5D' => $optiunea,'id' => $id);
+foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
 rtrim($fields_string, '&');
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL, $url);
@@ -58,12 +60,12 @@ return $result;
 $a=file_get_contents($fisier);
 $a= explode("\n",$a);
 $nr=sizeof($a);
-for ($i = 0; $i &lt;= $nr; $i++) {
+for ($i = 0; $i <= $nr; $i++) {
 voteaza($a[$i]);
 $cate=$nr-$i;
 echo "Mai am de votat de $cate ori \n";
 flush();
 }
-?&gt;
+?>
 
 </pre>

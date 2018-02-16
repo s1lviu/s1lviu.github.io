@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=66
 permalink: /cum-sa-ascunzi-un-folder-pe-windows/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - "2000"
   - "7"
@@ -28,7 +30,7 @@ Poate v-ati intrebat vreo data daca se poate acest lucru si fara programe aditio
 
 În acest tutorial voi descrie o metodă interesantă de a ascunde fișierele ce nu vor putea fi accesate de către utilizatorii sistemului de operare Windows (începând de la versiunea Win2000 și terminând cu ultima — Win8). De fapt merge vorba despre un bug, din cauza căruia procesul _explorer.exe_ este obligat să părăsească locul de muncă (pe scurt — se închide automat și se restartează).
 
-Ideea constă în modificarea folderului și „transformarea” acestuia într-un shortcut ce face referire la fișierul _desktop.ini_ din același folder. Iată de ce, atunci când _explorer.exe_ încearcă să afle proprietățile folderului, acesta din urmă face din nou referire la obiectul său și&#8230; și tot așa până când procesul se dă bătut (iar acest lucru se întâmplă foarte repede).
+Ideea constă în modificarea folderului și „transformarea” acestuia într-un shortcut ce face referire la fișierul _desktop.ini_ din același folder. Iată de ce, atunci când _explorer.exe_ încearcă să afle proprietățile folderului, acesta din urmă face din nou referire la obiectul său și… și tot așa până când procesul se dă bătut (iar acest lucru se întâmplă foarte repede).
 
 _Creators of „New folder” and „New folder (2)” proudly present — „New folder (3): The killer”
   

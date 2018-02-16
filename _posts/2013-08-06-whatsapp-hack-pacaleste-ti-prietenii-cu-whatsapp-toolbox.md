@@ -1,6 +1,6 @@
 ---
 id: 152
-title: 'WhatsApp Hack &#8211; Pacaleste-ti prietenii cu WhatsApp Toolbox'
+title: 'WhatsApp Hack – Pacaleste-ti prietenii cu WhatsApp Toolbox'
 date: 2013-08-06T12:20:35+00:00
 author: Silviu Stroe
 layout: post
@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=152
 permalink: /whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - download whatsapp
   - free whatsapp
@@ -25,9 +27,9 @@ tags:
 ---
 Vrei sa iti pacalesti prietenii de pe WhatsApp? WhatsApp Toolbox este o aplicatie pentru android care iti permite cu succes sa faci acest lucru:
 
-&#8211; trimite mesaje fara sa fi vazut, statusul cu &#8220;vazut ultima data&#8221; uramand sa nu se mai actualizeze
+– trimite mesaje fara sa fi vazut, statusul cu “vazut ultima data” uramand sa nu se mai actualizeze
 
--suport full pentru emoticonurile emoji &#8211; WhatsApp
+-suport full pentru emoticonurile emoji – WhatsApp
 
 -face copii de siguranta ale conversatiilor WhatsApp si ale contactelor
 
@@ -37,10 +39,10 @@ Vrei sa iti pacalesti prietenii de pe WhatsApp? WhatsApp Toolbox este o aplicati
 
 -editeaza mesajele trimise de tine celorlalti (doar local) pentru a face farse/a impresiona
 
--citeste mesaje fara a ti se modifica statusul &#8220;vazut ultima data&#8221;
+-citeste mesaje fara a ti se modifica statusul “vazut ultima data”
 
 Pentru a-l instala aveti nevoie de Android 2.2 sau mai recent, iar telefonul sa fie root-at. Puteti descarca WhatsApp ToolBox de aici. <a title="WhatsApp hack" href="https://mega.co.nz/#!Rp83lDyL!ecCMaByOaD8P8BMgm1lcy3Cnf9xdWk4_ItRZCPr4RUI" target="_blank">Download.</a>
 
 Spor la farse!
 
-&nbsp;
+ 

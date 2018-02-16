@@ -1,6 +1,6 @@
 ---
 id: 181
-title: '&#8220;Fura&#8221; poza unui profil de Facebook!'
+title: '“Fura” poza unui profil de Facebook!'
 date: 2013-08-27T20:00:25+00:00
 author: Silviu Stroe
 layout: post
@@ -9,6 +9,8 @@ permalink: /fura-poza-unui-profil-de-facebook/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/08/facebook-logo-200x100.png
+categories:
+  - Articles
 tags:
   - fura poza facebook
   - fura profil facebook

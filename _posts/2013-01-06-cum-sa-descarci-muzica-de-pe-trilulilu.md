@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=49
 permalink: /cum-sa-descarci-muzica-de-pe-trilulilu/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - "2013"
   - download

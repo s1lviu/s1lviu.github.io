@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=140
 permalink: /ask-fm-spammer-php/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Projects
 tags:
   - ask.fm bot
   - ask.fm curl
@@ -15,9 +17,9 @@ tags:
   - ask.fm php
   - ask.fm spammer
 ---
-Poate v-ati saturat si voi de spam-ul facut pe Facebook de catre cei cu conturi pe ask.fm. Asa ca, cu putin ajutor al lui Zatarra de pe RSTForums, avem acest script in PHP care ne va ajuta sa le umplem frigiderul celor cu &#8220;Intreaba-ma!&#8221;.
+Poate v-ati saturat si voi de spam-ul facut pe Facebook de catre cei cu conturi pe ask.fm. Asa ca, cu putin ajutor al lui Zatarra de pe RSTForums, avem acest script in PHP care ne va ajuta sa le umplem frigiderul celor cu “Intreaba-ma!”.
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php
+<pre class="brush: php; title: ; notranslate" title=""><?php
 
 //Ask.FM spammer by Zatarra @ RSTforums.com
 
@@ -31,7 +33,7 @@ curl_setopt($curli, CURLOPT_COOKIEJAR, "a.txt");
 curl_setopt($curli, CURLOPT_COOKIEFILE, "a.txt");
 curl_setopt($curli, CURLOPT_REFERER, "http://ask.fm/exempluprofil");
 $curlDatai = curl_exec($curli);
-@preg_match_all("/oken\" type=\"hidden\" value=\"(.*?)\" \/\&gt;/",$curlDatai,$token);
+@preg_match_all("/oken\" type=\"hidden\" value=\"(.*?)\" \/\>/",$curlDatai,$token);
 //echo $token[1][0];
 
 $whatever="ask.fm Spammer By Zatarra @ RSTforums.com";
@@ -49,7 +51,7 @@ curl_setopt($curl, CURLOPT_COOKIEFILE, "a.txt");
 curl_setopt($curl, CURLOPT_REFERER, "http://ask.fm/exempluprofil");
 $curlData = curl_exec($curl);
 
-?&gt;
+?>
 
 </pre>
 

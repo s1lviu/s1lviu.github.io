@@ -1,6 +1,6 @@
 ---
 id: 87
-title: 'Hotfiles.ro &#8211; Girlshare.ro Mp3 Downloader [PHP]'
+title: 'Hotfiles.ro – Girlshare.ro Mp3 Downloader [PHP]'
 date: 2013-02-05T20:57:43+00:00
 author: Silviu Stroe
 layout: post
@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=87
 permalink: /hotfiles-ro-girlshare-ro-mp3-downloader-php/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Projects
 tags:
   - download
   - fileshare
@@ -17,7 +19,7 @@ tags:
 ---
 Am creeat un script care preia prima melodie mp3 cautata de pe hotfiles.ro si ofera link de download pentru aceasta si marimea acesteia! Script-ul il aveti mai jos:
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php
+<pre class="brush: php; title: ; notranslate" title=""><?php
 function get_data($url,$ref="")
 {
 if(function_exists("curl_init")){
@@ -58,15 +60,15 @@ function getTags( $dom, $tagName, $attrName, $attrValue ){
 $html = '';
 $domxpath = new DOMXPath($dom);
 $newDom = new DOMDocument;
-$newDom-&gt;formatOutput = true;
+$newDom->formatOutput = true;
 
-$filtered = $domxpath-&gt;query("//$tagName" . '[@' . $attrName . "='$attrValue']");
+$filtered = $domxpath->query("//$tagName" . '[@' . $attrName . "='$attrValue']");
 $i = 0;
-while( $myItem = $filtered-&gt;item($i++) ){
-$node = $newDom-&gt;importNode( $myItem, true );    // import node
-$newDom-&gt;appendChild($node);                    // append node
+while( $myItem = $filtered->item($i++) ){
+$node = $newDom->importNode( $myItem, true );    // import node
+$newDom->appendChild($node);                    // append node
 }
-$html = $newDom-&gt;saveHTML();
+$html = $newDom->saveHTML();
 return $html;
 }
 
@@ -81,43 +83,43 @@ $attrName = 'class';
 $attrValue = 'file-name';
 
 $dom = new DOMDocument;
-$dom-&gt;preserveWhiteSpace = false;
-@$dom-&gt;loadHTMLFile($some_link);
+$dom->preserveWhiteSpace = false;
+@$dom->loadHTMLFile($some_link);
 
 $html = getTags( $dom, $tagName, $attrName, $attrValue );
 $f1=explode('mp3"',$html);
 $l = $f1[1];
-$l1 = limita($l,'href="','"&gt; ');
+$l1 = limita($l,'href="','"> ');
 $l1 = 'http://www.hotfiles.ro'.$l1.'';
 $n1= limita($l,'title="','"');
 $follows = get_data($l1);
 $follow = limita($follows,'href="http://www.hotfiles.ro:8079/dmz/fisier/redirect/girlshare','"');
 $final = 'http://www.hotfiles.ro:8079/dmz/fisier/redirect/girlshare'.$follow.'';
 $finish=get_data($final,$l1);
-$finish=limita($finish,'&lt;p class="waiting"&gt; ',' pentru');
+$finish=limita($finish,'<p class="waiting"> ',' pentru');
 $finish=limita($finish,'"','"');
 $mp3=get_data($finish);
-$mp3=limita($mp3,'"POST" action="','"&gt;');
+$mp3=limita($mp3,'"POST" action="','">');
 $mp3=str_replace('.mp3','[Silviu-S.com].mp3',$mp3);
-echo '&lt;a href="'.$mp3.'"&gt;'.$n1.'&lt;/a&gt;';
-$marime=limita($follows,'Marime&lt;/label&gt;&lt;span&gt;','&lt;/span&gt;');
-echo '&lt;/br&gt;Marimea:';
+echo '<a href="'.$mp3.'">'.$n1.'</a>';
+$marime=limita($follows,'Marime</label><span>','</span>');
+echo '</br>Marimea:';
 echo $marime;
 }
-?&gt;
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;title&gt;Hotfiles.ro mp3 downloader - Silviu-S.com&lt;/title&gt;
-&lt;body&gt;
-&lt;form  method="get"&gt;
-Melodie: &lt;input type="text" name="melodie"&gt;
-&lt;input type="submit" value="Cauta"&gt;
-&lt;/form&gt;
-&lt;footer&gt;
-&lt;center&gt;&lt;a href="http://silviu-s.com"&gt;Copyright - Silviu-S.com&lt;/a&gt;&lt;/center&gt;
-&lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+?>
+<!DOCTYPE html>
+<html>
+<title>Hotfiles.ro mp3 downloader - Silviu-S.com</title>
+<body>
+<form  method="get">
+Melodie: <input type="text" name="melodie">
+<input type="submit" value="Cauta">
+</form>
+<footer>
+<center><a href="http://silviu-s.com">Copyright - Silviu-S.com</a></center>
+</footer>
+</body>
+</html>
 </pre>
 
 Daca folositi acest script, va rog sa pastrati footer-ul acestuia intact.

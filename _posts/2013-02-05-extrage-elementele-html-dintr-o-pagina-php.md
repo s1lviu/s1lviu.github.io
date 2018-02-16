@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=90
 permalink: /extrage-elementele-html-dintr-o-pagina-php/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Projects
 tags:
   - atribut
   - class
@@ -20,15 +22,15 @@ tags:
 
 
 <pre class="brush: php; title: ; notranslate" title="">
-&lt;?php
+<?php
 $some_link = 'some website';
 $tagName = 'div';
 $attrName = 'class';
 $attrValue = 'className';
 
 $dom = new DOMDocument;
-$dom-&gt;preserveWhiteSpace = false;
-@$dom-&gt;loadHTMLFile($some_link);
+$dom->preserveWhiteSpace = false;
+@$dom->loadHTMLFile($some_link);
 
 $html = getTags( $dom, $tagName, $attrName, $attrValue );
 echo $html;
@@ -37,24 +39,24 @@ function getTags( $dom, $tagName, $attrName, $attrValue ){
     $html = '';
     $domxpath = new DOMXPath($dom);
     $newDom = new DOMDocument;
-    $newDom-&gt;formatOutput = true;
+    $newDom->formatOutput = true;
 
-    $filtered = $domxpath-&gt;query("//$tagName" . '[@' . $attrName . "='$attrValue']");
-    // $filtered =  $domxpath-&gt;query('//div[@class="className"]');
+    $filtered = $domxpath->query("//$tagName" . '[@' . $attrName . "='$attrValue']");
+    // $filtered =  $domxpath->query('//div[@class="className"]');
     // '//' when you don't know 'absolute' path
 
     // since above returns DomNodeList Object
     // I use following routine to convert it to string(html); copied it from someone's post in this site. Thank you.
     $i = 0;
-    while( $myItem = $filtered-&gt;item($i++) ){
-        $node = $newDom-&gt;importNode( $myItem, true );    // import node
-        $newDom-&gt;appendChild($node);                    // append node
+    while( $myItem = $filtered->item($i++) ){
+        $node = $newDom->importNode( $myItem, true );    // import node
+        $newDom->appendChild($node);                    // append node
     }
-    $html = $newDom-&gt;saveHTML();
+    $html = $newDom->saveHTML();
     return $html;
 }
 
-?&gt;
+?>
 </pre>
 
 

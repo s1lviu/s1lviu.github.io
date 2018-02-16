@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=227
 permalink: /trimite-fotografii-si-videoclipuri-cu-instagram/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - instagram
   - instagram send photos

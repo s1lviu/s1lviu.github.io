@@ -9,6 +9,8 @@ permalink: /preia-imaginea-de-fundal-a-unui-profil-ask-fm/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/08/askfm3-200x100.png
+categories:
+  - Projects
 tags:
   - ask.fm background image
   - fundal ask.fm

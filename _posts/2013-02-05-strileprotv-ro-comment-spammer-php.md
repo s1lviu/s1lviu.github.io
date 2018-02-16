@@ -1,6 +1,6 @@
 ---
 id: 97
-title: 'StrileProTV.ro &#8211; comment spammer [PHP]'
+title: 'StrileProTV.ro – comment spammer [PHP]'
 date: 2013-02-05T22:31:24+00:00
 author: Silviu Stroe
 layout: post
@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=97
 permalink: /strileprotv-ro-comment-spammer-php/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
 tags:
   - comment
   - php
@@ -17,22 +19,22 @@ tags:
 ---
 Am scris in PHP (cu picioarele) un mic script care preia articolele de pe un numar prestabilit (de utilizator) de pagini de pe site-ul de stiri mentionat si posteaza comentarii la ce vreti voi (le setati din script, bineinteles).
   
-Scriptul ar trebui inclus in index sau pe o pagina cu multe vizite ale unui site de-al vostru, pentru ca am ales sa folosesc JavaScript pentru a &#8220;posta&#8221; comentariile, dar puteti modifica si in loc de javascript sa folositi cURL si proxy-uri.
+Scriptul ar trebui inclus in index sau pe o pagina cu multe vizite ale unui site de-al vostru, pentru ca am ales sa folosesc JavaScript pentru a “posta” comentariile, dar puteti modifica si in loc de javascript sa folositi cURL si proxy-uri.
   
 Crawler.php
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php 
+<pre class="brush: php; title: ; notranslate" title=""><?php 
  // Original PHP code by Chirp Internet: www.chirp.com.au 
   // Please acknowledge use of this code by including this header. 
-  for($i=1;$i&lt;=500;$i++) //$i-ul merge pana la cate pagini doriti sa faceti crawling.
+  for($i=1;$i<=500;$i++) //$i-ul merge pana la cate pagini doriti sa faceti crawling.
   { 
   $url = "http://m.stirileprotv.ro/lbin/mobile/index.php?section_id=1&page=$i"; 
   $input = get_data($url) or die("Could not access file: $url"); 
-  $regexp = "&lt;a\s[^&gt;]*href=(\"??)([^\" &gt;]*?)\\1[^&gt;]*&gt;(.*)&lt;\/a&gt;"; 
+  $regexp = "<a\s[^>]*href=(\"??)([^\" >]*?)\\1[^>]*>(.*)<\/a>"; 
   if(preg_match_all("/$regexp/siU", $input, $matches)) { 
       $link = $matches[2]; 
-      for($i=1;$i&lt;=28;$i++)  
-      if (strlen(strstr($link[$i],'article_id='))&gt;0) {  
+      for($i=1;$i<=28;$i++)  
+      if (strlen(strstr($link[$i],'article_id='))>0) {  
 $ok = str_replace('index.php?article_id=','',$link[$i]);  
 $file = 'articole.txt'; 
 $current = file_get_contents($file); 
@@ -52,12 +54,12 @@ $data = curl_exec($ch);
 curl_close($ch); 
 return $data; 
 } 
-?&gt;
+?>
 </pre>
 
 Poster.php
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php 
+<pre class="brush: php; title: ; notranslate" title=""><?php 
 ERROR_REPORTING(0); 
 
 if ( ($fh = fopen('articole.txt', 'r')) !== false) 
@@ -85,25 +87,25 @@ function read_and_delete_first_line($filename) {
 read_and_delete_first_line($f); 
 $lines = file($f);  
 $count = count($lines); 
-if ($count&lt;10) 
+if ($count<10) 
 { 
-echo '&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt; 
-&lt;/script&gt; 
-&lt;script&gt; 
+echo '<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> 
+</script> 
+<script> 
 $(document).ready(function(){ 
   $(window).load(function(){ 
     $.get("http://adresa_site/crawler.php");});}); 
-&lt;/script&gt;'; 
+</script>'; 
 }else{ 
-echo '&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt; 
-&lt;/script&gt; 
-&lt;script&gt; 
+echo '<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> 
+</script> 
+<script> 
 $(document).ready(function(){ 
   $(window).load(function(){ 
-    $.get("&lt;?php echo $linke; ?&gt;");});}); 
-&lt;/script&gt;'; 
+    $.get("<?php echo $linke; ?>");});}); 
+</script>'; 
 } 
-?&gt;
+?>
 </pre>
 
 Spam-ul nu se va opri niciodata, deoarece am setat ca atunci cand sunt mai putin de 10 articole de spamat, sa se faca un request catre scriptul care face crawling.

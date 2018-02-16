@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=116
 permalink: /vpn-romania/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - camine studenesti
   - internet camin

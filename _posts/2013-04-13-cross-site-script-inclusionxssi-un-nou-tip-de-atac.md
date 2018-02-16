@@ -1,6 +1,6 @@
 ---
 id: 135
-title: 'Cross Site Script Inclusion(XSSI) &#8211; Un nou tip de atac!'
+title: 'Cross Site Script Inclusion(XSSI) – Un nou tip de atac!'
 date: 2013-04-13T20:48:41+00:00
 author: Silviu Stroe
 layout: post
@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=135
 permalink: /cross-site-script-inclusionxssi-un-nou-tip-de-atac/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Cybersecurity
 tags:
   - Cross Site Script Inclusion
   - tutorial XSSI
@@ -19,7 +21,7 @@ tags:
 <div id="post_message_438158">
   <blockquote>
     <p>
-      <em>In urma cu cateva zile un utilizator al forumului RSTCenter(asa imi place sa ii spun), a dat definitia unui nou tip de vulnerabilitate destul de recent </em>gandita ,iar aceasta se numeste &#8220;Cross Site Script Inclusion&#8221;, prescurtata si XSSI. In continuare aveti toate detaliile legate de acest tip de atac, de la &#8220;Domnul.Do&#8221;, un utilizator al forumului.
+      <em>In urma cu cateva zile un utilizator al forumului RSTCenter(asa imi place sa ii spun), a dat definitia unui nou tip de vulnerabilitate destul de recent </em>gandita ,iar aceasta se numeste “Cross Site Script Inclusion”, prescurtata si XSSI. In continuare aveti toate detaliile legate de acest tip de atac, de la “Domnul.Do”, un utilizator al forumului.
     </p>
     
     <p>
@@ -31,7 +33,7 @@ tags:
     </p>
     
     <p>
-      Acest P.o.C se refera la un tip se vulnerabilitate numita &#8220;Information Leakage&#8221; deoarece poate verifica daca un user are o anumita valoare a parametrului &#8220;u&#8221; .<br /> Acest concept este adresat userului care are avatar.
+      Acest P.o.C se refera la un tip se vulnerabilitate numita “Information Leakage” deoarece poate verifica daca un user are o anumita valoare a parametrului “u” .<br /> Acest concept este adresat userului care are avatar.
     </p>
     
     <p>
@@ -47,19 +49,19 @@ tags:
     </div>
     
     <p>
-      Dar acest url este mai special deoarece numai respectivul care are valoare parametrului &#8220;u&#8221; egala cu 95563 (in cazul de fata user-ul meu) poate sa vada acest avatar. Daca &#8220;u&#8221; este diferit de &#8220;95563&#8221; atunci o sa apara un pixel cu dimensiunea 1&#215;1 .<br /> Acesta variatie se poate vedea cross-domain prin &#8220;width&#8221; si &#8220;height&#8221; avatarului.
+      Dar acest url este mai special deoarece numai respectivul care are valoare parametrului “u” egala cu 95563 (in cazul de fata user-ul meu) poate sa vada acest avatar. Daca “u” este diferit de “95563” atunci o sa apara un pixel cu dimensiunea 1×1 .<br /> Acesta variatie se poate vedea cross-domain prin “width” si “height” avatarului.
     </p>
     
     <p>
-      Ce inseamna asta:<br /> Daca administrati un site care este visualizat de 5 useri logati in rsforums.com , puteti sa identificati unul sau toti (daca detineti valoarea parametrului &#8220;u&#8221; corecta).
+      Ce inseamna asta:<br /> Daca administrati un site care este visualizat de 5 useri logati in rsforums.com , puteti sa identificati unul sau toti (daca detineti valoarea parametrului “u” corecta).
     </p>
     
     <p>
-      P.o.C:<br /> ==============<br /> E un P.o.C raw dar isi indeplineste scopul:<br /> <a href="http://jsfiddle.net/sBLTE/" target="_blank" rel="nofollow">Edit this Fiddle &#8211; jsFiddle</a>
+      P.o.C:<br /> ==============<br /> E un P.o.C raw dar isi indeplineste scopul:<br /> <a href="http://jsfiddle.net/sBLTE/" target="_blank" rel="nofollow">Edit this Fiddle – jsFiddle</a>
     </p>
     
     <p>
-      Daca aveti &#8220;u&#8221;-ul egala cu &#8220;95563&#8221; atunci o sa apare 86&#215;100 (nu o sa fie cazul) daca nu aveti &#8220;u&#8221;-ul respectiv o sa apara 1&#215;1 .
+      Daca aveti “u”-ul egala cu “95563” atunci o sa apare 86×100 (nu o sa fie cazul) daca nu aveti “u”-ul respectiv o sa apara 1×1 .
     </p>
     
     <p>

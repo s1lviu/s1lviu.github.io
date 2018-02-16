@@ -8,18 +8,20 @@ guid: http://silviu-s.com/?p=291
 permalink: /generator-de-cnp-uri-javascript/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Projects
 ---
 Cautand astazi pe Web dupa un generator de CNP-uri, dar realizat in JavaScript si negasind nimic, am decis sa realizez eu unul. In continuare o sa atasez codul comentat:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;title&gt;Generator de CNP-uri in JavaScript&lt;/title&gt;
-&lt;meta name="author" content="Silviu-S.com"&gt;
-&lt;body&gt;
-&lt;p id="demo"&gt;Apasa butonul pentru a genera CNP-uri&lt;/p&gt;
-&lt;button onclick="genereaza()"&gt;Genereaza&lt;/button&gt;
-&lt;ul id="lista"&gt;&lt;/ul&gt;
-&lt;script&gt;
+<pre class="brush: xml; title: ; notranslate" title=""><!DOCTYPE html>
+<html>
+<title>Generator de CNP-uri in JavaScript</title>
+<meta name="author" content="Silviu-S.com">
+<body>
+<p id="demo">Apasa butonul pentru a genera CNP-uri</p>
+<button onclick="genereaza()">Genereaza</button>
+<ul id="lista"></ul>
+<script>
 function genereaza()
 {
 
@@ -30,11 +32,11 @@ var ziua = Math.floor(Math.random() * (28 - 1 + 1)) + 1;
 var judet = Math.floor(Math.random() * (52 - 1 + 1)) + 1;
 var nnn = Math.floor(Math.random() * (999 - 1 + 1)) + 1;
 
-if(luna&lt;10) luna = "0" + luna;
-if(ziua&lt;10) ziua = "0" + ziua;
-if(judet&lt;10) judet = "0" + judet; //adaugare un 0 in fata daca numarul este mai mic decat 10
-if(nnn&lt;10) nnn = "00" + nnn;
-if(nnn&lt;100 && nnn&gt;10) nnn = "0" + nnn;
+if(luna<10) luna = "0" + luna;
+if(ziua<10) ziua = "0" + ziua;
+if(judet<10) judet = "0" + judet; //adaugare un 0 in fata daca numarul este mai mic decat 10
+if(nnn<10) nnn = "00" + nnn;
+if(nnn<100 && nnn>10) nnn = "0" + nnn;
 
 var cnp_i = sex+""+an+""+luna+""+ziua+""+judet+""+nnn; //concatenarea datelor
 var cnp_f = cnp_i.replace(/ /g, ''); //eliminarea spatiilor
@@ -43,7 +45,7 @@ var cnp_f = cnp_i.replace(/ /g, ''); //eliminarea spatiilor
 var cnp = cnp_i.split('');
 var cifra = ["2", "7", "9", "1","4","6","3","5","8","2","7","9"];
 suma = 0;
-for (i = 0; i &lt; 12; i++) {
+for (i = 0; i < 12; i++) {
 if(isNaN(cnp[i])==false) //verificarea daca cnp-ul generat pana acum este format doar din numere
 suma += (cifra[i] * cnp[i]); //calcularea sumei de control
 }
@@ -58,12 +60,12 @@ var textnode=document.createTextNode(cnp_final); //crearea unui nod, in vederea 
 node.appendChild(textnode);
 document.getElementById("lista").appendChild(node);
 }
-&lt;/script&gt;
-&lt;footer&gt;
-&lt;p&gt;Script realizat de: &lt;a href="http://silviu-s.com"&gt;Silviu-S.com&lt;/a&lt;/p&gt;
-&lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+<footer>
+<p>Script realizat de: <a href="http://silviu-s.com">Silviu-S.com</a</p>
+</footer>
+</body>
+</html>
 
 </pre>
 

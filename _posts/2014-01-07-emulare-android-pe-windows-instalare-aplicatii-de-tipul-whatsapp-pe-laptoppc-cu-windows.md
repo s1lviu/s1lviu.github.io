@@ -9,6 +9,8 @@ permalink: /emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-200x100.jpg
+categories:
+  - Articles
 tags:
   - android pe laptop
   - android pe linux
@@ -35,6 +37,6 @@ Procesul de instalare este destul de simplu. Trebuie sa acceptati instalarea dri
 
 Apoi va trebui sa va faceti un cont gratuit la ei pe site, mai exact <a title="genymotion account" href="https://cloud.genymotion.com/page/customer/login/?next=/" target="_blank">aici</a> cu care va trebui sa va logati in soft.  Dupa logare, va recomand sa va alegeti un model de telefon cu ultima versiune de Android.
 
-Dupa ce procesul s-a finalizat, puteti sa descarcati WhatsApp de pe site-ul lor, navigand cu browserul &#8220;telefonului&#8221; din sistemul de operare nou creat pe pagina lor oficiala: <http://www.whatsapp.com/download/?l=ro> si sa descarcati WhatsApp pentru Android. Dupa acesta s-a instalat si vreti sa va logati, va trebui sa asteptati cele 5 minute, cat dureaza verificarea mesajului, iar apoi sa alegeti optiunea de verificare prin apel. Dupa aceasta un robot va va suna si veti primi codul de 6 cifre necesar la validarea logarii.
+Dupa ce procesul s-a finalizat, puteti sa descarcati WhatsApp de pe site-ul lor, navigand cu browserul “telefonului” din sistemul de operare nou creat pe pagina lor oficiala: <http://www.whatsapp.com/download/?l=ro> si sa descarcati WhatsApp pentru Android. Dupa acesta s-a instalat si vreti sa va logati, va trebui sa asteptati cele 5 minute, cat dureaza verificarea mesajului, iar apoi sa alegeti optiunea de verificare prin apel. Dupa aceasta un robot va va suna si veti primi codul de 6 cifre necesar la validarea logarii.
 
 Sper ca acest mic tutorial sa va fie de folos! Pentru nelamuriri, nu ezitati sa lasati un comentariu! Bye! 😀

@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=373
 permalink: /agenda-telefonica-in-java/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
 tags:
   - abonati
   - agenda de telefoane electronca
@@ -45,11 +47,11 @@ Am urmatorul proiect in Java.
   
 > Abonat
   
-> NrTel &#8211; pe care o puteti folosi ca unica clasa pt numere de telefon, sau o puteti declara abstracta si din ea derivati alte doua, NrFix si NrMobil; oricum ar fi, tipul numarului de telefon este cunoscut si validarea tine cont de acest tip
+> NrTel – pe care o puteti folosi ca unica clasa pt numere de telefon, sau o puteti declara abstracta si din ea derivati alte doua, NrFix si NrMobil; oricum ar fi, tipul numarului de telefon este cunoscut si validarea tine cont de acest tip
   
 > NrFix si NrMobil, daca ati ales varianta derivarii
   
-> CarteDeTelefon &#8211; este de fapt clasa de pornire care depoziteaza abonatii si metodele de manevrare a acestora, asa-numitul “model” (din arhitectura M-V-C)
+> CarteDeTelefon – este de fapt clasa de pornire care depoziteaza abonatii si metodele de manevrare a acestora, asa-numitul “model” (din arhitectura M-V-C)
   
 > Clasele corespunzatoare interfetelor grafice – care sa permita introducere abonat, modificare abonat, stergere abonat, cautare abonat dupa diverse criterii, afisare abonati sortati dupa un anume criteriu specificat de utilizator etc. Aici numarul, tipul si denumirile claselor le alegeti voi cum doriti.
   
@@ -59,7 +61,7 @@ Am urmatorul proiect in Java.
 > 
 > Clasa Abonat
 > 
-> Un obiect de tip Abonat are nume, prenume, CNP (care identifica in mod unic o persoana &#8211; pentru cazul a doua persoane cu acelasi nume) si un camp de tip NrTel. Obiectele de tip Abonat vor putea fi ordonate dupa oricare din cele 4 atribute.
+> Un obiect de tip Abonat are nume, prenume, CNP (care identifica in mod unic o persoana – pentru cazul a doua persoane cu acelasi nume) si un camp de tip NrTel. Obiectele de tip Abonat vor putea fi ordonate dupa oricare din cele 4 atribute.
 > 
 > Clasa CarteDeTelefon
 > 
@@ -67,13 +69,13 @@ Am urmatorul proiect in Java.
 > 
 > Clasa CarteDeTelefon pune la dispozitia utilizatorului metode pentru:
   
-> &#8211; adaugare/stergere/modificare de abonat
+> – adaugare/stergere/modificare de abonat
   
-> &#8211; cautare abonat dupa fragmente de nume, numar, CNP si pozitie
+> – cautare abonat dupa fragmente de nume, numar, CNP si pozitie
   
-> &#8211; salvarea/incarcarea bazei de date cu abonati (lucru cu hard-disk-ul)
+> – salvarea/incarcarea bazei de date cu abonati (lucru cu hard-disk-ul)
   
-> &#8211; ordonarea abonatilor dupa oricare dintre criteriile posibile
+> – ordonarea abonatilor dupa oricare dintre criteriile posibile
 > 
 > Interfata grafica
 > 
@@ -87,7 +89,7 @@ Am urmatorul proiect in Java.
   
 > In meniul Help este activ elementul Inregistrare
   
-> dedesubtul ferestrei principale (ca parte a sa) va exista o zona de reclame. Alegeti cateva poze de aceeasi marime pe care le puneti intr-un JLabel, si pe care le schimbati periodic (odata la 3-5 secunde, sa zicem) cu ajutorul unui thread &#8211; puteti folosi Timer si TimerTask sau chiar un Thread.
+> dedesubtul ferestrei principale (ca parte a sa) va exista o zona de reclame. Alegeti cateva poze de aceeasi marime pe care le puneti intr-un JLabel, si pe care le schimbati periodic (odata la 3-5 secunde, sa zicem) cu ajutorul unui thread – puteti folosi Timer si TimerTask sau chiar un Thread.
   
 > Fereastra principala va contine lista de abonati (care, la pornirea aplicatiei, este populata cu informatiile salvate anterior, daca exista) si butoane pentru adaugare/stergere/modificare/sortare/cautare/iesire. Fereastra va avea o bara de meniu, cu meniurile:
   
@@ -103,13 +105,13 @@ Am urmatorul proiect in Java.
   
 > Abonati
   
-> Adauga… &#8211; are acelasi efect ca si butonul de adaugare din fereastra principala, si anume afisarea ferestrei/dialogului de adaugare de abonat
+> Adauga… – are acelasi efect ca si butonul de adaugare din fereastra principala, si anume afisarea ferestrei/dialogului de adaugare de abonat
   
-> Cauta… &#8211; analog
+> Cauta… – analog
   
-> Sterge… &#8211; analog
+> Sterge… – analog
   
-> Modifica… &#8211; analog
+> Modifica… – analog
   
 > Help
   

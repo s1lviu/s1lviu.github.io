@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=349
 permalink: /concurs-10-invitatii-pe-filelist-ro/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - concurs filelist
 ---

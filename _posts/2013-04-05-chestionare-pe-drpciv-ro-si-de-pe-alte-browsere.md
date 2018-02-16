@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=131
 permalink: /chestionare-pe-drpciv-ro-si-de-pe-alte-browsere/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - chestionare drpciv
   - chestionare pe drpciv
@@ -16,7 +18,7 @@ tags:
   - drpciv google chrome
   - drpciv internet explorer
 ---
-Probabil ati incercat sa faceti chestionare auto de pe un browser folosit precum Google Chrome sau Mozilla Firefox. Acum o sa va arat un trick foarte simplu pentru a putea face chestionare de pe browserul dvs. favorit si nu de pe &#8220;mizeria&#8221; impusa de creatorii site-ului drpciv.ro.
+Probabil ati incercat sa faceti chestionare auto de pe un browser folosit precum Google Chrome sau Mozilla Firefox. Acum o sa va arat un trick foarte simplu pentru a putea face chestionare de pe browserul dvs. favorit si nu de pe “mizeria” impusa de creatorii site-ului drpciv.ro.
 
 Acestia sunt pasii:
 
@@ -24,7 +26,7 @@ Acestia sunt pasii:
 
 2.Va autentificati, introducand mail-ul si parola.
 
-3. In loc sa dati click stanga pe &#8220;[Testare examen online](http://www.drpciv.ro/info-portal/dlExamSignUp.do)&#8220;, va trebui sa dati click dreapta pe &#8220;[Testare examen online](http://www.drpciv.ro/info-portal/dlExamSignUp.do)&#8220;, iar apoi &#8220;Deschideti linkul intr-o fila noua&#8221;.
+3. In loc sa dati click stanga pe “[Testare examen online](http://www.drpciv.ro/info-portal/dlExamSignUp.do)“, va trebui sa dati click dreapta pe “[Testare examen online](http://www.drpciv.ro/info-portal/dlExamSignUp.do)“, iar apoi “Deschideti linkul intr-o fila noua”.
 
 4. Treceti la treaba! 😀
 

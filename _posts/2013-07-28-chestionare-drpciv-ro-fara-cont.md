@@ -9,6 +9,8 @@ permalink: /chestionare-drpciv-ro-fara-cont/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/07/drpciv-200x100.jpg
+categories:
+  - Projects
 tags:
   - chestionare chrome
   - chestionare drpciv

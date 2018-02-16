@@ -9,6 +9,8 @@ permalink: /descarca-muzica-pe-mobil/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/08/logo-200x92.png
+categories:
+  - Articles
 tags:
   - descarca muzica noua
   - download ringtone

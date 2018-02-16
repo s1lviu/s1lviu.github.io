@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=92
 permalink: /introducere-in-html5/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - html5
   - introducere
@@ -23,14 +25,14 @@ Urmărind predecesorii săi imediați HTML 4.01 și XHTML 1.1, HTML5 este un ră
 
 Mai jos aveti un exemplu basic:
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
+<pre class="brush: php; title: ; notranslate" title=""><!DOCTYPE html>
+<html>
+<body>
 
-&lt;h1&gt;Prima mea rubrica&lt;/h1&gt;
+<h1>Prima mea rubrica</h1>
 
-&lt;p&gt;Primul meu paragraf&lt;/p&gt;
+<p>Primul meu paragraf</p>
 
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 </pre>

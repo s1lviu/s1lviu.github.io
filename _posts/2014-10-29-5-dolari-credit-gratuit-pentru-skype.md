@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=321
 permalink: /5-dolari-credit-gratuit-pentru-skype/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - 5$ skype
   - credit gratuit skype
@@ -22,7 +24,7 @@ Am decis sa incerc si eu, iar dupa aproximativ 48 de ore am primit voucherul. Di
 
 Pentru a adauga contactele, in vederea primirii voucherului, trebuie sa accesati link-urile de mai jos si sa adaugati prietenii in lista.
 
-&nbsp;
+ 
 
 [Adauga Contact 1](skype:acerexplorertw1?add)
   

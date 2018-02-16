@@ -9,6 +9,8 @@ permalink: /chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2014/01/drum_cu_prioritate-200x100.jpg
+categories:
+  - Articles
 tags:
   - chestionare auto
   - chestionare auto categoria b
@@ -32,4 +34,4 @@ Ca limbaje de programare am folosit PHP combinat cu cURL, prin care preiau intre
 
 Adresa site-ului este <a title="chestionare auto categoria b" href="http://chestionare-auto.us" target="_blank">aceasta</a>.
 
-PS: Intrebarile sunt preluate &#8220;live&#8221; de pe site-ul drpciv.ro.
+PS: Intrebarile sunt preluate “live” de pe site-ul drpciv.ro.

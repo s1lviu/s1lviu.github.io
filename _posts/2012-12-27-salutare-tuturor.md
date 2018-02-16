@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=1
 permalink: /salutare-tuturor/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 ---
 Salutare tuturor si bine v-am gasit pe proaspatul meu blog!
   

@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=361
 permalink: /licenta-gratuita-windows-10-daca-esti-student/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - descarca windows 10
   - facultate windows
@@ -111,7 +113,7 @@ Iata cateva dintre acestea:
   </tr>
 </table>
 
-Pentru a va putea inregistra pe site-ul celor de la Microsoft &#8211; Dreamspark, trebuie sa aveti la indemana o poza clara de pe carnetul vostru de student cu primele doua pagini (fix cum deschideti carnetul, unde se observa poza si celelalte detalii personale).
+Pentru a va putea inregistra pe site-ul celor de la Microsoft – Dreamspark, trebuie sa aveti la indemana o poza clara de pe carnetul vostru de student cu primele doua pagini (fix cum deschideti carnetul, unde se observa poza si celelalte detalii personale).
 
 Pentru a creea contul si a incepe verificarea, accesati <a title="licenta windows 10" href="https://www.msacademicverify.com/AVE/Verify/NewDefault.aspx" target="_blank">acest link</a> (va creeati cont Microsoft daca nu aveti) si urmariti pasii din poza de mai jos.
   

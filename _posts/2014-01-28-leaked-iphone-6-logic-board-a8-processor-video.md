@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=253
 permalink: /leaked-iphone-6-logic-board-a8-processor-video/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - a8 chip
   - iphone 6
@@ -34,4 +36,4 @@ Secretele din spatele placii de baza a noului iPhone 6, dezvaluite:
   Sursa: news.softpedia.com
 </div>
 
-&nbsp;
+ 

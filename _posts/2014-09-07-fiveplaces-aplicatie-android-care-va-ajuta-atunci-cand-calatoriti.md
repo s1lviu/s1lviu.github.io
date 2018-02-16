@@ -8,6 +8,9 @@ guid: http://silviu-s.com/?p=311
 permalink: /fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
+  - Projects
 tags:
   - locuri langa brasov
   - locuri langa bucuresti
@@ -25,4 +28,4 @@ Aplicatia se numeste <a title="locuri langa mine" href="https://play.google.com/
 
 Fiind, a doua aplicatie, dupa cea de <a title="aplicatie indicatoare rutiere" href="https://play.google.com/store/apps/details?id=com.silvius.indicatoare" target="_blank">Indicatoare Rutiere</a>, am lucrat in jur de 60 de ore, pentru a o finaliza si a repara bug-urile majore.
 
-Daca o folositi si intampinati probleme sau descoperiti bug-uri in aceasta, va rog sa trimiteti un &#8220;crash report&#8221; sau sa imi lasati un comentariu. 😀
+Daca o folositi si intampinati probleme sau descoperiti bug-uri in aceasta, va rog sa trimiteti un “crash report” sau sa imi lasati un comentariu. 😀

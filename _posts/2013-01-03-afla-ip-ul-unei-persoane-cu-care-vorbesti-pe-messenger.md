@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=18
 permalink: /afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - afla
   - de

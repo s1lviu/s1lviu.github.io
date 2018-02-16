@@ -9,10 +9,12 @@ permalink: /ajutati-l-pe-andrei/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2013/09/andrei-chirieac211-150x100.png
+categories:
+  - Articles
 ---
 Citez:
 
-&#8221;
+”
 
 Mă numesc Chirieac Andrei, am 17 ani si sunt din Bacău.
 
@@ -38,10 +40,10 @@ Părinţii:
 
 **CHIRIEAC NELIA** – 0721165121
 
-**CHIRIEAC VASILE**&#8211; 0723977836.
+**CHIRIEAC VASILE**– 0723977836.
 
 Conturile sunt  deschise la BANCA TRANSILVANIA, pe numele părinţilor, după cum urmează :
 
 ### **RON** – RO91BTRLRONCRT0222448701
 
-### **EUR**  – RO41BTRLEURCRT0222448701&#8243;
+### **EUR**  – RO41BTRLEURCRT0222448701″

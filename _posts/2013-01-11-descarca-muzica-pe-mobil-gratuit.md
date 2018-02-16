@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=64
 permalink: /descarca-muzica-pe-mobil-gratuit/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - gratuit
   - mobil

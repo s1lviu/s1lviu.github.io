@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=369
 permalink: /cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - add website to freebsd
   - femp freebsd

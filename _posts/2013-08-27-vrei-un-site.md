@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=178
 permalink: /vrei-un-site/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - am nevoie de programator php
   - creaza magazin online

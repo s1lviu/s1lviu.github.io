@@ -2,8 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e82d2e18-8380-4a21-a5f4-678373bbdf2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-01-17-configure-travis-ci-use-gcc-5-compiler.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-05-facebook-groups-live-search-extension.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_decode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2012-12-27-salutare-tuturor.md" afterPath="$PROJECT_DIR$/_posts/2012-12-27-salutare-tuturor.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2012-12-30-website-uri-pe-care-le-detin.md" afterPath="$PROJECT_DIR$/_posts/2012-12-30-website-uri-pe-care-le-detin.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-03-afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger.md" afterPath="$PROJECT_DIR$/_posts/2013-01-03-afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-functie-php-ping-in-php.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-functie-php-ping-in-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-libertatea-ro-si-cum-sa-castigi-trafic-gratuit.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-libertatea-ro-si-cum-sa-castigi-trafic-gratuit.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-player-audio-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-player-audio-in-html5.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-restrictii-la-internet-in-caminele-studentesti.md" afterPath="$PROJECT_DIR$/_posts/2013-01-05-restrictii-la-internet-in-caminele-studentesti.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-rstcenter-com-s-a-redeschis.md" afterPath="$PROJECT_DIR$/_posts/2013-01-05-rstcenter-com-s-a-redeschis.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-cum-sa-descarci-muzica-de-pe-trilulilu.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-cum-sa-descarci-muzica-de-pe-trilulilu.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-extractor-intrebari-drpciv-ro-php.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-extractor-intrebari-drpciv-ro-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-phishing-via-target_blank.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-phishing-via-target_blank.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-07-castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs.md" afterPath="$PROJECT_DIR$/_posts/2013-01-07-castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-08-convertor-money-ro-imprastie-malware.md" afterPath="$PROJECT_DIR$/_posts/2013-01-08-convertor-money-ro-imprastie-malware.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-11-cum-sa-ascunzi-un-folder-pe-windows.md" afterPath="$PROJECT_DIR$/_posts/2013-01-11-cum-sa-ascunzi-un-folder-pe-windows.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-11-descarca-muzica-pe-mobil-gratuit.md" afterPath="$PROJECT_DIR$/_posts/2013-01-11-descarca-muzica-pe-mobil-gratuit.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-20-poza-unui-profil-de-facebook-la-marime-originala.md" afterPath="$PROJECT_DIR$/_posts/2013-01-20-poza-unui-profil-de-facebook-la-marime-originala.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-21-sfarsitul-bitcoin.md" afterPath="$PROJECT_DIR$/_posts/2013-01-21-sfarsitul-bitcoin.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-04-extrage-textul-dintre-doua-delimitatoare-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-04-extrage-textul-dintre-doua-delimitatoare-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-extrage-elementele-html-dintr-o-pagina-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-extrage-elementele-html-dintr-o-pagina-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-hotfiles-ro-girlshare-ro-mp3-downloader-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-hotfiles-ro-girlshare-ro-mp3-downloader-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-introducere-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-introducere-in-html5.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-strileprotv-ro-comment-spammer-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-strileprotv-ro-comment-spammer-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-07-elemente-noi-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-02-07-elemente-noi-in-html5.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-10-script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri.md" afterPath="$PROJECT_DIR$/_posts/2013-02-10-script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-02-16-vpn-romania.md" afterPath="$PROJECT_DIR$/_posts/2013-02-16-vpn-romania.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-03-18-romania-te-iubesc-hackerville.md" afterPath="$PROJECT_DIR$/_posts/2013-03-18-romania-te-iubesc-hackerville.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-gt-i9190-s4-mini.md" afterPath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-gt-i9190-s4-mini.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-i9500-s4-pret.md" afterPath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-i9500-s4-pret.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-04-05-chestionare-pe-drpciv-ro-si-de-pe-alte-browsere.md" afterPath="$PROJECT_DIR$/_posts/2013-04-05-chestionare-pe-drpciv-ro-si-de-pe-alte-browsere.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-04-13-cross-site-script-inclusionxssi-un-nou-tip-de-atac.md" afterPath="$PROJECT_DIR$/_posts/2013-04-13-cross-site-script-inclusionxssi-un-nou-tip-de-atac.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-ask-fm-spammer-php.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-ask-fm-spammer-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-chestionare-drpciv-ro-fara-cont.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-chestionare-drpciv-ro-fara-cont.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-url-list-sqli-scanner.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-url-list-sqli-scanner.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-06-whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox.md" afterPath="$PROJECT_DIR$/_posts/2013-08-06-whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-07-preia-imaginea-de-fundal-a-unui-profil-ask-fm.md" afterPath="$PROJECT_DIR$/_posts/2013-08-07-preia-imaginea-de-fundal-a-unui-profil-ask-fm.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-20-blocheaza-cererile-de-jocuri-pe-facebook.md" afterPath="$PROJECT_DIR$/_posts/2013-08-20-blocheaza-cererile-de-jocuri-pe-facebook.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-26-descarca-muzica-pe-mobil.md" afterPath="$PROJECT_DIR$/_posts/2013-08-26-descarca-muzica-pe-mobil.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-27-fura-poza-unui-profil-de-facebook.md" afterPath="$PROJECT_DIR$/_posts/2013-08-27-fura-poza-unui-profil-de-facebook.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-27-vrei-un-site.md" afterPath="$PROJECT_DIR$/_posts/2013-08-27-vrei-un-site.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-29-opreste-spam-ul-ask-fm.md" afterPath="$PROJECT_DIR$/_posts/2013-08-29-opreste-spam-ul-ask-fm.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-09-04-instalare-dd-wrt-pe-tp-link-tl-wr740n.md" afterPath="$PROJECT_DIR$/_posts/2013-09-04-instalare-dd-wrt-pe-tp-link-tl-wr740n.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-09-06-ajutati-l-pe-andrei.md" afterPath="$PROJECT_DIR$/_posts/2013-09-06-ajutati-l-pe-andrei.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-09-28-strawpoll-bot.md" afterPath="$PROJECT_DIR$/_posts/2013-09-28-strawpoll-bot.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-10-13-vouchere-gratuite-notino-aoro-ro.md" afterPath="$PROJECT_DIR$/_posts/2013-10-13-vouchere-gratuite-notino-aoro-ro.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-10-20-compilator-c-online.md" afterPath="$PROJECT_DIR$/_posts/2013-10-20-compilator-c-online.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-10-28-cum-sa-oprim-aplicatia-bbm-pe-android.md" afterPath="$PROJECT_DIR$/_posts/2013-10-28-cum-sa-oprim-aplicatia-bbm-pe-android.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-11-28-cupoane-nelimitate-de-reducere-20-la-kfc.md" afterPath="$PROJECT_DIR$/_posts/2013-11-28-cupoane-nelimitate-de-reducere-20-la-kfc.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-12-12-trimite-fotografii-si-videoclipuri-cu-instagram.md" afterPath="$PROJECT_DIR$/_posts/2013-12-12-trimite-fotografii-si-videoclipuri-cu-instagram.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-07-emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows.md" afterPath="$PROJECT_DIR$/_posts/2014-01-07-emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-17-optimizare-seo-pentru-imagini.md" afterPath="$PROJECT_DIR$/_posts/2014-01-17-optimizare-seo-pentru-imagini.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-infractiunile-informatice-din-noul-cod-penal.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-infractiunile-informatice-din-noul-cod-penal.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-leaked-iphone-6-logic-board-a8-processor-video.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-leaked-iphone-6-logic-board-a8-processor-video.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-03-11-am-aparut-pe-yahoo-wall-of-fame.md" afterPath="$PROJECT_DIR$/_posts/2014-03-11-am-aparut-pe-yahoo-wall-of-fame.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-03-14-ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture.md" afterPath="$PROJECT_DIR$/_posts/2014-03-14-ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-04-07-vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza.md" afterPath="$PROJECT_DIR$/_posts/2014-04-07-vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-04-18-graphics-h-si-opengl-codeblocks.md" afterPath="$PROJECT_DIR$/_posts/2014-04-18-graphics-h-si-opengl-codeblocks.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-05-16-generator-de-cnp-uri-javascript.md" afterPath="$PROJECT_DIR$/_posts/2014-05-16-generator-de-cnp-uri-javascript.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-08-11-setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc.md" afterPath="$PROJECT_DIR$/_posts/2014-08-11-setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-09-07-fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti.md" afterPath="$PROJECT_DIR$/_posts/2014-09-07-fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-09-14-ghid-metrou-si-harta-metroului-din-bucuresti-actualizata.md" afterPath="$PROJECT_DIR$/_posts/2014-09-14-ghid-metrou-si-harta-metroului-din-bucuresti-actualizata.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-10-29-5-dolari-credit-gratuit-pentru-skype.md" afterPath="$PROJECT_DIR$/_posts/2014-10-29-5-dolari-credit-gratuit-pentru-skype.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-12-22-clasa-php-pentru-a-facilita-folosirea-curl.md" afterPath="$PROJECT_DIR$/_posts/2014-12-22-clasa-php-pentru-a-facilita-folosirea-curl.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-01-27-cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1.md" afterPath="$PROJECT_DIR$/_posts/2015-01-27-cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-03-01-concurs-10-invitatii-pe-filelist-ro.md" afterPath="$PROJECT_DIR$/_posts/2015-03-01-concurs-10-invitatii-pe-filelist-ro.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-08-03-licenta-gratuita-windows-10-daca-esti-student.md" afterPath="$PROJECT_DIR$/_posts/2015-08-03-licenta-gratuita-windows-10-daca-esti-student.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-08-25-cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control.md" afterPath="$PROJECT_DIR$/_posts/2015-08-25-cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-08-30-agenda-telefonica-in-java.md" afterPath="$PROJECT_DIR$/_posts/2015-08-30-agenda-telefonica-in-java.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-12-21-implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass.md" afterPath="$PROJECT_DIR$/_posts/2015-12-21-implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-01-10-osclass-rotative-classifieds-widget-generator.md" afterPath="$PROJECT_DIR$/_posts/2016-01-10-osclass-rotative-classifieds-widget-generator.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-01-17-e-commerce-platform-based-on-mongodb-php.md" afterPath="$PROJECT_DIR$/_posts/2016-01-17-e-commerce-platform-based-on-mongodb-php.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-04-new-facebook-messenger-features.md" afterPath="$PROJECT_DIR$/_posts/2016-02-04-new-facebook-messenger-features.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-25-mongodb-on-laravel-homestead-with-php-7.md" afterPath="$PROJECT_DIR$/_posts/2016-02-25-mongodb-on-laravel-homestead-with-php-7.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-03-network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge.md" afterPath="$PROJECT_DIR$/_posts/2016-04-03-network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-01-share-location-waze-laptop-mobile.md" afterPath="$PROJECT_DIR$/_posts/2016-05-01-share-location-waze-laptop-mobile.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md" afterPath="$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-11-27-use-jquery-library-modules-angularjs-ng-include.md" afterPath="$PROJECT_DIR$/_posts/2016-11-27-use-jquery-library-modules-angularjs-ng-include.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-12-send-firebase-user-auth-token-every-request-angularjs.md" afterPath="$PROJECT_DIR$/_posts/2017-03-12-send-firebase-user-auth-token-every-request-angularjs.md" />
+      <change beforePath="$PROJECT_DIR$/about-cookies.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contact.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/despre-mine.md" afterPath="$PROJECT_DIR$/despre-mine.md" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/administrare.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/anunturi.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/biologie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/chimie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/concursuri.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/contact.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/culturale.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/educatie_fizica.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/engleza.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/fizica.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/forum/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/franceza.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/galerie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/geografie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/germana.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/administrare.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/anunturi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/background1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/books.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/cm_liceu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/concursuri.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/contact.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/culturale.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu1_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu2_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu3_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/galerie.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/imn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/instorie.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/bg_grad.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/bg_nav.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/gblnav_left.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glblnav_selected.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glbnav_background.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glbnav_right.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/tl_curve_white.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/tr_curve_white.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/gigi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/lider.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/vadim.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/vanghelie.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/adam_viorica.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/anania_elisabeta.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/badescu_adriana.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/baditescu_simona.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/balan_mircea.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/berevoescu_catalin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/blidaru_margarin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/bulea_cornel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/butoiu_ludmila.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/calangiu_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/calinescu_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/caramelea_viorel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/ciortan_elena.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cocarla_rodica1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/coza_gherghina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cretu_c-tin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cristudor_mihai.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dejan_florentina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dumitrascu_dan.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dumitrascu_teodora.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/enasescu_petruta.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/enescu_irina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/fuscel_cristina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/georgescu_dumitru.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/georgescu_florin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/heroiu_bogdan.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/horvat_maria.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/iacobescu_camelia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/ivan_adina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/joita_roxana.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/lazarovici_cristina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/manu_anca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/manu_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/marinescu_anca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/moise_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/musetescu_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/negus_laura.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/nicolaescu_iulian.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/oarga_cornel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_gabriela.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_george.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_maria.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/oncescu_manuela.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/parghel_petre.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/petrisor_c-tin.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/pisau_daniela.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/popescu_ileana_argesel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/popovici_luminita.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/sarbu_vasile.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/serafimescu_iolanda.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/simescu_doina.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/sora_magdalena.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/stanescu_ion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tatulea_maria.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tica_vasile.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tonghioiu_alberto.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tudosie_stefan.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vasilescu_mihaela.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vintila_marcel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vocila_ghe.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vocila_gheorghe.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/voican_dragos.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/zabava_pavel.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/zaharia_nicolae.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/resurse.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/sport.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/imn.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/informatica.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/istoria.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/istorie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/latina.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/lideri.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/matematica.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/muzica_desen.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/pageNav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/profesori.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/religie.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/resurse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rezultate_0001.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rezultate_9900.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/romana-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/romana.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rusa.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/sportive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/stiinte_sociale.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/portfolio.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/fbrfg/browserconfig.xml" afterPath="$PROJECT_DIR$/wp-content/uploads/fbrfg/browserconfig.xml" />
     </list>
     <ignored path="s1lviu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,12 +260,11 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="s1lviu.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,13 +273,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index</find>
+      <find>posts</find>
+      <find>.safe</find>
+      <find>gems</find>
+      <find>&lt;/head&gt;</find>
+      <find>transpiles</find>
+      <find>webstorm</find>
+      <find>webstorm</find>
+      <find>&lt;title&gt;How to send Firebase user auth token with every request in AngularJS</find>
+      <find>about</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/back.html" />
         <option value="$PROJECT_DIR$/orar.html" />
         <option value="$PROJECT_DIR$/waze.html" />
@@ -46,6 +300,17 @@
         <option value="&lt;5e9db237-d749-4099-a747-1a64f05bf965&gt;/wazemylocation.link/ol3.js" />
         <option value="$PROJECT_DIR$/yt/youtube.html" />
         <option value="$PROJECT_DIR$/indocta.user.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_posts/d.php" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/despre-mine.md" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
@@ -55,17 +320,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/yt/node_modules" />
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="723" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="166" />
+    <option name="width" value="1736" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,22 +347,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s1lviu.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s1lviu.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="s1lviu.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s1lviu.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,9 +376,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/yt" />
     </key>
   </component>
@@ -169,15 +434,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -197,6 +453,14 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -228,6 +492,9 @@
       <workItem from="1477320055660" duration="2202000" />
       <workItem from="1477421206339" duration="119000" />
       <workItem from="1496231448998" duration="37000" />
+      <workItem from="1518454072099" duration="299000" />
+      <workItem from="1518606353583" duration="4000" />
+      <workItem from="1518722610391" duration="8820000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1458393651068</created>
@@ -527,20 +794,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26109000" />
+    <option name="totallyTimeSpent" value="35232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="6" />
+    <frame x="0" y="23" width="2048" height="1073" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18401578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750398" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26482618" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -548,9 +815,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -577,7 +845,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -599,144 +867,232 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/indocta.user.js">
+    <entry file="file://$PROJECT_DIR$/indocta.user.js" />
+    <entry file="file://$PROJECT_DIR$/yt/youtube.html" />
+    <entry file="file://$PROJECT_DIR$/yt/youtube.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/waze.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/back.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/back.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/back.html" />
+    <entry file="file://$PROJECT_DIR$/waze.html" />
+    <entry file="file://$PROJECT_DIR$/orar.html" />
+    <entry file="file://$PROJECT_DIR$/yt/youtube.html" />
+    <entry file="file://$PROJECT_DIR$/indocta.user.js" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="173">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yt/youtube.html">
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-11-27-use-jquery-library-modules-angularjs-ng-include.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-02-10-script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4132">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="300" column="36" lean-forward="false" selection-start-line="300" selection-start-column="28" selection-end-line="300" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="19" column="290" lean-forward="false" selection-start-line="19" selection-start-column="290" selection-end-line="19" selection-end-column="290" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-12-27-salutare-tuturor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-01-20-poza-unui-profil-de-facebook-la-marime-originala.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yt/youtube.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md-e">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1259">
+            <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_decode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="330" column="6" lean-forward="false" selection-start-line="330" selection-start-column="6" selection-end-line="330" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waze.html">
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
+    <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/despre-mine.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/waze.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="119" column="29" lean-forward="false" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="330" column="6" lean-forward="false" selection-start-line="330" selection-start-column="6" selection-end-line="330" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yt/youtube.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indocta.user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="285">
+          <caret line="19" column="82" lean-forward="false" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
           <folding />
         </state>
       </provider>

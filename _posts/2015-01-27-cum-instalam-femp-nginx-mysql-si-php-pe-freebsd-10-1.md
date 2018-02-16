@@ -9,6 +9,8 @@ permalink: /cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2015/01/nginx--200x100.png
+categories:
+  - Articles
 tags:
   - apache
   - freebsd
@@ -287,7 +289,7 @@ dar si un fisier php, pentru a vedea daca totul functioneaza cum trebuie:
 
 unde vom introduce 
 
-<pre class="brush: php; title: ; notranslate" title="">&lt;?php phpinfo(); ?&gt;</pre>
+<pre class="brush: php; title: ; notranslate" title=""><?php phpinfo(); ?></pre>
 
 .
   

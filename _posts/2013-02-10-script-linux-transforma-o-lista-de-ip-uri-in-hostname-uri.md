@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=101
 permalink: /script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
 tags:
   - hostname
   - ip
@@ -18,6 +20,6 @@ Aveti aici un script bash care transforma o lista de ip-uri in reverse ip, adica
 
 <pre class="brush: php; title: ; notranslate" title="">for i in `cat ip.txt`
 do
-nslookup $i |grep name |awk '{print $NF}' |sed 's/.$//' &gt;&gt; hosts.txt
+nslookup $i |grep name |awk '{print $NF}' |sed 's/.$//' >> hosts.txt
 done
 </pre>

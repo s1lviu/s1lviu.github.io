@@ -9,6 +9,8 @@ permalink: /graphics-h-si-opengl-codeblocks/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2014/04/imaginea-22-3-200x100.jpg
+categories:
+  - Projects
 tags:
   - code blocks facultate
   - code blocks graphhics.h
@@ -25,7 +27,7 @@ tags:
 ---
 Fiind student, m-am confruntat zilele acestea cu o problema (de fapt, ne-am confruntat). Versiunea actuala de CodeBlocks, si nu numai nu vine configurata in nicun fel pentru a ne folosi de partea grafica a programarii.
 
-Am intampinat ceva probleme in configurarea CodeBlocks-ului pentru a folosi headerul graphics.h, iar programul nou compilat imi dadea &#8220;Not responding&#8221;, cea ce insemna ca ceva nu e bine. Asadar, observand aceste lucruri, un prieten mi-a dat ideea de a folosi compilatorul MinGW de la versiunea CodeBlocks-EP si asa am rulat programe grafice pe cea mai noua versiune de CodeBlocks folosind acea versiune a compilatorului MinGW.
+Am intampinat ceva probleme in configurarea CodeBlocks-ului pentru a folosi headerul graphics.h, iar programul nou compilat imi dadea “Not responding”, cea ce insemna ca ceva nu e bine. Asadar, observand aceste lucruri, un prieten mi-a dat ideea de a folosi compilatorul MinGW de la versiunea CodeBlocks-EP si asa am rulat programe grafice pe cea mai noua versiune de CodeBlocks folosind acea versiune a compilatorului MinGW.
 
 Prin urmare, am decis sa fac un installer preconfigurat, care sa foloseasca ce am spus mai sus, iar in plus sa vina configurat si pentru a folosi OpenGL.
 

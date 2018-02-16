@@ -8,6 +8,9 @@ guid: http://silviu-s.com/?p=318
 permalink: /ghid-metrou-si-harta-metroului-din-bucuresti-actualizata/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
+  - Projects
 tags:
   - android metrou
   - aplicatie android

@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=255
 permalink: /cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Cybersecurity
 tags:
   - Antivirus
   - Cryptocat
@@ -52,7 +54,7 @@ tags:
 
 <div id="aim25627262629781333808">
   <div>
-    Online users are now facing another similar <a href="http://thehackernews.com/search/label/ransomware" target="_blank">ransomware</a> called &#8216;<b>CryptorBit</b>&#8216;, first spotted on September 2013. It is not a variant of Cryptolocker but it does exactly the same thing i.e. Encrypt all the files on the Hard Disk.
+    Online users are now facing another similar <a href="http://thehackernews.com/search/label/ransomware" target="_blank">ransomware</a> called ‘<b>CryptorBit</b>‘, first spotted on September 2013. It is not a variant of Cryptolocker but it does exactly the same thing i.e. Encrypt all the files on the Hard Disk.
   </div>
   
   <div>
@@ -66,7 +68,7 @@ tags:
   </div>
   
   <div>
-    Once your system gets infected by the CryptorBit, it will encrypt your files and hold them until a ransom of <i>$50 &#8211; $500</i> or more is not paid. It will display a warning for you i.e. “<b>YOUR PERSONAL FILES ARE ENCYPTED</b>”, following a warning message i.e. &#8220;<i>All files including video, photos and documents, etc. on your computer are encrypted</i>&#8220;.
+    Once your system gets infected by the CryptorBit, it will encrypt your files and hold them until a ransom of <i>$50 – $500</i> or more is not paid. It will display a warning for you i.e. “<b>YOUR PERSONAL FILES ARE ENCYPTED</b>”, following a warning message i.e. “<i>All files including video, photos and documents, etc. on your computer are encrypted</i>“.
   </div>
   
   <div>
@@ -105,7 +107,7 @@ tags:
   </div>
   
   <div>
-    The most common windows folder location where the Cryptorbit virus lives &#8211; &#8220;<i>%AppData%</i>&#8221; and can be easily removed using Antivirus tools; but unlike traditional Ransomware, you can decrypt your files using system utility &#8216;<i>System Restore</i>&#8216;.
+    The most common windows folder location where the Cryptorbit virus lives – “<i>%AppData%</i>” and can be easily removed using Antivirus tools; but unlike traditional Ransomware, you can decrypt your files using system utility ‘<i>System Restore</i>‘.
   </div>
   
   <div>

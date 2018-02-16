@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=244
 permalink: /optimizare-seo-pentru-imagini/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - exif seo
   - imagini exif
@@ -75,10 +77,10 @@ Adaugam ceva keywords, descriere, copyright:
   </div>
   
   <pre>marian@pluto:~/work/<acronym title="Search Engine Optimization">seo</acronym>$ exiftool \
-&gt; -Comment='Brandurile comercializate de compania RST LTD va asigura garantia calitatii' \
-&gt; -Keywords='calitate,nume produs,cod produs, exemplu ..' \
-&gt; -Copyright='RST LTD @ 2014' \
-&gt; imagine.jpg
+> -Comment='Brandurile comercializate de compania RST LTD va asigura garantia calitatii' \
+> -Keywords='calitate,nume produs,cod produs, exemplu ..' \
+> -Copyright='RST LTD @ 2014' \
+> imagine.jpg
     1 image files updated</pre>
 </div>
 
@@ -120,11 +122,11 @@ Image Size                      : 1600x1200</pre>
 
 Referinte:
 
-&#8211; <a href="http://en.wikipedia.org/wiki/ExifTool" target="_blank" rel="nofollow">ExifTool &#8211; Wikipedia, the free encyclopedia</a>
+– <a href="http://en.wikipedia.org/wiki/ExifTool" target="_blank" rel="nofollow">ExifTool – Wikipedia, the free encyclopedia</a>
   
-&#8211; <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/" target="_blank" rel="nofollow">ExifTool by Phil Harvey</a>
+– <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/" target="_blank" rel="nofollow">ExifTool by Phil Harvey</a>
   
-&#8211; <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html" target="_blank" rel="nofollow">exiftool Application Documentation</a>
+– <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/exiftool_pod.html" target="_blank" rel="nofollow">exiftool Application Documentation</a>
 
 <a href="http://googlewebmastercentral.blogspot.de/2012/04/1000-words-about-images.html" target="_blank" rel="nofollow">Official Google Webmaster Central Blog: 1000 Words About Images</a>
 

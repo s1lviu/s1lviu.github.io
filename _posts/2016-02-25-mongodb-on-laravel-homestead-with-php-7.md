@@ -9,6 +9,8 @@ permalink: /mongodb-on-laravel-homestead-with-php-7/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2016/02/laravel-200x100.png
+categories:
+  - Articles
 tags:
   - mongodb
   - mongodb homestead

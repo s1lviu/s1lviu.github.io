@@ -11,6 +11,9 @@ hefo_before:
 hefo_after:
   - "0"
 image: /wp-content/uploads/2017/03/angular-firebase-600x300.jpg
+categories:
+  - Articles
+  - Programming
 tags:
   - angular firebase
   - angular firebase auth token
@@ -22,9 +25,9 @@ tags:
 ---
 Hello, guys!
 
-If you want to build an AngularJS app based of Firebase, probably at a certain time you want to verify if the logged user it&#8217;s the same one that makes requests to your backend server in order to serve specific data securely.
+If you want to build an AngularJS app based of Firebase, probably at a certain time you want to verify if the logged user it’s the same one that makes requests to your backend server in order to serve specific data securely.
   
-For this to happen, we must write a [service](https://docs.angularjs.org/guide/services) that will return a [promise](https://docs.angularjs.org/api/ng/service/$q) which contains the logged user&#8217;s token if the user is authenticated or else a error.
+For this to happen, we must write a [service](https://docs.angularjs.org/guide/services) that will return a [promise](https://docs.angularjs.org/api/ng/service/$q) which contains the logged user’s token if the user is authenticated or else a error.
 
 <pre class="brush: jscript; title: ; notranslate" title="">.factory('User', function ($q) {
 

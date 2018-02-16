@@ -19,6 +19,8 @@ enclosure:
     
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - com
   - deschis
@@ -46,13 +48,13 @@ Totul a inceput asa:
 
 Mai multe persoane au fost arestate pentru carding si vina a picat pe RST. De ce? Unele dintre persoanele arestate aveau cont aici.
 
-Aveti aici si videoclipul baietilor veseli: <a href="http://www.diicot.ro/images/videos/articles/28.11.2012.mp4" target="_blank" rel="nofollow">http://www.diicot.ro/images/videos/a&#8230;28.11.2012.mp4</a>
+Aveti aici si videoclipul baietilor veseli: <a href="http://www.diicot.ro/images/videos/articles/28.11.2012.mp4" target="_blank" rel="nofollow">http://www.diicot.ro/images/videos/a…28.11.2012.mp4</a>
 
 
 
-Ce e important: &#8220;**efectuarea de operaţiuni frauduloase cu instrumente de plată electronică**&#8220;. Mai multe detalii in comunicatul lor de presa: <a href="http://www.diicot.ro/index.php/arhiva/782-comunicat-de-presa-27-11-2012" target="_blank" rel="nofollow">http://www.diicot.ro/index.php/arhiv&#8230;esa-27-11-2012</a>
+Ce e important: “**efectuarea de operaţiuni frauduloase cu instrumente de plată electronică**“. Mai multe detalii in comunicatul lor de presa: <a href="http://www.diicot.ro/index.php/arhiva/782-comunicat-de-presa-27-11-2012" target="_blank" rel="nofollow">http://www.diicot.ro/index.php/arhiv…esa-27-11-2012</a>
 
-Screenshot: <a href="http://defcamp.ro/wp-content/uploads/2012/11/rst_poc.png" target="_blank" rel="nofollow">http://defcamp.ro/wp-content/uploads&#8230;11/rst_poc.png</a>
+Screenshot: <a href="http://defcamp.ro/wp-content/uploads/2012/11/rst_poc.png" target="_blank" rel="nofollow">http://defcamp.ro/wp-content/uploads…11/rst_poc.png</a>
 
 Dupa cum puteti vedea si in comunicatul celor de la DIICOT, RST nu are nicio legatura directa cu acest sir de arestari.
 
@@ -60,7 +62,7 @@ RST nu e un grup criminalistic (informational) organizat ci o comunitate publica
 
 <span style="color: #ff0000;">Tot ce are legatura cu frauda informationala, furtul cardurilor de credit, scam/phishing, skimming, licitatii false si multe altele, este STRICT INTERZIS pe RST.</span>
 
-Problema a aparut deoarece printre persoanele arestate a fost si o victima colaterala, care hosta atat RST, cat si multe alte site-uri importante, printre care si zoso: <a href="http://defcamp.ro/wp-content/uploads/2012/11/zoso.ro_.png" target="_blank" rel="nofollow">http://defcamp.ro/wp-content/uploads&#8230;1/zoso.ro_.png</a> . Este penibil sa arestezi o persoana care gazduieste niste servere, nu avea cum sa stie ce se intampla pe fiecare server in parte, dar la cum functioneaza &#8220;justitita&#8221; in Romania ne putem astepta la orice.
+Problema a aparut deoarece printre persoanele arestate a fost si o victima colaterala, care hosta atat RST, cat si multe alte site-uri importante, printre care si zoso: <a href="http://defcamp.ro/wp-content/uploads/2012/11/zoso.ro_.png" target="_blank" rel="nofollow">http://defcamp.ro/wp-content/uploads…1/zoso.ro_.png</a> . Este penibil sa arestezi o persoana care gazduieste niste servere, nu avea cum sa stie ce se intampla pe fiecare server in parte, dar la cum functioneaza “justitita” in Romania ne putem astepta la orice.
 
 **De ce un alt domeniu?**
 
@@ -70,11 +72,11 @@ Aceasta este o modificare **temporara**, speram ca tex sa fie eliberat, apoi vo
 
 **Am revenit**
 
-Era pacat ca o intreaga comunitate sa sufere din cauza unor &#8220;carderi&#8221;, asadar am revenit.
+Era pacat ca o intreaga comunitate sa sufere din cauza unor “carderi”, asadar am revenit.
 
 Vreau insa sa va atrag atentia asupra unor aspecte mai putin cunoscute de voi, mai exact asupra legilor din Romania. Stiu, nu sunt bine definite, se pot interpreta, dar e important ca exista, si mai important este ca din cauza lor puteti avea probleme si incercam sa evitam acest lucru.
 
-Legea 161/2003, &#8220;Prevenirea si combaterea criminalitatii informatice&#8221;: <a href="http://www.legi-internet.ro/legislatie-itc/criminalitate-informatica/prevederi-legislative-privind-prevenirea-si-combaterea-criminalitatii-informatice.html" target="_blank" rel="nofollow">http://www.legi-internet.ro/legislat&#8230;formatice.html</a> , printre altele, spune si:
+Legea 161/2003, “Prevenirea si combaterea criminalitatii informatice”: <a href="http://www.legi-internet.ro/legislatie-itc/criminalitate-informatica/prevederi-legislative-privind-prevenirea-si-combaterea-criminalitatii-informatice.html" target="_blank" rel="nofollow">http://www.legi-internet.ro/legislat…formatice.html</a> , printre altele, spune si:
 
 <div>
   <div>
@@ -106,7 +108,7 @@ Legea 161/2003, &#8220;Prevenirea si combaterea criminalitatii informatice&#8221
    Art. 50. - Tentativa infracţiunilor prevăzute la art. 48 şi 49 se pedepseşte.</pre>
 </div>
 
-Ce inseamna asta? Folositi in pula mea Tor, VPN sau orice altceva pentru a va ascunde IP-ul cand faceti ceva. De asemenea aveti grija de &#8220;privacy&#8221;, nu faceti publice date personale, invatati sa va &#8220;ascundeti&#8221;.
+Ce inseamna asta? Folositi in pula mea Tor, VPN sau orice altceva pentru a va ascunde IP-ul cand faceti ceva. De asemenea aveti grija de “privacy”, nu faceti publice date personale, invatati sa va “ascundeti”.
 
 In urmatoarele zile vom lua cateva decizii legate de acest aspect aici.
 

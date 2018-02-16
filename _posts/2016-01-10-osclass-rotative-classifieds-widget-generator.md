@@ -1,6 +1,6 @@
 ---
 id: 386
-title: 'osclass &#8211; Rotative classifieds plugin: widget generator'
+title: 'osclass – Rotative classifieds plugin: widget generator'
 date: 2016-01-10T14:42:29+00:00
 author: Silviu Stroe
 layout: post
@@ -9,16 +9,19 @@ permalink: /osclass-rotative-classifieds-widget-generator/
 dpsp_networks_shares:
   - 'a:0:{}'
 image: /wp-content/uploads/2016/01/image01-200x100.png
+categories:
+  - Programming
+  - Projects
 ---
 Hi folks!
   
-Today, I&#8217;ve finished a osclass plugin which can generate 3 types of banners in scope of embedding them on other websites.
+Today, I’ve finished a osclass plugin which can generate 3 types of banners in scope of embedding them on other websites.
 
 A live demo can be found here: <a href="http://www.casedevanzare.ro/widgets/" target="_blank">http://www.casedevanzare.ro/widgets/</a>
 
 And some screenshots, in case of demo will die.
 
-If you want details about it, don&#8217;t hesitate to contact me at the contact section on my website.
+If you want details about it, don’t hesitate to contact me at the contact section on my website.
 
 Thanks!
 

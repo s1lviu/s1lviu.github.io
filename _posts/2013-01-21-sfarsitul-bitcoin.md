@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=73
 permalink: /sfarsitul-bitcoin/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - bitcoin
   - end
@@ -15,15 +17,15 @@ tags:
   - of
   - the
 ---
-Zilele trecute **<a id="yui-gen25" title="B3st is offline" href="https://rstforums.com/forum/members/b3st/" rel="nofollow">B3st</a> **de pe RSTCenter a.k.a &#8220;BUNNN&#8221; (RSTForums.com) a postat a doua versiune a  unui Bitcoin miner, care functioneaza pe toate sistemele de operare de tip Windows.
+Zilele trecute **<a id="yui-gen25" title="B3st is offline" href="https://rstforums.com/forum/members/b3st/" rel="nofollow">B3st</a> **de pe RSTCenter a.k.a “BUNNN” (RSTForums.com) a postat a doua versiune a  unui Bitcoin miner, care functioneaza pe toate sistemele de operare de tip Windows.
 
-Citez: &#8220;Compatibilitate: windows xp, vista, 7, 8 pe x86 si x64.
+Citez: “Compatibilitate: windows xp, vista, 7, 8 pe x86 si x64.
   
 Marime server: 9 kb (compresat), server ul nu are dependinte (dll, framework, etc)
   
 m.jpg = ufasoft miner modificat de mine pentru a merge injectat + cryptat cu rc4.
   
-Miner ul descarca m.jpg, il decrypteaza si il injecteaza in memorie folosind parametri predefiniti, astfel server ul este total &#8216;crypt-able&#8217;.
+Miner ul descarca m.jpg, il decrypteaza si il injecteaza in memorie folosind parametri predefiniti, astfel server ul este total ‘crypt-able’.
   
 +Anti sandboxie, vmware, anubis, virtualpc
   
@@ -39,7 +41,7 @@ Note:
   
 3. Fara tari precum pakistan, afghanistan s.a.m.d (au componente proaste)
   
-4. Proxy ul il folositi doar daca rulati server ul pe multe pc uri.&#8221;
+4. Proxy ul il folositi doar daca rulati server ul pe multe pc uri.”
   
 Tutorial:
   
@@ -49,7 +51,7 @@ Download: <a href="http://rghost.net/43185861" target="_blank" rel="nofollow">R
   
 Parola: rstforums.com
 
-Nu il puneti pe alte forumuri(=! english), altfel presupun ca bitcoin o sa fie picat destul de repede. &#8221;
+Nu il puneti pe alte forumuri(=! english), altfel presupun ca bitcoin o sa fie picat destul de repede. ”
 
 _Sursa: rstforums.com_
 

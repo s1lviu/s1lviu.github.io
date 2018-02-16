@@ -8,6 +8,9 @@ guid: https://silviu-s.com/?p=440
 permalink: /share-location-waze-laptop-mobile/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Programming
+  - Projects
 tags:
   - send location to waze
   - share location to waze
@@ -16,9 +19,9 @@ tags:
 ---
 Last night, lack of activity and hitting me with this problem a few days ago I did a little web application that:
   
-&#8211; Takes the user&#8217;s location via HTML5 Geolocation
+– Takes the user’s location via HTML5 Geolocation
   
-&#8211; Generates a link on its
+– Generates a link on its
   
 How it works and how to use?
   
@@ -30,6 +33,6 @@ If you have any suggestions, feel free to share them.
   
 Thank you! 🙂
   
-Users who access the site from mobile location services must be activated and of course to allow access to the site &#8220;location&#8221;.
+Users who access the site from mobile location services must be activated and of course to allow access to the site “location”.
   
 Link: <a href="https://wazemylocation.link/" target="_blank">Waze my location</a>

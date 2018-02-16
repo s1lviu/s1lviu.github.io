@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=38
 permalink: /restrictii-la-internet-in-caminele-studentesti/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - Alliance of Valliant Arms
   - Cabal

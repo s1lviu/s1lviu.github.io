@@ -12,6 +12,8 @@ hefo_before:
   - "0"
 hefo_after:
   - "0"
+categories:
+  - Articles
 tags:
   - aoro gratis
   - aoro.ro voucher

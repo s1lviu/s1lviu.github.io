@@ -8,6 +8,8 @@ guid: http://silviu-s.com/?p=266
 permalink: /ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/
 dpsp_networks_shares:
   - 'a:0:{}'
+categories:
+  - Articles
 tags:
   - ascunde ora whatsapp
   - ascunde whatsapp
@@ -21,6 +23,6 @@ tags:
   - whatsapp invizibil
   - whatsapp romania
 ---
-Dupa ce Facebook a cumparat WhatsApp-ul, se pare ca au decis sa faca cateva schimbari. Ultimul update, care a venit pe 10 martie (pe Android) a adus cateva schimbari majore legate de intimitatea utilizatorilor. Acum, iti poti ascunde fotografia de profil, statusul si data/ora la cand ai fost vazut ultima data pe WhatsApp din setarile profilului, unde iti poti alege targetul de contacte pentru care vrei sa aplici aceste setari. Singurul dezavantaj destul de major pe care l-am observat pana acum este ca, odata ce ti-ai ales sa nu iti mai afisezi datele personale, acestea nu iti vor mai fi afisate nici cand tu accesezi un contact (am testat acest lucru doar pentru &#8220;last seen&#8221;).
+Dupa ce Facebook a cumparat WhatsApp-ul, se pare ca au decis sa faca cateva schimbari. Ultimul update, care a venit pe 10 martie (pe Android) a adus cateva schimbari majore legate de intimitatea utilizatorilor. Acum, iti poti ascunde fotografia de profil, statusul si data/ora la cand ai fost vazut ultima data pe WhatsApp din setarile profilului, unde iti poti alege targetul de contacte pentru care vrei sa aplici aceste setari. Singurul dezavantaj destul de major pe care l-am observat pana acum este ca, odata ce ti-ai ales sa nu iti mai afisezi datele personale, acestea nu iti vor mai fi afisate nici cand tu accesezi un contact (am testat acest lucru doar pentru “last seen”).
 
-Prin urmare, nu trebuie sa va mai chinuiti cu diverse aplicatii care va faceau &#8220;invizibili&#8221; pe WhatsApp, ci trebuie sa updatati aplicatia la ultima versiune.
+Prin urmare, nu trebuie sa va mai chinuiti cu diverse aplicatii care va faceau “invizibili” pe WhatsApp, ci trebuie sa updatati aplicatia la ultima versiune.

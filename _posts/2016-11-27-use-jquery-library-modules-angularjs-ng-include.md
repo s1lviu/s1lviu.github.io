@@ -11,6 +11,8 @@ hefo_before:
 hefo_after:
   - "0"
 image: /wp-content/uploads/2016/11/angular-jquery-680x300.jpg
+categories:
+  - Programming
 tags:
   - angular
   - angular-js
@@ -21,7 +23,7 @@ tags:
 ---
 Hi, folks!
   
-These days I&#8217;ve tried to convert a basic html template bought from codecanyon to AngularJS. But there was a problem.
+These days I’ve tried to convert a basic html template bought from codecanyon to AngularJS. But there was a problem.
   
 The jQuery does not wait for AngularJS to load because.. asynchronicity of the JavaScript language.
 
@@ -61,9 +63,9 @@ console.log('jquery loaded');
 
 </pre>
 
-&nbsp;
+ 
 
-In the first place, the solution won&#8217;t worked, because the scripts was still loading asyncronously. After that, I have setted
+In the first place, the solution won’t worked, because the scripts was still loading asyncronously. After that, I have setted
 
 <pre class="brush: jscript; title: ; notranslate" title="">async=false;</pre>
 
@@ -73,10 +75,10 @@ after
 
 and magically jQuery and Angular became friends and now I can continue the work! 😀
 
-&nbsp;
+ 
 
 Later edit:
   
 I found that [ocLazyLoad](https://oclazyload.readme.io/) is a more elegant solution, in combination with directives. 🙂
 
-&nbsp;
+ 
