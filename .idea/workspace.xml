@@ -3,112 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e82d2e18-8380-4a21-a5f4-678373bbdf2d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change beforePath="$PROJECT_DIR$/_site/5-dolari-credit-gratuit-pentru-skype/index.html" afterPath="$PROJECT_DIR$/_site/5-dolari-credit-gratuit-pentru-skype/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger/index.html" afterPath="$PROJECT_DIR$/_site/afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/agenda-telefonica-in-java/index.html" afterPath="$PROJECT_DIR$/_site/agenda-telefonica-in-java/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/ajutati-l-pe-andrei/index.html" afterPath="$PROJECT_DIR$/_site/ajutati-l-pe-andrei/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/am-aparut-pe-yahoo-wall-of-fame/index.html" afterPath="$PROJECT_DIR$/_site/am-aparut-pe-yahoo-wall-of-fame/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/index.html" afterPath="$PROJECT_DIR$/_site/ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/ask-fm-spammer-php/index.html" afterPath="$PROJECT_DIR$/_site/ask-fm-spammer-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="$PROJECT_DIR$/_site/assets/main.css" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_site/blocheaza-cererile-de-jocuri-pe-facebook/index.html" afterPath="$PROJECT_DIR$/_site/blocheaza-cererile-de-jocuri-pe-facebook/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs/index.html" afterPath="$PROJECT_DIR$/_site/castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/index.html" afterPath="$PROJECT_DIR$/_site/chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/chestionare-drpciv-ro-fara-cont/index.html" afterPath="$PROJECT_DIR$/_site/chestionare-drpciv-ro-fara-cont/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/chestionare-pe-drpciv-ro-si-de-pe-alte-browsere/index.html" afterPath="$PROJECT_DIR$/_site/chestionare-pe-drpciv-ro-si-de-pe-alte-browsere/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/clasa-php-pentru-a-facilita-folosirea-curl/index.html" afterPath="$PROJECT_DIR$/_site/clasa-php-pentru-a-facilita-folosirea-curl/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/compilator-c-online/index.html" afterPath="$PROJECT_DIR$/_site/compilator-c-online/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/concurs-10-invitatii-pe-filelist-ro/index.html" afterPath="$PROJECT_DIR$/_site/concurs-10-invitatii-pe-filelist-ro/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/configure-travis-ci-use-gcc-5-compiler/index.html" afterPath="$PROJECT_DIR$/_site/configure-travis-ci-use-gcc-5-compiler/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/convertor-money-ro-imprastie-malware/index.html" afterPath="$PROJECT_DIR$/_site/convertor-money-ro-imprastie-malware/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cross-site-script-inclusionxssi-un-nou-tip-de-atac/index.html" afterPath="$PROJECT_DIR$/_site/cross-site-script-inclusionxssi-un-nou-tip-de-atac/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys/index.html" afterPath="$PROJECT_DIR$/_site/cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control/index.html" afterPath="$PROJECT_DIR$/_site/cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/index.html" afterPath="$PROJECT_DIR$/_site/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cum-sa-ascunzi-un-folder-pe-windows/index.html" afterPath="$PROJECT_DIR$/_site/cum-sa-ascunzi-un-folder-pe-windows/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cum-sa-descarci-muzica-de-pe-trilulilu/index.html" afterPath="$PROJECT_DIR$/_site/cum-sa-descarci-muzica-de-pe-trilulilu/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cum-sa-oprim-aplicatia-bbm-pe-android/index.html" afterPath="$PROJECT_DIR$/_site/cum-sa-oprim-aplicatia-bbm-pe-android/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/cupoane-nelimitate-de-reducere-20-la-kfc/index.html" afterPath="$PROJECT_DIR$/_site/cupoane-nelimitate-de-reducere-20-la-kfc/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil-gratuit/index.html" afterPath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil-gratuit/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil/index.html" afterPath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/despre-mine.html" afterPath="$PROJECT_DIR$/_site/despre-mine.html" />
-      <change beforePath="$PROJECT_DIR$/_site/e-commerce-platform-based-on-mongodb-php/index.html" afterPath="$PROJECT_DIR$/_site/e-commerce-platform-based-on-mongodb-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/elemente-noi-in-html5/index.html" afterPath="$PROJECT_DIR$/_site/elemente-noi-in-html5/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows/index.html" afterPath="$PROJECT_DIR$/_site/emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/extractor-intrebari-drpciv-ro-php/index.html" afterPath="$PROJECT_DIR$/_site/extractor-intrebari-drpciv-ro-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/extrage-elementele-html-dintr-o-pagina-php/index.html" afterPath="$PROJECT_DIR$/_site/extrage-elementele-html-dintr-o-pagina-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/extrage-textul-dintre-doua-delimitatoare-php/index.html" afterPath="$PROJECT_DIR$/_site/extrage-textul-dintre-doua-delimitatoare-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/facebook-groups-live-search-extension/index.html" afterPath="$PROJECT_DIR$/_site/facebook-groups-live-search-extension/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti/index.html" afterPath="$PROJECT_DIR$/_site/fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/functie-php-ping-in-php/index.html" afterPath="$PROJECT_DIR$/_site/functie-php-ping-in-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/fura-poza-unui-profil-de-facebook/index.html" afterPath="$PROJECT_DIR$/_site/fura-poza-unui-profil-de-facebook/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/generator-de-cnp-uri-javascript/index.html" afterPath="$PROJECT_DIR$/_site/generator-de-cnp-uri-javascript/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/ghid-metrou-si-harta-metroului-din-bucuresti-actualizata/index.html" afterPath="$PROJECT_DIR$/_site/ghid-metrou-si-harta-metroului-din-bucuresti-actualizata/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/graphics-h-si-opengl-codeblocks/index.html" afterPath="$PROJECT_DIR$/_site/graphics-h-si-opengl-codeblocks/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/hotfiles-ro-girlshare-ro-mp3-downloader-php/index.html" afterPath="$PROJECT_DIR$/_site/hotfiles-ro-girlshare-ro-mp3-downloader-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass/index.html" afterPath="$PROJECT_DIR$/_site/implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/infractiunile-informatice-din-noul-cod-penal/index.html" afterPath="$PROJECT_DIR$/_site/infractiunile-informatice-din-noul-cod-penal/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/instalare-dd-wrt-pe-tp-link-tl-wr740n/index.html" afterPath="$PROJECT_DIR$/_site/instalare-dd-wrt-pe-tp-link-tl-wr740n/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/introducere-in-html5/index.html" afterPath="$PROJECT_DIR$/_site/introducere-in-html5/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/leaked-iphone-6-logic-board-a8-processor-video/index.html" afterPath="$PROJECT_DIR$/_site/leaked-iphone-6-logic-board-a8-processor-video/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/libertatea-ro-si-cum-sa-castigi-trafic-gratuit/index.html" afterPath="$PROJECT_DIR$/_site/libertatea-ro-si-cum-sa-castigi-trafic-gratuit/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/licenta-gratuita-windows-10-daca-esti-student/index.html" afterPath="$PROJECT_DIR$/_site/licenta-gratuita-windows-10-daca-esti-student/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/mongodb-on-laravel-homestead-with-php-7/index.html" afterPath="$PROJECT_DIR$/_site/mongodb-on-laravel-homestead-with-php-7/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge/index.html" afterPath="$PROJECT_DIR$/_site/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/new-facebook-messenger-features/index.html" afterPath="$PROJECT_DIR$/_site/new-facebook-messenger-features/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/opreste-spam-ul-ask-fm/index.html" afterPath="$PROJECT_DIR$/_site/opreste-spam-ul-ask-fm/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/optimizare-seo-pentru-imagini/index.html" afterPath="$PROJECT_DIR$/_site/optimizare-seo-pentru-imagini/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/osclass-rotative-classifieds-widget-generator/index.html" afterPath="$PROJECT_DIR$/_site/osclass-rotative-classifieds-widget-generator/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/10/index.html" afterPath="$PROJECT_DIR$/_site/page/10/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/11/index.html" afterPath="$PROJECT_DIR$/_site/page/11/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/12/index.html" afterPath="$PROJECT_DIR$/_site/page/12/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/13/index.html" afterPath="$PROJECT_DIR$/_site/page/13/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/14/index.html" afterPath="$PROJECT_DIR$/_site/page/14/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/15/index.html" afterPath="$PROJECT_DIR$/_site/page/15/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/16/index.html" afterPath="$PROJECT_DIR$/_site/page/16/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/17/index.html" afterPath="$PROJECT_DIR$/_site/page/17/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/2/index.html" afterPath="$PROJECT_DIR$/_site/page/2/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/3/index.html" afterPath="$PROJECT_DIR$/_site/page/3/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/4/index.html" afterPath="$PROJECT_DIR$/_site/page/4/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/5/index.html" afterPath="$PROJECT_DIR$/_site/page/5/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/6/index.html" afterPath="$PROJECT_DIR$/_site/page/6/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/7/index.html" afterPath="$PROJECT_DIR$/_site/page/7/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/8/index.html" afterPath="$PROJECT_DIR$/_site/page/8/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/page/9/index.html" afterPath="$PROJECT_DIR$/_site/page/9/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/phishing-via-target_blank/index.html" afterPath="$PROJECT_DIR$/_site/phishing-via-target_blank/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/player-audio-in-html5/index.html" afterPath="$PROJECT_DIR$/_site/player-audio-in-html5/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/poza-unui-profil-de-facebook-la-marime-originala/index.html" afterPath="$PROJECT_DIR$/_site/poza-unui-profil-de-facebook-la-marime-originala/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/preia-imaginea-de-fundal-a-unui-profil-ask-fm/index.html" afterPath="$PROJECT_DIR$/_site/preia-imaginea-de-fundal-a-unui-profil-ask-fm/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/restrictii-la-internet-in-caminele-studentesti/index.html" afterPath="$PROJECT_DIR$/_site/restrictii-la-internet-in-caminele-studentesti/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/romania-te-iubesc-hackerville/index.html" afterPath="$PROJECT_DIR$/_site/romania-te-iubesc-hackerville/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/rstcenter-com-s-a-redeschis/index.html" afterPath="$PROJECT_DIR$/_site/rstcenter-com-s-a-redeschis/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/salutare-tuturor/index.html" afterPath="$PROJECT_DIR$/_site/salutare-tuturor/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/samsung-galaxy-gt-i9190-s4-mini/index.html" afterPath="$PROJECT_DIR$/_site/samsung-galaxy-gt-i9190-s4-mini/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/samsung-galaxy-i9500-s4-pret/index.html" afterPath="$PROJECT_DIR$/_site/samsung-galaxy-i9500-s4-pret/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri/index.html" afterPath="$PROJECT_DIR$/_site/script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/send-firebase-user-auth-token-every-request-angularjs/index.html" afterPath="$PROJECT_DIR$/_site/send-firebase-user-auth-token-every-request-angularjs/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc/index.html" afterPath="$PROJECT_DIR$/_site/setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/sfarsitul-bitcoin/index.html" afterPath="$PROJECT_DIR$/_site/sfarsitul-bitcoin/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/share-location-waze-laptop-mobile/index.html" afterPath="$PROJECT_DIR$/_site/share-location-waze-laptop-mobile/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/strawpoll-bot/index.html" afterPath="$PROJECT_DIR$/_site/strawpoll-bot/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/strileprotv-ro-comment-spammer-php/index.html" afterPath="$PROJECT_DIR$/_site/strileprotv-ro-comment-spammer-php/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/trimite-fotografii-si-videoclipuri-cu-instagram/index.html" afterPath="$PROJECT_DIR$/_site/trimite-fotografii-si-videoclipuri-cu-instagram/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/url-list-sqli-scanner/index.html" afterPath="$PROJECT_DIR$/_site/url-list-sqli-scanner/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/use-jquery-library-modules-angularjs-ng-include/index.html" afterPath="$PROJECT_DIR$/_site/use-jquery-library-modules-angularjs-ng-include/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza/index.html" afterPath="$PROJECT_DIR$/_site/vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/vouchere-gratuite-notino-aoro-ro/index.html" afterPath="$PROJECT_DIR$/_site/vouchere-gratuite-notino-aoro-ro/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/vpn-romania/index.html" afterPath="$PROJECT_DIR$/_site/vpn-romania/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/vrei-un-site/index.html" afterPath="$PROJECT_DIR$/_site/vrei-un-site/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/webdollar-coin-internet-newest-internet-cryptocurrency/index.html" afterPath="$PROJECT_DIR$/_site/webdollar-coin-internet-newest-internet-cryptocurrency/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/website-uri-pe-care-le-detin/index.html" afterPath="$PROJECT_DIR$/_site/website-uri-pe-care-le-detin/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/index.html" afterPath="$PROJECT_DIR$/_site/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/index.html" />
-      <change beforePath="$PROJECT_DIR$/_site/whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox/index.html" afterPath="$PROJECT_DIR$/_site/whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox/index.html" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
     </list>
     <ignored path="s1lviu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -192,9 +87,9 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/despre-mine.md" />
         <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
       </list>
     </option>
   </component>
@@ -208,10 +103,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="166" />
-    <option name="width" value="1736" />
-    <option name="height" value="932" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2048" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -383,14 +278,7 @@
       <workItem from="1496231448998" duration="37000" />
       <workItem from="1518454072099" duration="299000" />
       <workItem from="1518606353583" duration="4000" />
-      <workItem from="1518722610391" duration="11426000" />
-    </task>
-    <task id="LOCAL-00001" summary="Index">
-      <created>1458393651068</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1458393651068</updated>
+      <workItem from="1518722610391" duration="12653000" />
     </task>
     <task id="LOCAL-00002" summary="Index">
       <created>1458422373151</created>
@@ -721,14 +609,28 @@
       <option name="project" value="LOCAL" />
       <updated>1518782981435</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="get jekyll working">
+      <created>1518783202235</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1518783202235</updated>
+    </task>
+    <task id="LOCAL-00050" summary="get jekyll working">
+      <created>1518786445296</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1518786445302</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37838000" />
+    <option name="totallyTimeSpent" value="39065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2048" height="1073" extended-state="6" />
+    <frame x="0" y="23" width="2048" height="1073" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18401578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1016,18 +918,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
