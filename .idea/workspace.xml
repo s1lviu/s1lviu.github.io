@@ -36,8 +36,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -277,14 +277,7 @@
       <workItem from="1496231448998" duration="37000" />
       <workItem from="1518454072099" duration="299000" />
       <workItem from="1518606353583" duration="4000" />
-      <workItem from="1518722610391" duration="13592000" />
-    </task>
-    <task id="LOCAL-00004" summary="Index">
-      <created>1458599087694</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1458599087694</updated>
+      <workItem from="1518722610391" duration="13724000" />
     </task>
     <task id="LOCAL-00005" summary="Index">
       <created>1458650139104</created>
@@ -622,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518787832012</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="get jekyll working">
+      <created>1518788023311</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1518788023311</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40004000" />
+    <option name="totallyTimeSpent" value="40136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1073" extended-state="0" />
@@ -927,8 +927,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="252">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
