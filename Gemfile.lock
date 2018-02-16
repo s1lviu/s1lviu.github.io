@@ -67,11 +67,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.7.2)
+  jekyll (~> 3.0)
   jekyll-feed
-  jekyll-paginate-v2
+  jekyll-paginate-v2 (~> 1.7)
   minima (~> 2.0)
-  tzinfo-data
+
+RUBY VERSION
+   ruby 2.5.0p0
 
 BUNDLED WITH
    1.16.0
