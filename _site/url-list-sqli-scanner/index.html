@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>URL list SQLi scanner | Silviu Stroe’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="URL list SQLi scanner" />
+<meta name="author" content="Silviu Stroe" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Am facut mai demult un script care scaneaza fiecare site dintr-o lista pentru a afla care este vulnerabil la SQL Injection si care nu. Astazi l-am imbunatatit putin, cu toate ca nu este prea optimizat, dar functioneaza." />
+<meta property="og:description" content="Am facut mai demult un script care scaneaza fiecare site dintr-o lista pentru a afla care este vulnerabil la SQL Injection si care nu. Astazi l-am imbunatatit putin, cu toate ca nu este prea optimizat, dar functioneaza." />
+<link rel="canonical" href="http://localhost:4000/url-list-sqli-scanner/" />
+<meta property="og:url" content="http://localhost:4000/url-list-sqli-scanner/" />
+<meta property="og:site_name" content="Silviu Stroe’s Tech Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-07-28T15:16:40+03:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/url-list-sqli-scanner/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/url-list-sqli-scanner/"},"author":{"@type":"Person","name":"Silviu Stroe"},"description":"Am facut mai demult un script care scaneaza fiecare site dintr-o lista pentru a afla care este vulnerabil la SQL Injection si care nu. Astazi l-am imbunatatit putin, cu toate ca nu este prea optimizat, dar functioneaza.","@type":"BlogPosting","headline":"URL list SQLi scanner","dateModified":"2013-07-28T15:16:40+03:00","datePublished":"2013-07-28T15:16:40+03:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Silviu Stroe's Tech Blog" />
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Silviu Stroe&#39;s Tech Blog</a>
+
+        <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+            <div class="trigger">
+                <!--
+                    my_page.autogen is populated by the pagination logic for all pages
+                                    that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+                  -->
+
+                
+                
+                
+                
+                <a class="page-link" href="/despre-mine.html">About me [R0]</a>
+                
+                
+                
+                
+                
+                
+                
+                <a class="page-link" href="/index.html">Silviu Stroe&#39;s Tech Blog</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">URL list SQLi scanner</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-07-28T15:16:40+03:00" itemprop="datePublished">
+        
+        Jul 28, 2013
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Silviu Stroe</span></span>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Am facut mai demult un script care scaneaza fiecare site dintr-o lista pentru a afla care este vulnerabil la SQL Injection si care nu. Astazi l-am imbunatatit putin, cu toate ca nu este prea optimizat, dar functioneaza.</p>
+
+<pre class="brush: php; title: ; notranslate" title=""><?php
+echo '<html>';
+echo'<title>URL List SQLi scanner</title>';
+echo '<body bgcolor="green">';
+echo "<u><tr>Utilizare:</tr></br></u>
+Creeaza un fisier adrese.txt in care sa existe pe fiecare linie cate o adresa url</br>
+in formatul http://url.tld . Url-urile vulnerabile vor fi afisate si vor fi salvate si in fisierul bune.txt</br></br>";
+function get_data($url) {
+$ch = curl_init();
+$timeout = 10;
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+$data = curl_exec($ch);
+curl_close($ch);
+return $data;
+}
+
+function linii($url)
+{
+$linecount = 0;
+$handle = fopen($url, "r");
+while(!feof($handle)){
+$line = fgets($handle);
+$linecount++;
+}
+
+fclose($handle);
+
+return $linecount;
+}
+
+
+if (!(file_exists('adrese.txt'))) {echo "Fisierul adrese.txt nu exista!Acesta trebuie sa contina pe fiecare linie cate un site!</br>";}else{
+$fisier = file_get_contents('adrese.txt'); }// Citeste lista cu url-uri
+$linii = explode("\n", $fisier); // Preia fiecare url
+$fisier = fopen("bune.txt", "a+"); // Aici le va pune pe cele vulnerabile
+echo"<u>Url-uri vulnerabile:</u></br></br>";
+for($i = 0; $i < count($linii) - 1; $i++) scann($linii[$i]); // Testeaza fiecare url
+function scann($sqli)
+{
+global $fisier;
+$sintaxa="'";
+$fraza=get_data("$sqli$sintaxa");
+$cuvant="syntax";
+$pos = strpos($fraza,$cuvant);
+if($pos === false || linii($sqli)!=linii("$sqli$sintaxa"))
+{
+$ok=0;
+}
+else {
+$ok=1;
+}
+
+if($ok==1)
+{
+fwrite($fisier, $sqli . "\n"); // Scrie in bune.txt url-urile vulnerabile
+echo"$sqli  <br>"; // Afiseaza url-urile vulnerabile
+
+}
+}
+fclose($fisier); // Inchide fisierul
+
+echo '<center></br></br>URL List SQLi Scanner v1.1 - Silvian0 @ <a href="http://rstcenter.com">RSTForums.com</a></center>';
+?>
+
+</pre>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/url-list-sqli-scanner/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Silviu Stroe&#39;s Tech Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Silviu Stroe&#39;s Tech Blog
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:contact [at] silviu-s.com">contact [at] silviu-s.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/s1lviu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">s1lviu</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/silv1u"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">silv1u</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

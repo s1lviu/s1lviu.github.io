@@ -1,251 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82d2e18-8380-4a21-a5f4-678373bbdf2d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-30-webdollar-coin-internet-newest-internet-cryptocurrency.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-01-17-configure-travis-ci-use-gcc-5-compiler.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-05-facebook-groups-live-search-extension.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/entity_decode.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-300x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-680x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1-768x768.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-300x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-680x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black-768x768.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/WebDollar-logo-black.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-300x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-680x300.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar-768x768.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/12/webdollar.png" />
+    <list default="true" id="e82d2e18-8380-4a21-a5f4-678373bbdf2d" name="Default" comment="upload this for pagination-v2 plugin">
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/5-dolari-credit-gratuit-pentru-skype/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/CNAME" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/agenda-telefonica-in-java/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/ajutati-l-pe-andrei/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/am-aparut-pe-yahoo-wall-of-fame/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/ask-fm-spammer-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/assets/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/blocheaza-cererile-de-jocuri-pe-facebook/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/chestionare-drpciv-ro-fara-cont/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/chestionare-pe-drpciv-ro-si-de-pe-alte-browsere/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/clasa-php-pentru-a-facilita-folosirea-curl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/compilator-c-online/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/concurs-10-invitatii-pe-filelist-ro/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/configure-travis-ci-use-gcc-5-compiler/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/convertor-money-ro-imprastie-malware/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cross-site-script-inclusionxssi-un-nou-tip-de-atac/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cum-sa-ascunzi-un-folder-pe-windows/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cum-sa-descarci-muzica-de-pe-trilulilu/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cum-sa-oprim-aplicatia-bbm-pe-android/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/cupoane-nelimitate-de-reducere-20-la-kfc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil-gratuit/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/descarca-muzica-pe-mobil/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/despre-mine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/e-commerce-platform-based-on-mongodb-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/elemente-noi-in-html5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/entity_decode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/extractor-intrebari-drpciv-ro-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/extrage-elementele-html-dintr-o-pagina-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/extrage-textul-dintre-doua-delimitatoare-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/facebook-groups-live-search-extension/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/functie-php-ping-in-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/fura-poza-unui-profil-de-facebook/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/generator-de-cnp-uri-javascript/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/ghid-metrou-si-harta-metroului-din-bucuresti-actualizata/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/graphics-h-si-opengl-codeblocks/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/hotfiles-ro-girlshare-ro-mp3-downloader-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/infractiunile-informatice-din-noul-cod-penal/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/instalare-dd-wrt-pe-tp-link-tl-wr740n/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/introducere-in-html5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/leaked-iphone-6-logic-board-a8-processor-video/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/libertatea-ro-si-cum-sa-castigi-trafic-gratuit/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/licenta-gratuita-windows-10-daca-esti-student/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/mongodb-on-laravel-homestead-with-php-7/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/new-facebook-messenger-features/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/opreste-spam-ul-ask-fm/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/optimizare-seo-pentru-imagini/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/osclass-rotative-classifieds-widget-generator/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/10/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/11/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/12/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/13/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/14/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/15/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/16/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/17/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/2/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/3/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/4/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/6/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/7/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/8/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/page/9/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/phishing-via-target_blank/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/player-audio-in-html5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/poza-unui-profil-de-facebook-la-marime-originala/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/preia-imaginea-de-fundal-a-unui-profil-ask-fm/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/restrictii-la-internet-in-caminele-studentesti/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/romania-te-iubesc-hackerville/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/rstcenter-com-s-a-redeschis/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/salutare-tuturor/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/samsung-galaxy-gt-i9190-s4-mini/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/samsung-galaxy-i9500-s4-pret/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/send-firebase-user-auth-token-every-request-angularjs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/sfarsitul-bitcoin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/share-location-waze-laptop-mobile/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/strawpoll-bot/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/strileprotv-ro-comment-spammer-php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/trimite-fotografii-si-videoclipuri-cu-instagram/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/url-list-sqli-scanner/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/use-jquery-library-modules-angularjs-ng-include/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/vouchere-gratuite-notino-aoro-ro/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/vpn-romania/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/vrei-un-site/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/webdollar-coin-internet-newest-internet-cryptocurrency/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/website-uri-pe-care-le-detin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv-300x300.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv-450x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv-450x375.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/07/drpciv.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-1024x1024.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/askfm3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo-300x158.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo-500x339.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo-640x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/facebook-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/logo-150x92.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/logo-200x92.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/logo-300x70.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-1024x462.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-300x135.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/08/tutorial.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/andrei-chirieac211-150x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/andrei-chirieac211.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware-300x168.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware-500x375.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware-800x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/ddwrt_firmware.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman-300x159.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman-500x363.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman-681x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/factoryfirmwareupgradegerman.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-300x223.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/09/screen-shot-2013-03-13-at-3-22-39-pm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android-300x168.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android-500x375.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android-800x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/BBM-for-android.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg-300x263.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg-794x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/10/secimg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/11/desc??rcare-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/11/desc??rcare-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/11/desc??rcare-225x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2013/11/desc??rcare.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/drum_cu_prioritate-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/drum_cu_prioritate-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/drum_cu_prioritate-235x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/drum_cu_prioritate.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-300x172.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-500x368.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7-640x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/01/tema-Android-pentru-Windows-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/LOGO.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/LOGO1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/LOGO2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-1024x526.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-300x154.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/Yahoo-Wall-of-Fame.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1-300x285.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1-487x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1-487x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/cropped-LOGO1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/logo_ok.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/test2-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/test2-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/test2-300x225.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/test2-312x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/test2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/testament-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/testament-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/testament-300x224.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/testament-424x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/testament.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/transparent.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/transparent1-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/transparent1-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/transparent1-299x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/03/transparent1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3-200x100.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3-300x287.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3-500x375.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3-696x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2014/04/imaginea-22-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx--150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx--200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx--300x174.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx--500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx--792x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2015/01/nginx-.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-1024x553.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-300x162.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-768x415.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.40.49.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-1024x436.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-300x128.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-500x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-768x327.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/Screen-Shot-2016-01-10-at-14.41.21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-1024x224.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-300x66.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-500x333.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-768x168.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01-800x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/image01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools-256x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools-413x200.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools-413x375.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/01/mongodb-gui-tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/02/laravel-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/02/laravel-200x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/02/laravel-300x61.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/02/laravel-500x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/02/laravel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/Screen-Shot-2016-08-28-at-17.54.00-150x86.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/Screen-Shot-2016-08-28-at-17.54.00.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android-256x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android-768x902.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android-872x1024.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/android.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/bash-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/bash-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/bash-600x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/bash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/open-street-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/open-street-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/open-street-500x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/open-street.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-1024x702.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-300x206.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-768x526.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-mysql-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-mysql-300x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-mysql-600x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php-mysql.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/php.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/react-native-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/react-native-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/react-native-400x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/react-native.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/rotunneling-150x140.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/rotunneling-300x124.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/rotunneling.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/share-unlocker-150x138.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/share-unlocker-300x83.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/share-unlocker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/titanium--150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/titanium--300x141.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/titanium--678x300.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/titanium-.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader-1024x334.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader-300x98.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader-768x251.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/08/trilu-downloader.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery-1024x576.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery-300x169.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery-680x300.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery-768x432.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2016/11/angular-jquery.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/03/angular-firebase-150x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/03/angular-firebase-300x150.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/03/angular-firebase-600x300.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/03/angular-firebase.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-1-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-1-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-1-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-1-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/WebDollar-logo-black.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/webdollar-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/webdollar-300x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/webdollar-680x300.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/webdollar-768x768.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/2017/12/webdollar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-144x144.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-192x192.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-36x36.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-48x48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-72x72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/android-chrome-96x96.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-114x114.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-120x120.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-144x144.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-152x152.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-180x180.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-57x57.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-60x60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-72x72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-76x76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/browserconfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/favicon-16x16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/favicon-32x32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/favicon-96x96.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/mstile-144x144.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/mstile-150x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/mstile-310x150.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/mstile-310x310.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/mstile-70x70.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/preview/preview_82207e95fec5585c518816791d1630d2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/fbrfg/safari-pinned-tab.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_site/wp-content/uploads/wpcf7_captcha/.htaccess" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-12-27-salutare-tuturor.md" afterPath="$PROJECT_DIR$/_posts/2012-12-27-salutare-tuturor.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-12-30-website-uri-pe-care-le-detin.md" afterPath="$PROJECT_DIR$/_posts/2012-12-30-website-uri-pe-care-le-detin.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-03-afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger.md" afterPath="$PROJECT_DIR$/_posts/2013-01-03-afla-ip-ul-unei-persoane-cu-care-vorbesti-pe-messenger.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-functie-php-ping-in-php.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-functie-php-ping-in-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-libertatea-ro-si-cum-sa-castigi-trafic-gratuit.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-libertatea-ro-si-cum-sa-castigi-trafic-gratuit.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-04-player-audio-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-01-04-player-audio-in-html5.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-restrictii-la-internet-in-caminele-studentesti.md" afterPath="$PROJECT_DIR$/_posts/2013-01-05-restrictii-la-internet-in-caminele-studentesti.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-rstcenter-com-s-a-redeschis.md" afterPath="$PROJECT_DIR$/_posts/2013-01-05-rstcenter-com-s-a-redeschis.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-cum-sa-descarci-muzica-de-pe-trilulilu.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-cum-sa-descarci-muzica-de-pe-trilulilu.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-extractor-intrebari-drpciv-ro-php.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-extractor-intrebari-drpciv-ro-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-06-phishing-via-target_blank.md" afterPath="$PROJECT_DIR$/_posts/2013-01-06-phishing-via-target_blank.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-07-castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs.md" afterPath="$PROJECT_DIR$/_posts/2013-01-07-castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-08-convertor-money-ro-imprastie-malware.md" afterPath="$PROJECT_DIR$/_posts/2013-01-08-convertor-money-ro-imprastie-malware.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-11-cum-sa-ascunzi-un-folder-pe-windows.md" afterPath="$PROJECT_DIR$/_posts/2013-01-11-cum-sa-ascunzi-un-folder-pe-windows.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-11-descarca-muzica-pe-mobil-gratuit.md" afterPath="$PROJECT_DIR$/_posts/2013-01-11-descarca-muzica-pe-mobil-gratuit.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-20-poza-unui-profil-de-facebook-la-marime-originala.md" afterPath="$PROJECT_DIR$/_posts/2013-01-20-poza-unui-profil-de-facebook-la-marime-originala.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-21-sfarsitul-bitcoin.md" afterPath="$PROJECT_DIR$/_posts/2013-01-21-sfarsitul-bitcoin.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-04-extrage-textul-dintre-doua-delimitatoare-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-04-extrage-textul-dintre-doua-delimitatoare-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-extrage-elementele-html-dintr-o-pagina-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-extrage-elementele-html-dintr-o-pagina-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-hotfiles-ro-girlshare-ro-mp3-downloader-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-hotfiles-ro-girlshare-ro-mp3-downloader-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-introducere-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-introducere-in-html5.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-05-strileprotv-ro-comment-spammer-php.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-strileprotv-ro-comment-spammer-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-07-elemente-noi-in-html5.md" afterPath="$PROJECT_DIR$/_posts/2013-02-07-elemente-noi-in-html5.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-10-script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri.md" afterPath="$PROJECT_DIR$/_posts/2013-02-10-script-linux-transforma-o-lista-de-ip-uri-in-hostname-uri.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-02-16-vpn-romania.md" afterPath="$PROJECT_DIR$/_posts/2013-02-16-vpn-romania.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-03-18-romania-te-iubesc-hackerville.md" afterPath="$PROJECT_DIR$/_posts/2013-03-18-romania-te-iubesc-hackerville.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-gt-i9190-s4-mini.md" afterPath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-gt-i9190-s4-mini.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-i9500-s4-pret.md" afterPath="$PROJECT_DIR$/_posts/2013-03-24-samsung-galaxy-i9500-s4-pret.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-04-05-chestionare-pe-drpciv-ro-si-de-pe-alte-browsere.md" afterPath="$PROJECT_DIR$/_posts/2013-04-05-chestionare-pe-drpciv-ro-si-de-pe-alte-browsere.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-04-13-cross-site-script-inclusionxssi-un-nou-tip-de-atac.md" afterPath="$PROJECT_DIR$/_posts/2013-04-13-cross-site-script-inclusionxssi-un-nou-tip-de-atac.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-ask-fm-spammer-php.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-ask-fm-spammer-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-chestionare-drpciv-ro-fara-cont.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-chestionare-drpciv-ro-fara-cont.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-07-28-url-list-sqli-scanner.md" afterPath="$PROJECT_DIR$/_posts/2013-07-28-url-list-sqli-scanner.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-06-whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox.md" afterPath="$PROJECT_DIR$/_posts/2013-08-06-whatsapp-hack-pacaleste-ti-prietenii-cu-whatsapp-toolbox.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-07-preia-imaginea-de-fundal-a-unui-profil-ask-fm.md" afterPath="$PROJECT_DIR$/_posts/2013-08-07-preia-imaginea-de-fundal-a-unui-profil-ask-fm.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-20-blocheaza-cererile-de-jocuri-pe-facebook.md" afterPath="$PROJECT_DIR$/_posts/2013-08-20-blocheaza-cererile-de-jocuri-pe-facebook.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-26-descarca-muzica-pe-mobil.md" afterPath="$PROJECT_DIR$/_posts/2013-08-26-descarca-muzica-pe-mobil.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-27-fura-poza-unui-profil-de-facebook.md" afterPath="$PROJECT_DIR$/_posts/2013-08-27-fura-poza-unui-profil-de-facebook.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-27-vrei-un-site.md" afterPath="$PROJECT_DIR$/_posts/2013-08-27-vrei-un-site.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-29-opreste-spam-ul-ask-fm.md" afterPath="$PROJECT_DIR$/_posts/2013-08-29-opreste-spam-ul-ask-fm.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-09-04-instalare-dd-wrt-pe-tp-link-tl-wr740n.md" afterPath="$PROJECT_DIR$/_posts/2013-09-04-instalare-dd-wrt-pe-tp-link-tl-wr740n.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-09-06-ajutati-l-pe-andrei.md" afterPath="$PROJECT_DIR$/_posts/2013-09-06-ajutati-l-pe-andrei.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-09-28-strawpoll-bot.md" afterPath="$PROJECT_DIR$/_posts/2013-09-28-strawpoll-bot.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-10-13-vouchere-gratuite-notino-aoro-ro.md" afterPath="$PROJECT_DIR$/_posts/2013-10-13-vouchere-gratuite-notino-aoro-ro.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-10-20-compilator-c-online.md" afterPath="$PROJECT_DIR$/_posts/2013-10-20-compilator-c-online.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-10-28-cum-sa-oprim-aplicatia-bbm-pe-android.md" afterPath="$PROJECT_DIR$/_posts/2013-10-28-cum-sa-oprim-aplicatia-bbm-pe-android.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-11-28-cupoane-nelimitate-de-reducere-20-la-kfc.md" afterPath="$PROJECT_DIR$/_posts/2013-11-28-cupoane-nelimitate-de-reducere-20-la-kfc.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-12-12-trimite-fotografii-si-videoclipuri-cu-instagram.md" afterPath="$PROJECT_DIR$/_posts/2013-12-12-trimite-fotografii-si-videoclipuri-cu-instagram.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-07-emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows.md" afterPath="$PROJECT_DIR$/_posts/2014-01-07-emulare-android-pe-windows-instalare-aplicatii-de-tipul-whatsapp-pe-laptoppc-cu-windows.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-17-optimizare-seo-pentru-imagini.md" afterPath="$PROJECT_DIR$/_posts/2014-01-17-optimizare-seo-pentru-imagini.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-cryptorbit-ransomware-scam-ransom-money-fake-decryption-keys.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-infractiunile-informatice-din-noul-cod-penal.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-infractiunile-informatice-din-noul-cod-penal.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-28-leaked-iphone-6-logic-board-a8-processor-video.md" afterPath="$PROJECT_DIR$/_posts/2014-01-28-leaked-iphone-6-logic-board-a8-processor-video.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-03-11-am-aparut-pe-yahoo-wall-of-fame.md" afterPath="$PROJECT_DIR$/_posts/2014-03-11-am-aparut-pe-yahoo-wall-of-fame.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-03-14-ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture.md" afterPath="$PROJECT_DIR$/_posts/2014-03-14-ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-04-07-vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza.md" afterPath="$PROJECT_DIR$/_posts/2014-04-07-vizualizare-clipuri-distribuie-pe-facebook-pentru-putea-vizualiza.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-04-18-graphics-h-si-opengl-codeblocks.md" afterPath="$PROJECT_DIR$/_posts/2014-04-18-graphics-h-si-opengl-codeblocks.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-05-16-generator-de-cnp-uri-javascript.md" afterPath="$PROJECT_DIR$/_posts/2014-05-16-generator-de-cnp-uri-javascript.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-08-11-setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc.md" afterPath="$PROJECT_DIR$/_posts/2014-08-11-setarea-oricarei-locatii-pe-facebook-chat-tinder-viber-etc.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-09-07-fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti.md" afterPath="$PROJECT_DIR$/_posts/2014-09-07-fiveplaces-aplicatie-android-care-va-ajuta-atunci-cand-calatoriti.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-09-14-ghid-metrou-si-harta-metroului-din-bucuresti-actualizata.md" afterPath="$PROJECT_DIR$/_posts/2014-09-14-ghid-metrou-si-harta-metroului-din-bucuresti-actualizata.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-10-29-5-dolari-credit-gratuit-pentru-skype.md" afterPath="$PROJECT_DIR$/_posts/2014-10-29-5-dolari-credit-gratuit-pentru-skype.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-12-22-clasa-php-pentru-a-facilita-folosirea-curl.md" afterPath="$PROJECT_DIR$/_posts/2014-12-22-clasa-php-pentru-a-facilita-folosirea-curl.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-01-27-cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1.md" afterPath="$PROJECT_DIR$/_posts/2015-01-27-cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-03-01-concurs-10-invitatii-pe-filelist-ro.md" afterPath="$PROJECT_DIR$/_posts/2015-03-01-concurs-10-invitatii-pe-filelist-ro.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-03-licenta-gratuita-windows-10-daca-esti-student.md" afterPath="$PROJECT_DIR$/_posts/2015-08-03-licenta-gratuita-windows-10-daca-esti-student.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-25-cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control.md" afterPath="$PROJECT_DIR$/_posts/2015-08-25-cum-gazduim-site-uri-pe-freebsd-fara-panou-de-control.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-08-30-agenda-telefonica-in-java.md" afterPath="$PROJECT_DIR$/_posts/2015-08-30-agenda-telefonica-in-java.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-12-21-implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass.md" afterPath="$PROJECT_DIR$/_posts/2015-12-21-implementarea-platii-online-de-la-mobilpay-pe-platforma-osclass.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-01-10-osclass-rotative-classifieds-widget-generator.md" afterPath="$PROJECT_DIR$/_posts/2016-01-10-osclass-rotative-classifieds-widget-generator.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-01-17-e-commerce-platform-based-on-mongodb-php.md" afterPath="$PROJECT_DIR$/_posts/2016-01-17-e-commerce-platform-based-on-mongodb-php.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-02-04-new-facebook-messenger-features.md" afterPath="$PROJECT_DIR$/_posts/2016-02-04-new-facebook-messenger-features.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-02-25-mongodb-on-laravel-homestead-with-php-7.md" afterPath="$PROJECT_DIR$/_posts/2016-02-25-mongodb-on-laravel-homestead-with-php-7.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-04-03-network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge.md" afterPath="$PROJECT_DIR$/_posts/2016-04-03-network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-05-01-share-location-waze-laptop-mobile.md" afterPath="$PROJECT_DIR$/_posts/2016-05-01-share-location-waze-laptop-mobile.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md" afterPath="$PROJECT_DIR$/_posts/2016-08-24-webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-11-27-use-jquery-library-modules-angularjs-ng-include.md" afterPath="$PROJECT_DIR$/_posts/2016-11-27-use-jquery-library-modules-angularjs-ng-include.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-03-12-send-firebase-user-auth-token-every-request-angularjs.md" afterPath="$PROJECT_DIR$/_posts/2017-03-12-send-firebase-user-auth-token-every-request-angularjs.md" />
-      <change beforePath="$PROJECT_DIR$/about-cookies.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/contact.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/despre-mine.md" afterPath="$PROJECT_DIR$/despre-mine.md" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/administrare.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/anunturi.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/biologie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/chimie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/concursuri.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/contact.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/culturale.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/dinicu3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/educatie_fizica.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/engleza.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/fizica.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/forum/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/franceza.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/galerie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/geografie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/germana.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/administrare.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/anunturi.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/background1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/books.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/cm_liceu.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/concursuri.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/contact.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/culturale.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu1_thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu2_thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/dinicu3_thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/galerie.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/imn.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/instorie.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/bg_grad.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/bg_nav.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/gblnav_left.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glblnav_selected.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glbnav_background.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/glbnav_right.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/tl_curve_white.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/layout/tr_curve_white.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/gigi.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/lider.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/vadim.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/lideri/vanghelie.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/adam_viorica.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/anania_elisabeta.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/badescu_adriana.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/baditescu_simona.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/balan_mircea.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/berevoescu_catalin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/blidaru_margarin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/bulea_cornel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/butoiu_ludmila.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/calangiu_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/calinescu_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/caramelea_viorel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/ciortan_elena.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cocarla_rodica1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/coza_gherghina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cretu_c-tin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/cristudor_mihai.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dejan_florentina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dumitrascu_dan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/dumitrascu_teodora.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/enasescu_petruta.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/enescu_irina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/fuscel_cristina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/georgescu_dumitru.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/georgescu_florin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/heroiu_bogdan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/horvat_maria.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/iacobescu_camelia.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/ivan_adina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/joita_roxana.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/lazarovici_cristina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/manu_anca.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/manu_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/marinescu_anca.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/moise_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/musetescu_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/negus_laura.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/nicolaescu_iulian.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/oarga_cornel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_gabriela.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_george.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/olteanu_maria.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/oncescu_manuela.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/parghel_petre.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/petrisor_c-tin.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/pisau_daniela.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/popescu_ileana_argesel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/popovici_luminita.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/sarbu_vasile.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/serafimescu_iolanda.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/simescu_doina.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/sora_magdalena.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/stanescu_ion.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tatulea_maria.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tica_vasile.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tonghioiu_alberto.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/tudosie_stefan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vasilescu_mihaela.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vintila_marcel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vocila_ghe.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/vocila_gheorghe.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/voican_dragos.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/zabava_pavel.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profesori/zaharia_nicolae.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/profi.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/resurse.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/images/sport.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/imn.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/informatica.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/istoria.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/istorie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/latina.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/lideri.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/matematica.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/muzica_desen.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/pageNav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/profesori.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/religie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/resurse.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rezultate_0001.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rezultate_9900.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/romana-2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/romana.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/rusa.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/sportive.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/stiinte_sociale.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinicu.trei.ro/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/portfolio.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/fbrfg/browserconfig.xml" afterPath="$PROJECT_DIR$/wp-content/uploads/fbrfg/browserconfig.xml" />
     </list>
     <ignored path="s1lviu.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -494,7 +614,7 @@
       <workItem from="1496231448998" duration="37000" />
       <workItem from="1518454072099" duration="299000" />
       <workItem from="1518606353583" duration="4000" />
-      <workItem from="1518722610391" duration="8820000" />
+      <workItem from="1518722610391" duration="9363000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1458393651068</created>
@@ -790,16 +910,23 @@
       <option name="project" value="LOCAL" />
       <updated>1477321110375</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="my blog">
+      <created>1518779877660</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1518779877660</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35232000" />
+    <option name="totallyTimeSpent" value="35775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1073" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18401578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18401578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32750398" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
@@ -807,7 +934,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26482618" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26482618" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -860,7 +987,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index" />
+    <MESSAGE value="my blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="my blog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1070,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/despre-mine.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1093,6 +1213,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="82" lean-forward="false" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>

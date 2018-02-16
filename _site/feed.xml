@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-16T13:18:05+02:00</updated><id>http://localhost:4000/</id><title type="html">Silviu Stroe’s Tech Blog</title><subtitle>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</subtitle><entry><title type="html">Facebook Groups Live Search Extension</title><link href="http://localhost:4000/facebook-groups-live-search-extension/" rel="alternate" type="text/html" title="Facebook Groups Live Search Extension" /><published>2018-02-05T23:23:18+02:00</published><updated>2018-02-05T23:23:18+02:00</updated><id>http://localhost:4000/facebook-groups-live-search-extension</id><content type="html" xml:base="http://localhost:4000/facebook-groups-live-search-extension/">&lt;p&gt;Hi, folks!&lt;/p&gt;
+
+&lt;p&gt;Last night I have done a Chrome extension. It’s about live searching on Facebook groups to avoid duplicate posts.&lt;/p&gt;
+
+&lt;p&gt;The extension returns to you the most relevant results based on your search words.&lt;/p&gt;
+
+&lt;p&gt;The extension do the search after backspace or return key press.&lt;/p&gt;
+
+&lt;p&gt;The source code can be found &lt;a href=&quot;https://github.com/s1lviu/Facebook-Groups-Live-Search&quot;&gt;here&lt;/a&gt; and the extension can be downloaded from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/facebook-groups-live-sear/aphdbfipjfgkcddjjbkhiaofgaenabjg&quot;&gt;Chrome Web Store&lt;/a&gt; or &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/facebook-groups-live-search/&quot;&gt;Firefox Addons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="chrome extension" /><category term="facebook groups live search" /><category term="facebook groups live search extension" /><category term="fb groups live search" /><category term="groups live search" /><summary type="html">Hi, folks!</summary></entry><entry><title type="html">Configure Travis-CI to use the GCC 5 compiler</title><link href="http://localhost:4000/configure-travis-ci-use-gcc-5-compiler/" rel="alternate" type="text/html" title="Configure Travis-CI to use the GCC 5 compiler" /><published>2018-01-17T22:41:04+02:00</published><updated>2018-01-17T22:41:04+02:00</updated><id>http://localhost:4000/configure-travis-ci-use-gcc-5-compiler</id><content type="html" xml:base="http://localhost:4000/configure-travis-ci-use-gcc-5-compiler/">&lt;p&gt;Travis CI is a platform where you can test the software you build after every Github push (in my case).&lt;/p&gt;
+
+&lt;p&gt;After you have did the push, Github send a request to Travis and it start to clone and build your project about the instructions from&lt;/p&gt;
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot; title=&quot;&quot;&gt;.travis.yml&lt;/pre&gt;
+
+&lt;p&gt;configuration file from your repo.&lt;/p&gt;
+
+&lt;p&gt;But, this time I will tell you how to instruct Travis to compile your code with GCC 5 compiler version. And it’s very simple. I was needed to do that while I was working at &lt;a href=&quot;https://silviu-s.com/webdollar-coin-internet-newest-internet-cryptocurrency/&quot;&gt;WebDollar&lt;/a&gt; cryptocurrency project.&lt;/p&gt;
+
+&lt;p&gt;Bellow you have the config of Travis:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot; title=&quot;&quot;&gt;{
+  &quot;language&quot;: &quot;node_js&quot;,
+  &quot;sudo&quot;: &quot;required&quot;,
+  &quot;before_install&quot;: [
+    &quot;npm install -g node-gyp&quot;
+  ],
+  &quot;node_js&quot;: &quot;stable&quot;,
+  &quot;env&quot;: &quot;CXX=g++-5&quot;,
+  &quot;addons&quot;: {
+    &quot;apt&quot;: {
+      &quot;sources&quot;: [
+        &quot;ubuntu-toolchain-r-test&quot;
+      ],
+      &quot;packages&quot;: [
+        &quot;g++-5&quot;
+      ]
+    }
+  },
+  &quot;group&quot;: &quot;stable&quot;,
+  &quot;dist&quot;: &quot;trusty&quot;,
+  &quot;os&quot;: &quot;linux&quot;
+}
+&lt;/pre&gt;
+
+&lt;p&gt;As you can see, in the apt section, in sources I have the ubuntu-toolchain-r-test. This source contain the g++ version 5 compiler.&lt;/p&gt;
+
+&lt;p&gt;Bellow apt section I instruct the environment to use that GCC compiler.&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="gcc" /><category term="gcc 5" /><category term="gcc5" /><category term="travis" /><category term="travis ci gcc 5" /><category term="travis ci gcc5" /><category term="travis-ci" /><summary type="html">Travis CI is a platform where you can test the software you build after every Github push (in my case). After you have did the push, Github send a request to Travis and it start to clone and build your project about the instructions from</summary></entry><entry><title type="html">WebDollar – Coin of the Internet – The Newest Internet Cryptocurrency</title><link href="http://localhost:4000/webdollar-coin-internet-newest-internet-cryptocurrency/" rel="alternate" type="text/html" title="WebDollar – Coin of the Internet – The Newest Internet Cryptocurrency" /><published>2017-12-30T16:43:07+02:00</published><updated>2017-12-30T16:43:07+02:00</updated><id>http://localhost:4000/webdollar-coin-internet-newest-internet-cryptocurrency</id><content type="html" xml:base="http://localhost:4000/webdollar-coin-internet-newest-internet-cryptocurrency/">&lt;p&gt;Hi, folks!&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;word-spacing: normal;&quot;&gt;It’s been long time since I haven’t posted anything on the blog.&lt;br /&gt; &lt;/span&gt;&lt;span style=&quot;word-spacing: normal;&quot;&gt;Today I write a short article about a new open source project I’ve enjoyed short time ago.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1 style=&quot;text-align: center;&quot;&gt;
+  WebDollar
+&lt;/h1&gt;
+
+&lt;p&gt;It’s about &lt;a href=&quot;http://webdollar.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;WebDollar&lt;/a&gt;, a project started by &lt;a href=&quot;http://budisteanu.net&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ionuț Budișteanu&lt;/a&gt;, who was a faculty colleague of mine and other passionate &lt;a href=&quot;http://webdollar.io/#team&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;people&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-main-points-of-webdollar-and-what-it-brings-new-to-the-world-of-cryptocurrencies&quot;&gt;The main points of &lt;strong&gt;WebDollar&lt;/strong&gt; and what it brings new to the world of cryptocurrencies:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;it’s easy to use for everyone, a plug-n-play cryptocurrency, without any software downloads or installation&lt;/li&gt;
+  &lt;li&gt;start mining right now – as I said, you will have to press a button and start mining in your browser – because Internet coin&lt;/li&gt;
+  &lt;li&gt;your wallet it’s accessible in your browser, crypted and secured and NOT saved in any cloud database or something like that – you can view/send and receive webdollars very fast (15 seconds maximum wait time) and create new wallets with one click&lt;/li&gt;
+  &lt;li&gt;mine with your mobile/tablet or anything that run JavaScript&lt;/li&gt;
+  &lt;li&gt;small size of data downloaded in browser (under 5 MB) then it’s lightest as light&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.bitcoin.it/wiki/ASIC&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ASIC&lt;/a&gt; resistant – we want to keep people together by offering an referral system and not giving them the big shark impression (those which use specialised mining machines earn a lot and others a little) – everyone will earn as they will invite others to mine in their pools&lt;/li&gt;
+  &lt;li&gt;embed and earn – if you have a website and want to monetize it’s content then you will simply embed WebDollar script into your page and earn – without intrusive ads&lt;/li&gt;
+  &lt;li&gt;full anonymity  – no cloud database, no software downloads – much better anonymity than bitcoin and ethereum&lt;/li&gt;
+  &lt;li&gt;small fees but smaller as transaction value increases – fees inversely proportional to transaction value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;webdollar-references&quot;&gt;WebDollar References&lt;/h2&gt;
+
+&lt;p&gt;You can fork the project &lt;a href=&quot;https://github.com/WebDollar&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;here&lt;/a&gt;, on Github.&lt;/p&gt;
+
+&lt;p&gt;WebDollar White Paper can be found &lt;a href=&quot;http://webdollar.io/public/WebDollar-White-Paper.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, the &lt;a href=&quot;https://t.me/WebDollar&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;telegram group&lt;/a&gt; and &lt;a href=&quot;https://facebook.com/webdollar.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;facebook&lt;/a&gt; if you didn’t get them from website.&lt;/p&gt;
+
+&lt;p&gt;Thank you for reading and we are inviting you to follow WebDollar’s website timeline for further infos and news.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 16.01.2018 : I have left the WebDollar project.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="ADRIAN ROBESCU" /><category term="adrian stratulat" /><category term="anonymous coin" /><category term="asic resistance" /><category term="coin of the internet" /><category term="cosmin oprea" /><category term="fast transactions" /><category term="how to get webd" /><category term="internet coin" /><category term="internet currency" /><category term="ionut budisteanu" /><category term="ionut panait" /><category term="ISSAM OUTALEB" /><category term="lead evangelist" /><category term="mine webd" /><category term="PATRICK McCULLOUGH" /><category term="wbd" /><category term="webd" /><category term="webd asic" /><category term="webd browser" /><category term="webd coin" /><category term="webd cryptocurrency" /><category term="webd minner" /><category term="webdolar" /><category term="webdollar" /><category term="webdollar cryptocurrency" /><category term="webdollar currency" /><summary type="html">Hi, folks! It’s been long time since I haven’t posted anything on the blog. Today I write a short article about a new open source project I’ve enjoyed short time ago.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/wp-content/uploads/2017/12/webdollar-680x300.png" /></entry><entry><title type="html">How to send Firebase user auth token with every request in AngularJS</title><link href="http://localhost:4000/send-firebase-user-auth-token-every-request-angularjs/" rel="alternate" type="text/html" title="How to send Firebase user auth token with every request in AngularJS" /><published>2017-03-12T16:22:22+02:00</published><updated>2017-03-12T16:22:22+02:00</updated><id>http://localhost:4000/send-firebase-user-auth-token-every-request-angularjs</id><content type="html" xml:base="http://localhost:4000/send-firebase-user-auth-token-every-request-angularjs/">&lt;p&gt;Hello, guys!&lt;/p&gt;
+
+&lt;p&gt;If you want to build an AngularJS app based of Firebase, probably at a certain time you want to verify if the logged user it’s the same one that makes requests to your backend server in order to serve specific data securely.&lt;/p&gt;
+
+&lt;p&gt;For this to happen, we must write a &lt;a href=&quot;https://docs.angularjs.org/guide/services&quot;&gt;service&lt;/a&gt; that will return a &lt;a href=&quot;https://docs.angularjs.org/api/ng/service/$q&quot;&gt;promise&lt;/a&gt; which contains the logged user’s token if the user is authenticated or else a error.&lt;/p&gt;
+
+&lt;pre class=&quot;brush: jscript; title: ; notranslate&quot; title=&quot;&quot;&gt;.factory('User', function ($q) {
+
+        return {
+            authToken: function () {
+                return $q(function (resolve, reject) {
+                    firebase.auth().onAuthStateChanged(function (user) {
+                        if (user) {
+                            user.getToken().then(function (data) {
+                                resolve(data);
+                            }).catch(function (err) {
+                                reject(err);
+                            });
+                        }
+                    });
+                })
+            }
+     
+        }
+
+    })
+&lt;/pre&gt;
+
+&lt;p&gt;Then, we need a http request &lt;a href=&quot;https://docs.angularjs.org/api/ng/service/$http&quot;&gt;interceptor&lt;/a&gt; that will wait for the token promise defined above and will inject it in every http header request.&lt;/p&gt;
+
+&lt;pre class=&quot;brush: jscript; title: ; notranslate&quot; title=&quot;&quot;&gt;angular.module('YourApp').config(function ($httpProvider) {
+  
+    $httpProvider.interceptors.push(function (User, $q) {
+        return {
+            request: function (req) {
+                var deferred = $q.defer();
+                // Set the `Authorization` header for every outgoing HTTP request
+                User.authToken().then(function (data) {
+                    req.headers.Authorization = data; //set the Auth token
+                    deferred.resolve(req);
+                });
+
+                return deferred.promise;
+            }
+        };
+    })
+});
+&lt;/pre&gt;
+
+&lt;p&gt;Now, all you need is to &lt;a href=&quot;https://firebase.google.com/docs/auth/admin/verify-id-tokens&quot;&gt;verify the token&lt;/a&gt; on your backend.&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="angular firebase" /><category term="angular firebase auth token" /><category term="firebase current user" /><category term="firebase logged user" /><category term="firebase token" /><category term="firebase verify logged user" /><category term="send firebase token" /><summary type="html">Hello, guys!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/wp-content/uploads/2017/03/angular-firebase-600x300.jpg" /></entry><entry><title type="html">How to use jQuery and its modules with AngularJS ng-include</title><link href="http://localhost:4000/use-jquery-library-modules-angularjs-ng-include/" rel="alternate" type="text/html" title="How to use jQuery and its modules with AngularJS ng-include" /><published>2016-11-27T22:58:45+02:00</published><updated>2016-11-27T22:58:45+02:00</updated><id>http://localhost:4000/use-jquery-library-modules-angularjs-ng-include</id><content type="html" xml:base="http://localhost:4000/use-jquery-library-modules-angularjs-ng-include/">&lt;p&gt;Hi, folks!&lt;/p&gt;
+
+&lt;p&gt;These days I’ve tried to convert a basic html template bought from codecanyon to AngularJS. But there was a problem.&lt;/p&gt;
+
+&lt;p&gt;The jQuery does not wait for AngularJS to load because.. asynchronicity of the JavaScript language.&lt;/p&gt;
+
+&lt;p&gt;After few discussions with &lt;a href=&quot;https://eek.ro/&quot;&gt;Radu Amarie&lt;/a&gt;, the Head Of Engineering at &lt;a href=&quot;https://www.findie.me/&quot;&gt;Findie&lt;/a&gt; (a great start-up 😀 ) and few unsuccessful tests, he recommended me to try this function from &lt;a href=&quot;https://www.sitepoint.com/dynamically-load-jquery-library-javascript/&quot;&gt;SitePoint&lt;/a&gt; which I have inserted in my main Angular controller:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: jscript; title: ; notranslate&quot; title=&quot;&quot;&gt;(function () {
+
+function loadScript(url, callback) {
+
+var script = document.createElement(&quot;script&quot;)
+script.type = &quot;text/javascript&quot;;
+
+if (script.readyState) { //IE
+script.onreadystatechange = function () {
+if (script.readyState == &quot;loaded&quot; || script.readyState == &quot;complete&quot;) {
+script.onreadystatechange = null;
+callback();
+}
+};
+} else { //Others
+script.onload = function () {
+callback();
+};
+}
+
+script.src = url;
+document.getElementsByTagName(&quot;head&quot;)[0].appendChild(script);
+}
+
+loadScript(&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js&quot;, function () {
+
+//jQuery loaded
+console.log('jquery loaded');
+
+});
+})();
+
+&lt;/pre&gt;
+
+&lt;p&gt;In the first place, the solution won’t worked, because the scripts was still loading asyncronously. After that, I have setted&lt;/p&gt;
+
+&lt;pre class=&quot;brush: jscript; title: ; notranslate&quot; title=&quot;&quot;&gt;async=false;&lt;/pre&gt;
+
+&lt;p&gt;after&lt;/p&gt;
+
+&lt;pre class=&quot;brush: jscript; title: ; notranslate&quot; title=&quot;&quot;&gt;script.type = &quot;text/javascript&quot;;&lt;/pre&gt;
+
+&lt;p&gt;and magically jQuery and Angular became friends and now I can continue the work! 😀&lt;/p&gt;
+
+&lt;p&gt;Later edit:&lt;/p&gt;
+
+&lt;p&gt;I found that &lt;a href=&quot;https://oclazyload.readme.io/&quot;&gt;ocLazyLoad&lt;/a&gt; is a more elegant solution, in combination with directives. 🙂&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="angular" /><category term="angular-js" /><category term="jquery" /><category term="jquery not working" /><category term="jquery wait for angular" /><category term="ng-include" /><summary type="html">Hi, folks! These days I’ve tried to convert a basic html template bought from codecanyon to AngularJS. But there was a problem. The jQuery does not wait for AngularJS to load because.. asynchronicity of the JavaScript language.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/wp-content/uploads/2016/11/angular-jquery-680x300.jpg" /></entry><entry><title type="html">WebStorm &amp;amp; React Native: Transpiles ECMAScript 6 code to ECMAScript 5 – Babel</title><link href="http://localhost:4000/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/" rel="alternate" type="text/html" title="WebStorm &amp; React Native: Transpiles ECMAScript 6 code to ECMAScript 5 – Babel" /><published>2016-08-24T17:06:07+03:00</published><updated>2016-08-24T17:06:07+03:00</updated><id>http://localhost:4000/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5</id><content type="html" xml:base="http://localhost:4000/webstorm-react-native-transpiles-ecmascript-6-code-ecmascript-5/">&lt;p&gt;Hi, geeks!&lt;/p&gt;
+
+&lt;p&gt;If you plan to use WebStorm for React Native development, it’s good to set a file watcher.&lt;/p&gt;
+
+&lt;p&gt;From the jetbrains blog we will find that&lt;/p&gt;
+
+&lt;p&gt;“For some time now WebStorm has supported &lt;strong&gt;ECMAScript 6&lt;/strong&gt; (a.k.a. ECMAScript 2015), the future standard for JavaScript. While its features get more and more support in modern browsers and runtimes (see the &lt;a href=&quot;http://kangax.github.io/compat-table/es6/&quot;&gt;Kangax compatibility table&lt;/a&gt;), to deploy your ES6 code you still need to compile it to ES5.1, the current version of JavaScript.”&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-babel-file-watcher&quot;&gt;Setting up Babel File watcher&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;File watcher&lt;/em&gt; is a WebStorm built-in tool that allows you to automatically run some command-line tools on file changes. For Babel WebStorm has pre-configured File watchers. Let’s see how to enable it.&lt;/p&gt;
+
+&lt;p id=&quot;babelfilewatcher&quot;&gt;
+  Install &lt;a href=&quot;http://babeljs.io/docs/setup/#babel_cli&quot;&gt;Babel CLI&lt;/a&gt; in your project via npm:
+&lt;/p&gt;
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot; title=&quot;&quot;&gt;npm install --save-dev babel-cli&lt;/pre&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Now go to Preferences&lt;/td&gt;
+      &lt;td&gt;Tools&lt;/td&gt;
+      &lt;td&gt;File watchers, click + button and select Babel file watcher from the list.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In addition to that, you need to install Babel 6 preset for transpiling ECMAScript 6 locally in your project (for JSX you need &lt;em&gt;babel-preset-react&lt;/em&gt; plugin instead). To do that open the Terminal at your application root directory and run:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot; title=&quot;&quot;&gt;npm i babel-preset-react-native --save-dev&lt;/pre&gt;
+
+&lt;p&gt;Add &lt;em&gt;.babelrc&lt;/em&gt; file to your project with the following code to enable the preset:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot; title=&quot;&quot;&gt;{
+  &quot;presets&quot;: [&quot;react-native&quot;]
+}
+&lt;/pre&gt;
+
+&lt;p&gt;All other Watcher settings are predefined, so it is now ready to use. With this default setup, compiled files will be located next to the original files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;size-medium&quot; src=&quot;http://i.imgur.com/Yz2zHFR.png&quot; alt=&quot;babel react native&quot; width=&quot;2560&quot; height=&quot;1600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’ll come back with more details soon.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;blockquote class=&quot;wp-embedded-content&quot; data-secret=&quot;F4HGmG8568&quot;&gt;
+  &lt;p&gt;
+    &lt;a href=&quot;https://blog.jetbrains.com/webstorm/2015/05/ecmascript-6-in-webstorm-transpiling/&quot;&gt;ECMAScript 6 in WebStorm: Transpiling&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/react-native/tree/master/babel-preset&quot;&gt;Babel preset on GitHub&lt;/a&gt;&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="babel" /><category term="jsx" /><category term="react native babel" /><category term="react native development" /><category term="react native webstorm" /><summary type="html">Hi, geeks!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/wp-content/uploads/2016/08/react-native-400x300.png" /></entry><entry><title type="html">Share your location to Waze from your laptop or mobile</title><link href="http://localhost:4000/share-location-waze-laptop-mobile/" rel="alternate" type="text/html" title="Share your location to Waze from your laptop or mobile" /><published>2016-05-01T22:38:18+03:00</published><updated>2016-05-01T22:38:18+03:00</updated><id>http://localhost:4000/share-location-waze-laptop-mobile</id><content type="html" xml:base="http://localhost:4000/share-location-waze-laptop-mobile/">&lt;p&gt;Last night, lack of activity and hitting me with this problem a few days ago I did a little web application that:&lt;/p&gt;
+
+&lt;p&gt;– Takes the user’s location via HTML5 Geolocation&lt;/p&gt;
+
+&lt;p&gt;– Generates a link on its&lt;/p&gt;
+
+&lt;p&gt;How it works and how to use?&lt;/p&gt;
+
+&lt;p&gt;Link generated is sent (via SMS, Messenger, etc.) to the person who wants to lead you. Person, once access that link and it will automatically open the app Waze point location set your destination.&lt;/p&gt;
+
+&lt;p&gt;As a utility, I thought that people who use a laptop or desktop and need to send their physical location at the time of Waze for the latter can immediately hit the road in that direction.&lt;/p&gt;
+
+&lt;p&gt;If you have any suggestions, feel free to share them.&lt;/p&gt;
+
+&lt;p&gt;Thank you! 🙂&lt;/p&gt;
+
+&lt;p&gt;Users who access the site from mobile location services must be activated and of course to allow access to the site “location”.&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;https://wazemylocation.link/&quot; target=&quot;_blank&quot;&gt;Waze my location&lt;/a&gt;&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="send location to waze" /><category term="share location to waze" /><category term="share my location" /><category term="share waze location" /><summary type="html">Last night, lack of activity and hitting me with this problem a few days ago I did a little web application that: – Takes the user’s location via HTML5 Geolocation – Generates a link on its How it works and how to use? Link generated is sent (via SMS, Messenger, etc.) to the person who wants to lead you. Person, once access that link and it will automatically open the app Waze point location set your destination. As a utility, I thought that people who use a laptop or desktop and need to send their physical location at the time of Waze for the latter can immediately hit the road in that direction. If you have any suggestions, feel free to share them. Thank you! 🙂 Users who access the site from mobile location services must be activated and of course to allow access to the site “location”. Link: Waze my location</summary></entry><entry><title type="html">Network dropping (Wi-Fi, mobile data) on Samsung GALAXY S6 Edge+</title><link href="http://localhost:4000/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge/" rel="alternate" type="text/html" title="Network dropping (Wi-Fi, mobile data) on Samsung GALAXY S6 Edge+" /><published>2016-04-04T02:34:16+03:00</published><updated>2016-04-04T02:34:16+03:00</updated><id>http://localhost:4000/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge</id><content type="html" xml:base="http://localhost:4000/network-dropping-wi-fi-mobile-data-samsung-galaxy-s6-edge/">&lt;p&gt;I have a Galaxy S6 Edge+ phone and since updated at Android 6.0.1 Marshmallow, I’ve got some problems.&lt;/p&gt;
+
+&lt;p&gt;My problems started in using Facebook Messenger and Whatsapp, but not only. The Wi-Fi connection fluctuations was also present with packet loss every time.&lt;/p&gt;
+
+&lt;p&gt;On 3G/4G these apps mentioned above keep losing connection, especially in video or voice calls.&lt;/p&gt;
+
+&lt;p&gt;After about 2 weeks, I found the problem and happily with solution:&lt;/p&gt;
+
+&lt;p&gt;On other android versions (4.x and 5.x) I’ve used the “Power Saving” mode without any problems related to apps functionality, but from the Android 6, power saving algorithms seems to be changed seriously and the applications functionality suffered.&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><summary type="html">I have a Galaxy S6 Edge+ phone and since updated at Android 6.0.1 Marshmallow, I’ve got some problems. My problems started in using Facebook Messenger and Whatsapp, but not only. The Wi-Fi connection fluctuations was also present with packet loss every time. On 3G/4G these apps mentioned above keep losing connection, especially in video or voice calls. After about 2 weeks, I found the problem and happily with solution: On other android versions (4.x and 5.x) I’ve used the “Power Saving” mode without any problems related to apps functionality, but from the Android 6, power saving algorithms seems to be changed seriously and the applications functionality suffered.</summary></entry><entry><title type="html">MongoDB on Laravel Homestead with PHP 7</title><link href="http://localhost:4000/mongodb-on-laravel-homestead-with-php-7/" rel="alternate" type="text/html" title="MongoDB on Laravel Homestead with PHP 7" /><published>2016-02-25T22:58:50+02:00</published><updated>2016-02-25T22:58:50+02:00</updated><id>http://localhost:4000/mongodb-on-laravel-homestead-with-php-7</id><content type="html" xml:base="http://localhost:4000/mongodb-on-laravel-homestead-with-php-7/">&lt;p&gt;Hi, folks!&lt;/p&gt;
+
+&lt;p&gt;Because I had some troubles with installing and enabling MongoDB driver on Laravel Homestead with PHP 7 version installed on it, I will explain here how I have solved them.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-mongodb-package&quot;&gt;Install MongoDB package&lt;/h2&gt;
+
+&lt;p&gt;Import public key:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 &lt;/pre&gt;
+
+&lt;p&gt;Creating a List File:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;echo &quot;deb http://repo.mongodb.org/apt/ubuntu &quot;$(lsb_release -sc)&quot;/mongodb-org/3.0 multiverse&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list &lt;/pre&gt;
+
+&lt;p&gt;Update packages list:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;sudo apt-get update &lt;/pre&gt;
+
+&lt;p&gt;Install MongoDB package:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;sudo apt-get install -y mongodb-org&lt;/pre&gt;
+
+&lt;h2 id=&quot;make-connection-with-php&quot;&gt;Make connection with PHP&lt;/h2&gt;
+
+&lt;p&gt;Firstly, I have installed PHP MongoDB driver:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;sudo pecl install mongodb&lt;/pre&gt;
+
+&lt;p&gt;Secondly, I have added in&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;/etc/php/7.0/fpm/php.ini
+&lt;/pre&gt;
+
+&lt;p&gt;and in&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;/etc/php/7.0/cli/php.ini
+&lt;/pre&gt;
+
+&lt;p&gt;the following code&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;extension=mongodb.so &lt;/pre&gt;
+
+&lt;p&gt;Finally, we need to save the changes:&lt;/p&gt;
+
+&lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;sudo service php7.0-fpm restart &amp;amp;&amp;amp; sudo service nginx restart&lt;/pre&gt;</content><author><name>Silviu Stroe</name></author><category term="mongodb" /><category term="mongodb homestead" /><category term="mongodb laravel homestead" /><category term="mongodb php 7" /><category term="mongodb ubuntu 14.04" /><category term="php 7" /><summary type="html">Hi, folks! Because I had some troubles with installing and enabling MongoDB driver on Laravel Homestead with PHP 7 version installed on it, I will explain here how I have solved them.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/wp-content/uploads/2016/02/laravel-200x100.png" /></entry><entry><title type="html">New Facebook Messenger Features</title><link href="http://localhost:4000/new-facebook-messenger-features/" rel="alternate" type="text/html" title="New Facebook Messenger Features" /><published>2016-02-05T01:50:01+02:00</published><updated>2016-02-05T01:50:01+02:00</updated><id>http://localhost:4000/new-facebook-messenger-features</id><content type="html" xml:base="http://localhost:4000/new-facebook-messenger-features/">&lt;blockquote&gt;
+  &lt;p id=&quot;9ef5&quot; class=&quot;graf--p graf-after--figure&quot; style=&quot;padding-left: 30px;&quot;&gt;
+  @fbchess – Insert this code into conversation for playing chess
+&lt;/p&gt;
+
+  &lt;p class=&quot;graf--p graf-after--figure&quot;&gt;
+  &lt;img class=&quot;alignnone&quot; src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1200/1*shaGMtE3EC9_1iuhyOox5A.png&quot; alt=&quot;facebook chess&quot; width=&quot;745&quot; height=&quot;1271&quot; /&gt;
+&lt;/p&gt;
+
+  &lt;p id=&quot;9c85&quot; class=&quot;graf--p graf-after--p&quot;&gt;
+  @dailycute – Insert this code into conversation and Facebook will generate a Imgur cute picture
+&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;&quot; src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1200/1*3f8M5iqrNY22iIp3WQGG3g.png&quot; alt=&quot;daily cute&quot; width=&quot;1080&quot; height=&quot;1842&quot; /&gt;&lt;/p&gt;
+
+  &lt;p id=&quot;4c5f&quot; class=&quot;graf--p graf-after--p&quot; style=&quot;padding-left: 30px;&quot;&gt;
+  @holidaychallenge
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p id=&quot;6cbd&quot; class=&quot;graf--p graf-after--p&quot;&gt;
+  Type their names (above) into a chat thread to use them!
+&lt;/p&gt;
+
+&lt;p class=&quot;graf--p graf-after--p&quot;&gt;
+  Source: https://medium.com/
+&lt;/p&gt;</content><author><name>Silviu Stroe</name></author><category term="facebook chess" /><category term="facebook holiday" /><category term="facebook messenger" /><category term="faceboook daily cute" /><summary type="html">@fbchess – Insert this code into conversation for playing chess @dailycute – Insert this code into conversation and Facebook will generate a Imgur cute picture @holidaychallenge</summary></entry></feed>

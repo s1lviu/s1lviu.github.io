@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Hotfiles.ro – Girlshare.ro Mp3 Downloader [PHP] | Silviu Stroe’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Hotfiles.ro – Girlshare.ro Mp3 Downloader [PHP]" />
+<meta name="author" content="Silviu Stroe" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Am creeat un script care preia prima melodie mp3 cautata de pe hotfiles.ro si ofera link de download pentru aceasta si marimea acesteia! Script-ul il aveti mai jos:" />
+<meta property="og:description" content="Am creeat un script care preia prima melodie mp3 cautata de pe hotfiles.ro si ofera link de download pentru aceasta si marimea acesteia! Script-ul il aveti mai jos:" />
+<link rel="canonical" href="http://localhost:4000/hotfiles-ro-girlshare-ro-mp3-downloader-php/" />
+<meta property="og:url" content="http://localhost:4000/hotfiles-ro-girlshare-ro-mp3-downloader-php/" />
+<meta property="og:site_name" content="Silviu Stroe’s Tech Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-02-05T22:57:43+02:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/hotfiles-ro-girlshare-ro-mp3-downloader-php/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hotfiles-ro-girlshare-ro-mp3-downloader-php/"},"author":{"@type":"Person","name":"Silviu Stroe"},"description":"Am creeat un script care preia prima melodie mp3 cautata de pe hotfiles.ro si ofera link de download pentru aceasta si marimea acesteia! Script-ul il aveti mai jos:","@type":"BlogPosting","headline":"Hotfiles.ro – Girlshare.ro Mp3 Downloader [PHP]","dateModified":"2013-02-05T22:57:43+02:00","datePublished":"2013-02-05T22:57:43+02:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Silviu Stroe's Tech Blog" />
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Silviu Stroe&#39;s Tech Blog</a>
+
+        <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+            <div class="trigger">
+                <!--
+                    my_page.autogen is populated by the pagination logic for all pages
+                                    that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+                  -->
+
+                
+                
+                
+                
+                <a class="page-link" href="/despre-mine.html">About me [R0]</a>
+                
+                
+                
+                
+                
+                
+                
+                <a class="page-link" href="/index.html">Silviu Stroe&#39;s Tech Blog</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Hotfiles.ro – Girlshare.ro Mp3 Downloader [PHP]</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-02-05T22:57:43+02:00" itemprop="datePublished">
+        
+        Feb 5, 2013
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Silviu Stroe</span></span>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Am creeat un script care preia prima melodie mp3 cautata de pe hotfiles.ro si ofera link de download pentru aceasta si marimea acesteia! Script-ul il aveti mai jos:</p>
+
+<pre class="brush: php; title: ; notranslate" title=""><?php
+function get_data($url,$ref="")
+{
+if(function_exists("curl_init")){
+$ch = curl_init();
+$user_agent = "Mozilla/4.0 (compatible; MSIE 5.01; "."Windows NT 5.0)";
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
+curl_setopt( $ch, CURLOPT_HTTPGET, 1 );
+curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+curl_setopt( $ch, CURLOPT_FOLLOWLOCATION , 1 );
+curl_setopt( $ch, CURLOPT_FOLLOWLOCATION , 1 );
+curl_setopt( $ch, CURLOPT_URL, $url );
+curl_setopt( $ch, CURLOPT_REFERER, $ref );
+curl_setopt ($ch, CURLOPT_COOKIEJAR, 'hotfiles.txt');
+$html = curl_exec($ch);
+curl_close($ch);
+}
+else{
+$hfile = fopen($url,"r");
+if($hfile){
+while(!feof($hfile)){
+$html.=fgets($hfile,1024);
+}
+}
+}
+return $html;
+}
+
+function limita($text,$inceput,$sfarsit)
+{
+$rezultat=explode($inceput,$text);
+$rezultat=$rezultat[1];
+$rezultat=explode($sfarsit,$rezultat);
+return $rezultat[0];
+}
+
+function getTags( $dom, $tagName, $attrName, $attrValue ){
+$html = '';
+$domxpath = new DOMXPath($dom);
+$newDom = new DOMDocument;
+$newDom->formatOutput = true;
+
+$filtered = $domxpath->query("//$tagName" . '[@' . $attrName . "='$attrValue']");
+$i = 0;
+while( $myItem = $filtered->item($i++) ){
+$node = $newDom->importNode( $myItem, true );    // import node
+$newDom->appendChild($node);                    // append node
+}
+$html = $newDom->saveHTML();
+return $html;
+}
+
+$melodie=$_GET["melodie"];
+if(isset($melodie))
+{
+$melodie=str_replace(' ','_',$melodie);
+$some_link = 'http://www.hotfiles.ro/search/'.$melodie.'';
+
+$tagName = 'span';
+$attrName = 'class';
+$attrValue = 'file-name';
+
+$dom = new DOMDocument;
+$dom->preserveWhiteSpace = false;
+@$dom->loadHTMLFile($some_link);
+
+$html = getTags( $dom, $tagName, $attrName, $attrValue );
+$f1=explode('mp3"',$html);
+$l = $f1[1];
+$l1 = limita($l,'href="','"> ');
+$l1 = 'http://www.hotfiles.ro'.$l1.'';
+$n1= limita($l,'title="','"');
+$follows = get_data($l1);
+$follow = limita($follows,'href="http://www.hotfiles.ro:8079/dmz/fisier/redirect/girlshare','"');
+$final = 'http://www.hotfiles.ro:8079/dmz/fisier/redirect/girlshare'.$follow.'';
+$finish=get_data($final,$l1);
+$finish=limita($finish,'<p class="waiting"> ',' pentru');
+$finish=limita($finish,'"','"');
+$mp3=get_data($finish);
+$mp3=limita($mp3,'"POST" action="','">');
+$mp3=str_replace('.mp3','[Silviu-S.com].mp3',$mp3);
+echo '<a href="'.$mp3.'">'.$n1.'</a>';
+$marime=limita($follows,'Marime</label><span>','</span>');
+echo '</br>Marimea:';
+echo $marime;
+}
+?>
+&lt;!DOCTYPE html&gt;
+<html>
+<title>Hotfiles.ro mp3 downloader - Silviu-S.com</title>
+<body>
+&lt;form  method="get"&gt;
+Melodie: <input type="text" name="melodie" />
+<input type="submit" value="Cauta" />
+&lt;/form&gt;
+<footer>
+<center><a href="http://silviu-s.com">Copyright - Silviu-S.com</a></center>
+</footer>
+</body>
+</html>
+</pre>
+
+<p>Daca folositi acest script, va rog sa pastrati footer-ul acestuia intact.</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/hotfiles-ro-girlshare-ro-mp3-downloader-php/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Silviu Stroe&#39;s Tech Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Silviu Stroe&#39;s Tech Blog
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:contact [at] silviu-s.com">contact [at] silviu-s.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/s1lviu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">s1lviu</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/silv1u"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">silv1u</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

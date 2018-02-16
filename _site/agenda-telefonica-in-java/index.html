@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Agenda telefonica in Java | Silviu Stroe’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Agenda telefonica in Java" />
+<meta name="author" content="Silviu Stroe" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Salutare! Am urmatorul proiect in Java." />
+<meta property="og:description" content="Salutare! Am urmatorul proiect in Java." />
+<link rel="canonical" href="http://localhost:4000/agenda-telefonica-in-java/" />
+<meta property="og:url" content="http://localhost:4000/agenda-telefonica-in-java/" />
+<meta property="og:site_name" content="Silviu Stroe’s Tech Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-08-30T15:50:43+03:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/agenda-telefonica-in-java/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/agenda-telefonica-in-java/"},"author":{"@type":"Person","name":"Silviu Stroe"},"description":"Salutare! Am urmatorul proiect in Java.","@type":"BlogPosting","headline":"Agenda telefonica in Java","dateModified":"2015-08-30T15:50:43+03:00","datePublished":"2015-08-30T15:50:43+03:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Silviu Stroe's Tech Blog" />
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Silviu Stroe&#39;s Tech Blog</a>
+
+        <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+            <div class="trigger">
+                <!--
+                    my_page.autogen is populated by the pagination logic for all pages
+                                    that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+                  -->
+
+                
+                
+                
+                
+                <a class="page-link" href="/despre-mine.html">About me [R0]</a>
+                
+                
+                
+                
+                
+                
+                
+                <a class="page-link" href="/index.html">Silviu Stroe&#39;s Tech Blog</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Agenda telefonica in Java</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-08-30T15:50:43+03:00" itemprop="datePublished">
+        
+        Aug 30, 2015
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Silviu Stroe</span></span>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Salutare!</p>
+
+<p>Am urmatorul proiect in Java.</p>
+
+<blockquote>
+  <p>ENUNT</p>
+</blockquote>
+
+<blockquote>
+  <p>Sa se construiasca o agenda de telefoane electronica, cu interfata grafica si facilitati de cautare dupa nume, prenume, CNP, telefon si afisare ordonata dupa oricare dintre aceste criterii. Aplicatia porneste initial in mod “shareware”, urmand ca, dupa introducerea codului corect de inregistrare, functionalitatea sa sa fie completa. (vezi detalii mai jos)</p>
+</blockquote>
+
+<blockquote>
+  <p>PRINCIPII</p>
+</blockquote>
+
+<blockquote>
+  <p>Cartea de telefoane este formata din abonati. Fiecare abonat este de fapt o persoana care are asociat un numar de telefon. Numerele de telefon pot fi de fix sau de mobil. Vom putea adauga/sterge/edita/ordona abonati, iar informatia se salveaza pe hard-disk la iesirea din program si se incarca la pornire, fiind de asemenea salvata periodic. Manevrarea informatiei se face prin intermediul unei interfete grafice (GUI).</p>
+
+  <p>CLASELE PREZENTE IN PROIECT</p>
+</blockquote>
+
+<blockquote>
+  <p>Abonat</p>
+</blockquote>
+
+<blockquote>
+  <p>NrTel – pe care o puteti folosi ca unica clasa pt numere de telefon, sau o puteti declara abstracta si din ea derivati alte doua, NrFix si NrMobil; oricum ar fi, tipul numarului de telefon este cunoscut si validarea tine cont de acest tip</p>
+</blockquote>
+
+<blockquote>
+  <p>NrFix si NrMobil, daca ati ales varianta derivarii</p>
+</blockquote>
+
+<blockquote>
+  <p>CarteDeTelefon – este de fapt clasa de pornire care depoziteaza abonatii si metodele de manevrare a acestora, asa-numitul “model” (din arhitectura M-V-C)</p>
+</blockquote>
+
+<blockquote>
+  <p>Clasele corespunzatoare interfetelor grafice – care sa permita introducere abonat, modificare abonat, stergere abonat, cautare abonat dupa diverse criterii, afisare abonati sortati dupa un anume criteriu specificat de utilizator etc. Aici numarul, tipul si denumirile claselor le alegeti voi cum doriti.</p>
+</blockquote>
+
+<blockquote>
+  <p>Nici o clasa nu va folosi constructori fara argument (nu dorim sa cream persoane fara nume, numere de telefon vide etc). In aceste conditii este nevoie de o validare a datelor pasate ca argumente, si protejarea impotriva datelor de intrare eronate.</p>
+</blockquote>
+
+<blockquote>
+  <p>Toate clasele vor face override metodei toString(). De asemenea, abonatii vor fi subiectul ordonarii dupa diverse criterii, in consecinta fiind necesara rescrierea metodei equals() si/sau compareTo (interfata Comparable!) pentru cateva clase din proiect. Este de asemenea posibil, in functie de implementarea aleasa de voi, sa fie nevoie sa folositi un Comparator.</p>
+
+  <p>Clasa Abonat</p>
+
+  <p>Un obiect de tip Abonat are nume, prenume, CNP (care identifica in mod unic o persoana – pentru cazul a doua persoane cu acelasi nume) si un camp de tip NrTel. Obiectele de tip Abonat vor putea fi ordonate dupa oricare din cele 4 atribute.</p>
+
+  <p>Clasa CarteDeTelefon</p>
+
+  <p>Reprezinta “modelul” din arhitectura MVC. Abonatii vor fi stocati sub forma unei colectii. Pentru diversele operatiuni cu aceasta colectie va puteti folosi de algoritmii deja prezenti in clasa java.util.Collections (cautare, sortare etc).</p>
+
+  <p>Clasa CarteDeTelefon pune la dispozitia utilizatorului metode pentru:</p>
+</blockquote>
+
+<blockquote>
+  <p>– adaugare/stergere/modificare de abonat</p>
+</blockquote>
+
+<blockquote>
+  <p>– cautare abonat dupa fragmente de nume, numar, CNP si pozitie</p>
+</blockquote>
+
+<blockquote>
+  <p>– salvarea/incarcarea bazei de date cu abonati (lucru cu hard-disk-ul)</p>
+</blockquote>
+
+<blockquote>
+  <p>– ordonarea abonatilor dupa oricare dintre criteriile posibile</p>
+
+  <p>Interfata grafica</p>
+
+  <p>Cu exceptia cerintelor prezentate in continuare, design-ul ei este la latitudinea voastra, insa toate functiile enumerate mai sus trebuie sa se realizeze prin intermediul ei. Utilizatorul va putea sa aleaga operatiunea dorita, iar voi preluati input-ul lui si il pasati metodelor din „model” apelandu-le dupa necesitati.</p>
+</blockquote>
+
+<blockquote>
+  <p>La pornirea aplicatiei va fi afisat timp de 2 secunde un splash screen, care va contine o poza aleasa de voi dedesubtul careia este scris numele vostru.</p>
+</blockquote>
+
+<blockquote>
+  <p>Aplicatia porneste initial in mod shareware, care are urmatoarele (d)efecte:</p>
+</blockquote>
+
+<blockquote>
+  <p>salvarea si incarcarea bazei de date sunt dezactivate (dezactivati elementele Open si Save din meniul File)</p>
+</blockquote>
+
+<blockquote>
+  <p>In meniul Help este activ elementul Inregistrare</p>
+</blockquote>
+
+<blockquote>
+  <p>dedesubtul ferestrei principale (ca parte a sa) va exista o zona de reclame. Alegeti cateva poze de aceeasi marime pe care le puneti intr-un JLabel, si pe care le schimbati periodic (odata la 3-5 secunde, sa zicem) cu ajutorul unui thread – puteti folosi Timer si TimerTask sau chiar un Thread.</p>
+</blockquote>
+
+<blockquote>
+  <p>Fereastra principala va contine lista de abonati (care, la pornirea aplicatiei, este populata cu informatiile salvate anterior, daca exista) si butoane pentru adaugare/stergere/modificare/sortare/cautare/iesire. Fereastra va avea o bara de meniu, cu meniurile:</p>
+</blockquote>
+
+<blockquote>
+  <p>File</p>
+</blockquote>
+
+<blockquote>
+  <p>Open – deschiderea unei baze de date cu abonati; la click pe acest element se deschide o fereastra de alegere de fisier (JFileChooser)</p>
+</blockquote>
+
+<blockquote>
+  <p>Save – salvarea bazei de date curente. Daca nu este inca stabilit fisierul in care trebuie salvat (in urma unei salvari anterioare), va fi afisat de asemenea un JFileChooser pentru a da utilizatorului posibilitatea de a alege locatia si numele fisierului. Atat acest element cat si precedentul vor fi dezactivate cat timp aplicatia se afla in mod de functionare shareware</p>
+</blockquote>
+
+<blockquote>
+  <p>(Separator)</p>
+</blockquote>
+
+<blockquote>
+  <p>Iesire – acelasi rol ca si butonul Iesire din fereastra principala; afiseaza un dialog de confirmare (“Doriti sa parasiti aplicatia?” Butoane: Da/Nu)</p>
+</blockquote>
+
+<blockquote>
+  <p>Abonati</p>
+</blockquote>
+
+<blockquote>
+  <p>Adauga… – are acelasi efect ca si butonul de adaugare din fereastra principala, si anume afisarea ferestrei/dialogului de adaugare de abonat</p>
+</blockquote>
+
+<blockquote>
+  <p>Cauta… – analog</p>
+</blockquote>
+
+<blockquote>
+  <p>Sterge… – analog</p>
+</blockquote>
+
+<blockquote>
+  <p>Modifica… – analog</p>
+</blockquote>
+
+<blockquote>
+  <p>Help</p>
+</blockquote>
+
+<blockquote>
+  <p>Inregistrare – deschide un dialog care cere codul de inregistrare; in cazul in care codul este corect, se dezactiveaza acest element de meniu, se activeaza Open si Save din meniul File si se elimina reclamele. Fereastra de dialog se poate face usor cu JOptionPane.showInputDialog(…). Codul de inregistrare il stabiliti voi (preferabil scurt, din ratiuni de usurinta in testare…).</p>
+</blockquote>
+
+<blockquote>
+  <p>(Separator)</p>
+</blockquote>
+
+<blockquote>
+  <p>About – deschide o fereastra cu scurte informatii despre autor si aplicatie</p>
+
+  <p>Meniurile vor avea pe cat posibil mnemonice (shortcut-uri), iar butoanele texte ajutatoare (hint).</p>
+
+  <p>La dublu-click sau enter pe un abonat va fi afisata fereastra de modificare a acestuia. Apasand Del pe un abonat, va fi afisat un dialog de confirmare (“Doriti sa stergeti abonatul X?”, butoane Da/Nu) inaintea stergerii acestuia.</p>
+
+  <p>Ordonarea abonatilor va fi facuta fie cu click pe capul de tabel (in cazul in care folositi JTable), fie cu un set de componente separate ce permit selectarea criteriului de sortare dorit (ex: radio button-uri, drop down list plus un buton de sortare etc).</p>
+</blockquote>
+
+<blockquote>
+  <p>Cautarea se va putea face dupa fragmente de nume/prenume/numar de telefon/CNP (practic are rol de filtrare a listei de abonati). Atunci cand exista un filtru setat, acesta trebuie evidentiat (sa apara undeva in fereastra, astfel incat utilizatorul sa stie ca lista nu este cea completa, ci una partiala).</p>
+</blockquote>
+
+<blockquote>
+  <p>Validarea input-ului (cel de la utilizator, plus argumentele din constructori) va fi facuta folosind regex-uri si aruncand exceptii acolo unde este cazul.</p>
+</blockquote>
+
+<blockquote>
+  <p>Alte facilitati</p>
+</blockquote>
+
+<blockquote>
+  <p>Aplicatia va dispune de un thread care efectueaza salvarea bazei de date odata la 5 minute. Fisierul in care se face salvarea este cel ales de utilizator la deschiderea aplicatiei. Daca utilizatorul nu a ales inca un fisier pentru salvare, aceasta nu va avea loc automat.</p>
+</blockquote>
+
+<p>Cine il doreste, ma poate contacta la sectiunea <a href="http://silviu-s.com/contact/" target="_blank">contact</a>, folosind formularul sau pe Skype.</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/agenda-telefonica-in-java/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Silviu Stroe&#39;s Tech Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Silviu Stroe&#39;s Tech Blog
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:contact [at] silviu-s.com">contact [at] silviu-s.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/s1lviu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">s1lviu</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/silv1u"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">silv1u</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

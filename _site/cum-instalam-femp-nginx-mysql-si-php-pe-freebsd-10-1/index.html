@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Cum instalam (FEMP) Nginx, MySQL, si PHP pe FreeBSD 10.1 | Silviu Stroe’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Cum instalam (FEMP) Nginx, MySQL, si PHP pe FreeBSD 10.1" />
+<meta name="author" content="Silviu Stroe" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Aceste 4 elemente folosite impreuna, vor forma un mix de stabilitate si performanta pe serverul dumneavoastra, mai ales datorita sistemului de operare FreeBSD care aduce un mare plus in alocarea resurselor necesare intr-un mod destul de subtil, incat sa nu se creeze o supra-incarcare a serverului. Deci, sa incepem instalarea. Prima data va fi nevoie sa instalam pachetele necesare prin comanda:" />
+<meta property="og:description" content="Aceste 4 elemente folosite impreuna, vor forma un mix de stabilitate si performanta pe serverul dumneavoastra, mai ales datorita sistemului de operare FreeBSD care aduce un mare plus in alocarea resurselor necesare intr-un mod destul de subtil, incat sa nu se creeze o supra-incarcare a serverului. Deci, sa incepem instalarea. Prima data va fi nevoie sa instalam pachetele necesare prin comanda:" />
+<link rel="canonical" href="http://localhost:4000/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/" />
+<meta property="og:url" content="http://localhost:4000/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/" />
+<meta property="og:site_name" content="Silviu Stroe’s Tech Blog" />
+<meta property="og:image" content="http://localhost:4000/wp-content/uploads/2015/01/nginx--200x100.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-01-27T17:04:40+02:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/","image":"http://localhost:4000/wp-content/uploads/2015/01/nginx--200x100.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/"},"author":{"@type":"Person","name":"Silviu Stroe"},"description":"Aceste 4 elemente folosite impreuna, vor forma un mix de stabilitate si performanta pe serverul dumneavoastra, mai ales datorita sistemului de operare FreeBSD care aduce un mare plus in alocarea resurselor necesare intr-un mod destul de subtil, incat sa nu se creeze o supra-incarcare a serverului. Deci, sa incepem instalarea. Prima data va fi nevoie sa instalam pachetele necesare prin comanda:","@type":"BlogPosting","headline":"Cum instalam (FEMP) Nginx, MySQL, si PHP pe FreeBSD 10.1","dateModified":"2015-01-27T17:04:40+02:00","datePublished":"2015-01-27T17:04:40+02:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Silviu Stroe's Tech Blog" />
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Silviu Stroe&#39;s Tech Blog</a>
+
+        <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+            <div class="trigger">
+                <!--
+                    my_page.autogen is populated by the pagination logic for all pages
+                                    that are automatically created by the gem. Check for non-existence to exclude pagination pages from site.pages iterators
+                  -->
+
+                
+                
+                
+                
+                <a class="page-link" href="/despre-mine.html">About me [R0]</a>
+                
+                
+                
+                
+                
+                
+                
+                <a class="page-link" href="/index.html">Silviu Stroe&#39;s Tech Blog</a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Cum instalam (FEMP) Nginx, MySQL, si PHP pe FreeBSD 10.1</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-01-27T17:04:40+02:00" itemprop="datePublished">
+        
+        Jan 27, 2015
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Silviu Stroe</span></span>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Aceste 4 elemente folosite impreuna, vor forma un mix de stabilitate si performanta pe serverul dumneavoastra, mai ales datorita sistemului de operare FreeBSD care aduce un mare plus in alocarea resurselor necesare intr-un mod destul de subtil, incat sa nu se creeze o supra-incarcare a serverului.</p>
+
+<p>Deci, sa incepem instalarea. Prima data va fi nevoie sa instalam pachetele necesare prin comanda:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo pkg install nginx mysql56-server php56 php56-mysql</pre>
+
+<p>Aceasta va instala Nginx ca webserver, serverul MySQL pentru managementul bazelor de date si limbajul de procesare PHP pentru continutul dinamic pe care il vom avea pe site/uri.</p>
+
+<p>In continuare vom executa comanda rehash pentru a actualiza sistemul dupa noile modificari.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">rehash</pre>
+
+<p>Pornirea serviciilor</p>
+
+<p>Pentru aceasta avem nevoie de variabila rcvar, iar prin executarea comenzii</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">grep rcvar /usr/local/etc/rc.d/*</pre>
+
+<p>vom obtine un rezultat ca acesta:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">/usr/local/etc/rc.d/avahi-daemon:rcvar=avahi_daemon_enable
+/usr/local/etc/rc.d/avahi-dnsconfd:rcvar=avahi_dnsconfd_enable
+/usr/local/etc/rc.d/dbus:rcvar=dbus_enable
+/usr/local/etc/rc.d/mysql-server:rcvar=mysql_enable
+/usr/local/etc/rc.d/nginx:rcvar=nginx_enable
+/usr/local/etc/rc.d/php-fpm:rcvar=php_fpm_enable
+/usr/local/etc/rc.d/rsyncd:rcvar=rsyncd_enable
+</pre>
+
+<p>In acest output vedem serviciile pe care le-am instalat, dar care inca nu sunt active. In continuare va trebui sa editam cateva fisiere, asa ca pentru comoditate va sfatuiesc sa folositi editorul nano, in loc de vi. Pentru a-l instala vom executa comanda:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo pkg install nano
+rehash
+</pre>
+
+<p>Apoi, vom edita fisierul /etc/rc.conf cu comanda:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nano /etc/rc.conf</pre>
+
+<p>unde va trebui sa avem, in plus urmatoarele linii:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">mysql_enable="YES"
+nginx_enable="YES"
+php_fpm_enable="YES"</pre>
+
+<p>Vom apasa CTRL X pentru salvarea fisierului.</p>
+
+<p>In continuare, ne vom ocupa de serviciul PHP-FPM.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">cd /usr/local/etc</pre>
+
+<p>Unde vom edita fisierul php-fpm.conf</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nano php-fpm.conf</pre>
+
+<p>Folosind CTRL W, vom cauta linia aceasta</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">listen = 127.0.0.1:9000</pre>
+
+<p>si o vom face sa arate asa</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">listen = /var/run/php-fpm.sock</pre>
+
+<p>pentru a putea sa folosim socket-uri. Dupa aceasta, vom cauta grupul de linii</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">;listen.owner = www
+;listen.group = www
+;listen.mode = 0660</pre>
+
+<p>si il vom decomenta, stergand punt si virgula din fata liniilor. Salvam si iesim.</p>
+
+<p>In etapa urmatoare vom pune in uz fisierul de configuratie al PHP-ului, prin comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo cp php.ini-production php.ini</pre>
+
+<p>si il vom edita</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nano php.ini</pre>
+
+<p>.</p>
+
+<p>Vom cauta linia ce contine</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">cgi.fix_pathinfo</pre>
+
+<p>, o vom decomenta, iar la final ii vom seta valoarea 0:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">cgi.fix_pathinfo=0</pre>
+
+<p>. Salvam si iesim, iar mai apoi pornim serviciul PHP-FPM prin comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo service php-fpm start</pre>
+
+<p>Configurarea serverului MySQL</p>
+
+<p>Pentru a incepe configurarea, trebuie mai intai sa pornim serverul prin comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo service mysql-server start</pre>
+
+<p>si sa incepem un proces de instalare/configurare a acesteia:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo mysql_secure_installation</pre>
+
+<p>. Vom intampina un mesaj de introducere a parolei pentru userul curent</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">Enter current password for root (enter for none):</pre>
+
+<p>, dar vom apasa enter pentru a trece peste acest pas. Apoi, vom intampina mesajul</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">Set root password? [Y/n]</pre>
+
+<p>, vom apasa Y si enter pentru confirmare si ne vom alege o parola administrativa pentru serverul MySQL.</p>
+
+<p>Ultimul pas este acela de a porni serverul, iar comanda necesara este</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo service mysql-server restart</pre>
+
+<p>Dupa ce serverul a pornit, ne putem concentra asupra configurarii serverului web.</p>
+
+<p>Primul pas este pornirea acestuia</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo service nginx start</pre>
+
+<p>. In continuare, ne vom duce in folderul /usr/local/etc/nginx, prin comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">cd /usr/local/etc/nginx</pre>
+
+<p>, unde vom modifica fisierul nginx.conf.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nano nginx.conf</pre>
+
+<p>Vom decomenta directiva user, de la inceputul fisierului si o vom seta cu valoarea www, deoarece instanta PHP-FPM cauta aceasta configurare.</p>
+
+<p>Linia va arata asa:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">user www;</pre>
+
+<p>Apoi, va trebui sa setam worker_processes cu numarul de CPU-uri pe care le are serverul. Pentru a afla acest numar vom tasta comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sysctl hw.ncpu</pre>
+
+<p>in linia de comanda. Pentru mine rezultatul este 4, asa ca linia va arata asa:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">worker_processes 4;</pre>
+
+<p>In continuare, vom seta fisierul cu log-uri, prin directiva</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">error_log /var/log/nginx/error.log info;</pre>
+
+<p>In blocul http, vom seta log-urile de acces, prin linia corespunzatoare:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">access_log /var/log/nginx/access.log;</pre>
+
+<p>In block-ul server, vom modifica server_name cu domeniul nostru sau cu adresa IP a serverului nostru. Putem face ca serverul sa raspunda si la host-ul www, prin adaugarea acestuia dupa domeniul principal. De exemplu:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">server {
+    listen          80;
+    server_name     silviu-s.com www.silviu-s.com;
+
+    . . .
+</pre>
+
+<p>Vom configura directivele root si index din block-ul server. Radacina noastra va fi /usr/local/www/silviu-s.com si directiva index ar trebui sa serveasca index.php inainte de a se uita dupa fisierele index.html sau index.htm</p>
+
+<p>In directiva de locatie va trebui configurata directiva try_files pentru a servi fisierele catre utilizatori sau pentru a returna erori 404 in cazul negasirii lor.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">server {
+
+    . . .
+
+    root /usr/local/www/silviu-s.com;
+    index index.php index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    . . .
+</pre>
+
+<p>In continuare vom folosi socket-ul configurat mai devreme in php-fpm.conf. Va trebui sa setam SCRIPT_FILENAME pentru ca PHP-ul sa stie ce sa execute.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">server {
+
+    . . .
+
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $request_filename;
+        include fastcgi_params;
+    }
+</pre>
+
+<p>Toate puse la un loc, ar trebui sa arate cam asa:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">user  www;
+worker_processes  4;
+error_log /var/log/nginx/error.log info;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    access_log /var/log/nginx/access.log;
+
+    sendfile        on;
+    keepalive_timeout  65;
+
+    server {
+        listen       80;
+        server_name  silviu-s.com www.silviu-s.com;
+        root /usr/local/www/silviu-s.com;
+        index index.php index.html index.htm;
+
+        location / {
+            try_files $uri $uri/ =404;
+        }
+
+        error_page      500 502 503 504  /50x.html;
+        location = /50x.html {
+            root /usr/local/www/nginx-dist;
+        }
+
+        location ~ \.php$ {
+                try_files $uri =404;
+                fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass unix:/var/run/php-fpm.sock;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $request_filename;
+                include fastcgi_params;
+        }
+    }
+}
+</pre>
+
+<p>Salvam si inchidem fisierul, dupa ce am terminat. In continuare, vom crea folderele si fisierele necesare pastrarii de log-uri</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo mkdir -p /var/log/nginx
+sudo touch /var/log/nginx/access.log
+sudo touch /var/log/nginx/error.log
+</pre>
+
+<p>si vom crea din nou directoarele, fara legaturi:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo rm /usr/local/www/nginx
+sudo mkdir /usr/local/www/nginx
+</pre>
+
+<p>Pentru a ne testa serverul, vom copia un fisier html in directorul radacina.</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo cp /usr/local/www/nginx-dist/index.html /usr/local/www/silviu-s.com</pre>
+
+<p>dar si un fisier php, pentru a vedea daca totul functioneaza cum trebuie:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nano /usr/local/www/nginx/info.php</pre>
+
+<p>unde vom introduce</p>
+
+<pre class="brush: php; title: ; notranslate" title=""><?php phpinfo(); ?></pre>
+
+<p>.</p>
+
+<p>Salvam si iesim. Pentru a vedea daca avem erori de configuratie, introducem comanda</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo nginx -t</pre>
+
+<p>unde vom primi ca output</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+</pre>
+
+<p>Vom restarta serverul:</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo service nginx restart</pre>
+
+<p>si vom testa rezultatele.</p>
+
+<p>Accesam http://silviu-s.com, respectiv host-ul sau IP-ul setat de dumneavoastra, iar rezultatul ar trebui sa arate cam asa:</p>
+
+<p><img src="https://assets.digitalocean.com/articles/freebsd_lemp/default_index.png" alt="default nginx" /></p>
+
+<p>Apoi vom accesa http://silviu-s.com/info.php unde vom avea pagina</p>
+
+<p><img src="https://assets.digitalocean.com/articles/freebsd_lemp/php_info.png" alt="php freebsd nginx" /></p>
+
+<p>Deoarece contine informatii senzitive, vom sterge fisierul info.php</p>
+
+<pre class="brush: plain; title: ; notranslate" title="">sudo rm /usr/local/www/silviu-s.com/info.php</pre>
+
+<p>In concluzie, trebuie sa aveti acum un server complet functional, ruland Nginx care poate procesa continut dinamic PHP si poate folosi MySQL pentru a stoca informatii.</p>
+
+<p>Configuratia prezentata poate fi folosita ca o baza pentru o varietate a altor configuratii si aplicatii web.</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/cum-instalam-femp-nginx-mysql-si-php-pe-freebsd-10-1/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Silviu Stroe&#39;s Tech Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Silviu Stroe&#39;s Tech Blog
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:contact [at] silviu-s.com">contact [at] silviu-s.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/s1lviu"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">s1lviu</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/silv1u"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">silv1u</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Silviu Bogdan Stroe - Full Stack Developer interested in technologies like PHP, NodeJS, My/PL/No/SQL, AngularJS, Ionic Framework, Laravel, Python, Unity/C# Also having experience with Unix - FreeBSD, Windows, Linux - Debian; NGiИX, Apache</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
