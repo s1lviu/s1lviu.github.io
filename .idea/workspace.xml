@@ -13,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/_site/am-aparut-pe-yahoo-wall-of-fame/index.html" afterPath="$PROJECT_DIR$/_site/am-aparut-pe-yahoo-wall-of-fame/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/index.html" afterPath="$PROJECT_DIR$/_site/ascunde-informatiile-personale-pe-whatsapp-cum-ar-fi-last-seen-status-si-profile-picture/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/ask-fm-spammer-php/index.html" afterPath="$PROJECT_DIR$/_site/ask-fm-spammer-php/index.html" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="$PROJECT_DIR$/_site/assets/main.css" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/_site/blocheaza-cererile-de-jocuri-pe-facebook/index.html" afterPath="$PROJECT_DIR$/_site/blocheaza-cererile-de-jocuri-pe-facebook/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs/index.html" afterPath="$PROJECT_DIR$/_site/castigatorii-concursului-impodobeste-mi-bradul-nu-au-participat-la-concurs/index.html" />
       <change beforePath="$PROJECT_DIR$/_site/chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/index.html" afterPath="$PROJECT_DIR$/_site/chestionare-auto-drpciv-ro-cu-afisarea-raspunsurilor-gresite/index.html" />
@@ -139,8 +141,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -381,7 +383,7 @@
       <workItem from="1496231448998" duration="37000" />
       <workItem from="1518454072099" duration="299000" />
       <workItem from="1518606353583" duration="4000" />
-      <workItem from="1518722610391" duration="11219000" />
+      <workItem from="1518722610391" duration="11426000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1458393651068</created>
@@ -712,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518782674448</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="get jekyll working">
+      <created>1518782981435</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1518782981435</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37631000" />
+    <option name="totallyTimeSpent" value="37838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1073" extended-state="6" />
@@ -1017,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
